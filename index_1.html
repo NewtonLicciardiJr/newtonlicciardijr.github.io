@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Newton Licciardi Jr. | Professor, Pesquisador e Consultor em Redes, IoT e Automação</title>
+<meta name="description" content="Newton Licciardi Jr. — Doutor em Engenharia Elétrica e de Computação (Poli-USP), professor na Universidade Mackenzie e consultor com 30+ anos em redes de computadores, telecomunicações, IoT e automação. Projetos, pesquisa e ensino.">
+<meta name="keywords" content="Newton Licciardi, redes de computadores, telecomunicações, IoT, automação, IA, FPGA, sistemas embarcados, professor Mackenzie, consultor de redes, arquitetura corporativa, engenharia elétrica">
+<meta name="author" content="Newton Licciardi Jr.">
+<link rel="canonical" href="https://newtonlicciardijr.github.io/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Newton Licciardi Jr. | Professor, Pesquisador e Consultor em Redes, IoT e Automação">
+<meta property="og:description" content="Doutor em Engenharia Elétrica e de Computação (Poli-USP), professor na Universidade Mackenzie e consultor com 30+ anos em redes, telecomunicações, IoT e automação.">
+<meta property="og:url" content="https://newtonlicciardijr.github.io/">
+<meta property="og:locale" content="pt_BR">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Newton Licciardi Jr. | Redes, IoT e Automação">
+<meta name="twitter:description" content="Professor, pesquisador e consultor — Universidade Mackenzie. Redes, Telecom, IoT e Automação.">
+
+<!-- Structured data (schema.org Person) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Newton Licciardi Jr.",
+  "alternateName": "Antonio Newton Licciardi Jr.",
+  "url": "https://newtonlicciardijr.github.io/",
+  "sameAs": [
+    "https://github.com/NewtonLicciardiJr",
+    "https://www.linkedin.com/in/newtonlicciardi/",
+    "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782606D9",
+    "https://www.youtube.com/@antonionewtonlicciardijr8082/videos"
+  ],
+  "jobTitle": "Professor e Pesquisador",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universidade Presbiteriana Mackenzie"
+  },
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "Escola Politécnica da USP"},
+    {"@type": "CollegeOrUniversity", "name": "Instituto Tecnológico de Aeronáutica (ITA)"},
+    {"@type": "CollegeOrUniversity", "name": "Université Libre de Bruxelles"},
+    {"@type": "CollegeOrUniversity", "name": "FAAP"}
+  ],
+  "knowsAbout": ["Redes de Computadores", "Telecomunicações", "IoT", "Automação", "Inteligência Artificial", "Arquitetura Corporativa de TI", "FPGA", "Sistemas Embarcados"],
+  "description": "Doutor em Engenharia Elétrica e de Computação pela Escola Politécnica da USP. Professor com 32 anos de experiência em Engenharia Elétrica e da Computação. Consultor em redes, roteamento, internet e desenvolvimento de produtos para operadoras de telecomunicações."
+}
+</script>
+
+<style>
+  :root{
+    --bg:#0b0e14; --bg-alt:#111520; --panel:#151a26; --line:#232a3a;
+    --text:#e8ecf4; --muted:#a7b0c3; --accent:#5ec9c0; --accent2:#e8b35e;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#fbfaf7; --bg-alt:#f2f0ea; --panel:#ffffff; --line:#e4e0d6;
+      --text:#1c2130; --muted:#5a6478; --accent:#0f7a70; --accent2:#a5710f; }
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:"Segoe UI", Roboto, -apple-system, sans-serif;
+    line-height:1.65;
+  }
+  a{color:var(--accent);}
+  .wrap{max-width:960px; margin:0 auto; padding:0 24px;}
+  header.hero{
+    padding:88px 0 64px; border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg, var(--bg-alt), var(--bg));
+  }
+  .eyebrow{
+    text-transform:uppercase; letter-spacing:.14em; font-size:.78rem;
+    color:var(--accent); font-weight:600;
+  }
+  h1{font-size:clamp(2rem, 4.5vw, 3.1rem); margin:.4em 0 .2em; line-height:1.15;}
+  .subtitle{color:var(--muted); font-size:1.1rem; max-width:640px;}
+  .cta-row{margin-top:28px; display:flex; flex-wrap:wrap; gap:12px;}
+  .btn{
+    display:inline-block; padding:10px 20px; border-radius:8px;
+    border:1px solid var(--line); text-decoration:none; font-weight:600;
+    color:var(--text); font-size:.92rem;
+  }
+  .btn.primary{background:var(--accent); color:#08110f; border-color:var(--accent);}
+  section{padding:56px 0; border-bottom:1px solid var(--line);}
+  h2{font-size:1.5rem; margin-bottom:.3em;}
+  .lede{color:var(--muted); max-width:680px; margin-bottom:32px;}
+  .grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:18px;}
+  .card{
+    background:var(--panel); border:1px solid var(--line); border-radius:12px;
+    padding:20px 22px;
+  }
+  .card h3{margin:0 0 6px; font-size:1.04rem;}
+  .card p{color:var(--muted); font-size:.92rem; margin:0 0 10px;}
+  .tag{
+    display:inline-block; font-size:.72rem; padding:2px 9px; border-radius:99px;
+    border:1px solid var(--line); color:var(--muted); margin-right:6px;
+  }
+  .timeline{border-left:2px solid var(--line); padding-left:22px; display:flex; flex-direction:column; gap:22px;}
+  .timeline .item h3{margin:0 0 2px; font-size:1rem;}
+  .timeline .item .when{color:var(--accent2); font-size:.82rem; font-weight:600;}
+  .timeline .item p{color:var(--muted); margin:.3em 0 0; font-size:.92rem;}
+  ul.plain{padding-left:1.2em; color:var(--muted);}
+  ul.plain li{margin-bottom:.4em;}
+  .links-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px;}
+  .links-grid a{
+    display:block; background:var(--panel); border:1px solid var(--line);
+    border-radius:10px; padding:16px 18px; text-decoration:none; color:var(--text); font-weight:600;
+  }
+  .links-grid a span{display:block; color:var(--muted); font-weight:400; font-size:.85rem; margin-top:3px;}
+  footer{padding:40px 0; color:var(--muted); font-size:.85rem;}
+  .visually-hidden{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Engenharia · Redes · IoT · Automação · IA</p>
+    <h1>Newton Licciardi Jr.</h1>
+    <p class="subtitle">
+      Doutor em Engenharia Elétrica e de Computação (Escola Politécnica da USP). Professor na
+      Universidade Presbiteriana Mackenzie e consultor com mais de 30 anos em redes de computadores,
+      telecomunicações, IoT e automação — do backbone das operadoras à arquitetura corporativa de TI.
+    </p>
+    <div class="cta-row">
+      <a class="btn primary" href="#projetos">Ver projetos</a>
+      <a class="btn" href="https://www.linkedin.com/in/newtonlicciardi/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782606D9" target="_blank" rel="noopener">Currículo Lattes</a>
+      <a class="btn" href="https://github.com/NewtonLicciardiJr" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<section id="sobre">
+  <div class="wrap">
+    <h2>Sobre</h2>
+    <p class="lede">
+      Formado engenheiro eletrônico com menções honrosas pelo ITA — Instituto Tecnológico de
+      Aeronáutica, com mestrados em Engenharia Elétrica (ênfase em Telecomunicações) e em Computação,
+      mestrado em Gerenciamento e Estratégia pela Université Libre de Bruxelles, e doutorado em
+      Engenharia Elétrica e de Computação pela Escola Politécnica da USP. Especialista em Redes de
+      Computadores e em Didática para o Ensino Superior (Andragogia) pela FAAP. Comendador pela
+      Sociedade Brasileira de Educação (SBEI).
+    </p>
+    <p class="lede">
+      Atuou mais de 6 anos na área global de Estratégia, Tecnologia e Escritório de Projetos (PMO) e
+      M&amp;A da Solvay-SBS como Líder de Arquitetura Corporativa, e foi responsável pela gerência do
+      Worldwide Technical Architecture Team da Rhodia — mais de 30 anos de atuação em TI e
+      Telecomunicações. Consultor em redes, roteamento, internet e desenvolvimento de novos produtos
+      para operadoras de telecomunicações, com passagem também por projetos de Defesa.
+    </p>
+  </div>
+</section>
+
+<section id="atuacao">
+  <div class="wrap">
+    <h2>Trajetória</h2>
+    <p class="lede">32 anos de docência e mais de três décadas em TI e Telecomunicações.</p>
+    <div class="timeline">
+      <div class="item">
+        <div class="when">Ensino</div>
+        <h3>Professor — Graduação e Pós-graduação</h3>
+        <p>
+          Engenharia Elétrica e Engenharia da Computação na graduação; Engenharia de Telecomunicações
+          e de Computação, Gestão Estratégica de TI e Telecomunicações e Gestão de Projetos na
+          pós-graduação, além de cursos de formação PMI. Orientador de iniciação científica e de
+          projetos de sistemas embarcados dos engenheirandos do curso de Engenharia da Computação.
+        </p>
+      </div>
+      <div class="item">
+        <div class="when">Indústria</div>
+        <h3>Solvay-SBS — Líder de Arquitetura Corporativa</h3>
+        <p>
+          Mais de 6 anos na área global de Estratégia, Tecnologia, PMO e M&amp;A.
+        </p>
+      </div>
+      <div class="item">
+        <div class="when">Indústria</div>
+        <h3>Rhodia — Gerência do Worldwide Technical Architecture Team</h3>
+        <p>Arquitetura técnica global de TI e Telecomunicações.</p>
+      </div>
+      <div class="item">
+        <div class="when">Consultoria</div>
+        <h3>Redes, Roteamento e Internet para Operadoras</h3>
+        <p>Consultor em desenvolvimento de novos produtos para operadoras de telecomunicações.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pesquisa">
+  <div class="wrap">
+    <h2>Pesquisa</h2>
+    <p class="lede">
+      Pesquisador em automação, IoT, redes e Inteligência Artificial, com interesse também em
+      aviação, aviônicos e drones. Trabalha com iniciação científica em temas como análise térmica
+      e energética de Co-Packaged Optics (CPO) em data centers e armazenamento de energia atrás do
+      medidor.
+    </p>
+  </div>
+</section>
+
+<section id="projetos">
+  <div class="wrap">
+    <h2>Projetos em destaque</h2>
+    <p class="lede">Uma seleção de repositórios de ensino e pesquisa em sistemas embarcados, FPGA, IoT e processamento de sinais.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3><a href="https://github.com/NewtonLicciardiJr/sistemas-embarcados-engenharia-computacao" target="_blank" rel="noopener">Sistemas Embarcados — Eng. da Computação</a></h3>
+        <p>Projetos de sistemas embarcados desenvolvidos pelos engenheirandos do curso de Engenharia da Computação do Mackenzie, sob orientação de Newton.</p>
+        <span class="tag">Ensino</span><span class="tag">Embarcados</span>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://github.com/NewtonLicciardiJr/embarcados_fpga_demo_display_cobra" target="_blank" rel="noopener">FPGA Basys3 — Cobra em displays de 7 segmentos</a></h3>
+        <p>Demonstração em VHDL de uma cobra animada controlando os quatro displays de 7 segmentos da placa Basys3.</p>
+        <span class="tag">VHDL</span><span class="tag">FPGA</span>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://github.com/NewtonLicciardiJr/artix7-vhdl-blink-basys3" target="_blank" rel="noopener">Artix-7 VHDL Blink — Basys3</a></h3>
+        <p>Exemplo básico de projeto em VHDL para a FPGA Artix-7 na placa Basys3.</p>
+        <span class="tag">VHDL</span><span class="tag">FPGA</span>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://github.com/NewtonLicciardiJr/esp32-blink-wifi-ota-monitor" target="_blank" rel="noopener">ESP32 — Monitor de câmeras na rede Wi-Fi</a></h3>
+        <p>Firmware em C++ para ESP32 que verifica câmeras existentes na rede Wi-Fi, com atualização OTA.</p>
+        <span class="tag">IoT</span><span class="tag">C++</span>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://github.com/NewtonLicciardiJr/rlc-backward-euler-matlab" target="_blank" rel="noopener">Filtro RLC — Backward Euler</a></h3>
+        <p>Exemplo em MATLAB de um filtro RLC série discretizado pelo método de Backward Euler.</p>
+        <span class="tag">MATLAB</span><span class="tag">Sinais</span>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://github.com/NewtonLicciardiJr/Matlab_Nyquist_Audio_Demo" target="_blank" rel="noopener">Demonstração do Teorema de Nyquist</a></h3>
+        <p>Demonstração prática em MATLAB do Teorema de Nyquist aplicada a áudio.</p>
+        <span class="tag">MATLAB</span><span class="tag">Telecom</span>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://github.com/NewtonLicciardiJr/pds-frequencia-cardiaca-matlab" target="_blank" rel="noopener">PDS — Recuperação de Esforço Cardíaco</a></h3>
+        <p>Simulação em Processamento Digital de Sinais de uma recuperação de esforço cardíaco por equações discretas.</p>
+        <span class="tag">MATLAB</span><span class="tag">PDS</span>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://github.com/NewtonLicciardiJr/HPC" target="_blank" rel="noopener">HPC</a></h3>
+        <p>Explorações em computação de alto desempenho (High Performance Computing) em C.</p>
+        <span class="tag">C</span><span class="tag">HPC</span>
+      </div>
+    </div>
+
+    <p style="margin-top:24px;">
+      Veja todos os repositórios em
+      <a href="https://github.com/NewtonLicciardiJr?tab=repositories" target="_blank" rel="noopener">github.com/NewtonLicciardiJr</a>.
+    </p>
+  </div>
+</section>
+
+<section id="outros-projetos">
+  <div class="wrap">
+    <h2>Outros projetos</h2>
+    <div class="grid">
+      <div class="card">
+        <h3><a href="https://newtonlicciardijr.github.io/consciencia-complexidade/" target="_blank" rel="noopener">Consciência, Complexidade e Existência</a></h3>
+        <p>Ensaio interativo sobre fisicalismo, espiritismo e agnosticismo diante do problema da consciência — evidência científica, inferência filosófica e complexidade de sistemas.</p>
+        <span class="tag">Ensaio interativo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="wrap">
+    <h2>Contato e perfis</h2>
+    <div class="links-grid">
+      <a href="https://www.linkedin.com/in/newtonlicciardi/" target="_blank" rel="noopener">LinkedIn<span>Trajetória profissional completa</span></a>
+      <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4782606D9" target="_blank" rel="noopener">Currículo Lattes<span>CNPq</span></a>
+      <a href="https://github.com/NewtonLicciardiJr" target="_blank" rel="noopener">GitHub<span>Projetos e código</span></a>
+      <a href="https://www.youtube.com/@antonionewtonlicciardijr8082/videos" target="_blank" rel="noopener">YouTube<span>Vídeos e aulas</span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>© <span id="year"></span> Newton Licciardi Jr. — São Paulo, Brasil.</p>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
