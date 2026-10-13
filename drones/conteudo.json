@@ -1,0 +1,1708 @@
+{
+  "title": "Drones Muito Além do Voo",
+  "edition": "1.0",
+  "updated": "2026-10-09",
+  "sources": [
+    {
+      "id": "805",
+      "title": "ANAC • Resolução 805/2026",
+      "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-805",
+      "kind": "Norma",
+      "note": "Aprova o RBAC 100; contém regras de transição e substituição do RBAC-E 94.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "806",
+      "title": "ANAC • Resolução 806/2026",
+      "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-806",
+      "kind": "Norma",
+      "note": "UA até 250 g e aeromodelos em VLOS/EVLOS; observar a aplicabilidade do texto completo.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "ica",
+      "title": "DECEA • ICA 100-40/2026",
+      "url": "https://www.gov.br/defesa/pt-br/assuntos/aerolevantamento/arquivos/2026/ica-100-40-publicada-port-2094-dnor8-18-03-2026-bca-058-30-03-2026.pdf",
+      "kind": "Norma",
+      "note": "Edição de 2026, em vigor desde 1º de julho; consultar também o portal DECEA para emendas posteriores.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "decea",
+      "title": "DECEA • Portal Drone UAS",
+      "url": "https://www.decea.mil.br/drone/",
+      "kind": "Órgão público",
+      "note": "Entrada para legislação e serviços; normas e condições da autorização prevalecem.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "mini",
+      "title": "DJI • Mini 4 Pro — especificações",
+      "url": "https://www.dji.com/mini-4-pro/specs",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "phantom",
+      "title": "DJI • Phantom 4 — suporte e especificações",
+      "url": "https://www.dji.com/support/product/phantom-4",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "mavic",
+      "title": "DJI • Mavic 3 Enterprise Series",
+      "url": "https://enterprise.dji.com/mavic-3-enterprise",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "matrice4",
+      "title": "DJI • Matrice 4 Series",
+      "url": "https://www.dji.com/matrice-4-series",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "matrice400",
+      "title": "DJI • Matrice 400",
+      "url": "https://enterprise.dji.com/matrice-400",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "agras",
+      "title": "DJI • Agras T50 — especificações",
+      "url": "https://ag.dji.com/t50/specs",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "elios",
+      "title": "Flyability • Elios 3",
+      "url": "https://www.flyability.com/elios-3",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "fpsos",
+      "title": "Flyability • inspeção de petróleo e gás",
+      "url": "https://www.flyability.com/oil-and-gas-drones",
+      "kind": "Caso de fabricante",
+      "note": "Relato comercial sobre inspeções de FPSOs, incluindo TotalEnergies; resultados não constituem avaliação independente.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "wingtra",
+      "title": "Wingtra • WingtraRAY",
+      "url": "https://wingtra.com/ray/",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "parrot",
+      "title": "Parrot • ANAFI Ai",
+      "url": "https://www.parrot.com/en/drones/anafi-ai",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "nauru",
+      "title": "Xmobots • Nauru 500C ISR",
+      "url": "https://xmobots.com.br/produto/nauru-500c-isr/",
+      "kind": "Fabricante brasileiro",
+      "note": "Ficha da plataforma. Alegações de exclusividade e autorizações não foram generalizadas para outros modelos ou operadores.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "hermes",
+      "title": "Elbit Systems • Hermes 900",
+      "url": "https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "mq9",
+      "title": "GA-ASI • MQ-9B SkyGuardian",
+      "url": "https://www.ga-asi.com/remotely-piloted-aircraft/mq-9b-skyguardian",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "tb2",
+      "title": "Baykar • Bayraktar TB2",
+      "url": "https://www.baykartech.com/en/uav/bayraktar-tb2/",
+      "kind": "Fabricante",
+      "note": "Página atual reúne versões TB2-A/B/C/D. Não transferir especificações entre versões; recorde de voo não equivale à autonomia de toda missão.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "black",
+      "title": "Teledyne FLIR • Black Hornet 4",
+      "url": "https://defense.flir.com/defense-products/black-hornet-4-prs/",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "nasa",
+      "title": "NASA • encerramento da missão Ingenuity",
+      "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/",
+      "kind": "Agência de pesquisa",
+      "note": "Notícia de 25/01/2024. Fotografias: NASA/JPL-Caltech/ASU/MSSS, conforme créditos da publicação.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "nasa-invest",
+      "title": "NASA • investigação do último voo do Ingenuity",
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasa-performs-first-aircraft-accident-investigation-on-another-world/",
+      "kind": "Agência de pesquisa",
+      "note": "Análise posterior do acidente: separar hipótese inicial e conclusão técnica.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "fab",
+      "title": "FAB • apoio às vítimas das enchentes no RS",
+      "url": "https://www.fab.mil.br/noticias/imprime/42589/",
+      "kind": "Órgão público",
+      "note": "Relato histórico de maio de 2024, indexado na fonte oficial. Não apresenta a situação atual da frota.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "walmart",
+      "title": "Walmart • um milhão de entregas por drones",
+      "url": "https://corporate.walmart.com/news/2026/05/29/walmart-celebrates-1-million-drone-deliveries-marking-a-major-milestone-in-customer-convenience",
+      "kind": "Comunicado empresarial",
+      "note": "Publicado em 29/05/2026; métricas divulgadas pela empresa, com Wing e Zipline entre os parceiros.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "launch4",
+      "title": "DJI • lançamento da Matrice 4 Series",
+      "url": "https://www.dji.com/media-center/announcements/matrice-4-series",
+      "kind": "Notícia de fabricante",
+      "note": "08/01/2025; anúncio não é comparação independente de desempenho.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "launch400",
+      "title": "DJI • lançamento da Matrice 400",
+      "url": "https://www.dji.com/media-center/announcements/dji-release-matrice-400",
+      "kind": "Notícia de fabricante",
+      "note": "10/06/2025; números máximos de ensaio não são planejamento de missão.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "black-update",
+      "title": "FLIR • atualização do Black Hornet 4",
+      "url": "https://defense.flir.com/about/news/teledyne-flir-defense-unveils-multiple-upgrades-to-black-hornet-4/",
+      "kind": "Notícia de fabricante",
+      "note": "07/05/2025; alcance anunciado de rádio em condições ótimas.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "ecosystem",
+      "title": "Elbit • ecossistema de sistemas não tripulados",
+      "url": "https://www.elbitsystems.com/blog/rise-unmanned-combat-ecosystem",
+      "kind": "Artigo de fabricante",
+      "note": "22/01/2026; visão comercial sobre integração entre domínios, e não ensaio independente de sistemas.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "px4",
+      "title": "PX4 • documentação de simulação",
+      "url": "https://docs.px4.io/main/en/simulation/",
+      "kind": "Documentação técnica",
+      "note": "SITL permite simular software e comportamento; não certifica aeronave nem substitui treinamento supervisionado.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "qgc",
+      "title": "QGroundControl • guia de uso",
+      "url": "https://docs.qgroundcontrol.com/master/en/qgc-user-guide/",
+      "kind": "Documentação técnica",
+      "note": "Planejamento e telemetria em plataformas compatíveis; recursos variam com versão e autopiloto.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "anatel",
+      "title": "ANATEL • certificação de produtos",
+      "url": "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos",
+      "kind": "Órgão público",
+      "note": "Consultar homologação do equipamento e dos enlaces aplicáveis.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "5g",
+      "title": "Baguer et al. • BVLOS, Open RAN e network slicing",
+      "url": "https://arxiv.org/abs/2608.09481",
+      "kind": "Preprint",
+      "note": "10/08/2026; pesquisa experimental. Revisão por pares não confirmada nesta consulta.",
+      "checked": "2026-10-09"
+    }
+  ],
+  "models": [
+    {
+      "slug": "mini-4-pro",
+      "name": "DJI Mini 4 Pro",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Introdução, fotografia e inspeção visual leve",
+      "fact": "Menos de 249 g na configuração padrão; até 34 min anunciados com bateria padrão.",
+      "lesson": "Relacionar massa em voo, bateria, acessórios e finalidade ao planejamento.",
+      "limit": "Bateria Plus e acessórios podem alterar a massa. Porte pequeno não libera o espaço aéreo.",
+      "refs": [
+        "mini",
+        "806"
+      ]
+    },
+    {
+      "slug": "phantom-4",
+      "name": "DJI Phantom 4",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Treino e aquisição RGB com equipamento já disponível",
+      "fact": "1.380 g e cerca de 28 min máximos declarados; câmera de 12,4 MP.",
+      "lesson": "Comparar informação da câmera, gimbal, cartão microSD e imagem de transmissão.",
+      "limit": "Modelo legado: conferir bateria, suporte e aplicativo. Esta ficha não é do Phantom 4 Pro.",
+      "refs": [
+        "phantom"
+      ]
+    },
+    {
+      "slug": "mavic-3e",
+      "name": "DJI Mavic 3E",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Fotogrametria e documentação de obras",
+      "fact": "Câmera com obturador mecânico; módulo RTK opcional.",
+      "lesson": "Explicar por que geometria de aquisição e controle em solo participam da qualidade do mapa.",
+      "limit": "RTK na aeronave não garante automaticamente exatidão centimétrica do produto final.",
+      "refs": [
+        "mavic"
+      ]
+    },
+    {
+      "slug": "mavic-3t",
+      "name": "DJI Mavic 3T",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Termografia, busca e inspeção",
+      "fact": "Versão com câmera térmica de 640 × 512 pixels.",
+      "lesson": "Comparar imagem RGB e térmica: aparência e distribuição de temperatura não são a mesma informação.",
+      "limit": "Emissividade, reflexos, distância e contexto interferem na interpretação.",
+      "refs": [
+        "mavic"
+      ]
+    },
+    {
+      "slug": "matrice-4e",
+      "name": "DJI Matrice 4E",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Mapeamento e medição em missões empresariais",
+      "fact": "Integra câmeras e telêmetro laser; variante orientada a levantamentos.",
+      "lesson": "Converter requisitos da missão em sensor, resolução e evidência.",
+      "limit": "Escolha de variante e acessórios deve ser feita pela missão, não apenas pelo nome da família.",
+      "refs": [
+        "matrice4"
+      ]
+    },
+    {
+      "slug": "matrice-4t",
+      "name": "DJI Matrice 4T",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Inspeção e resposta a emergências",
+      "fact": "Variante multissensor com imagem térmica.",
+      "lesson": "Discutir detecção assistida e necessidade de confirmação humana.",
+      "limit": "Uma detecção automática pode ter falso positivo; o operador precisa conhecer o contexto.",
+      "refs": [
+        "matrice4"
+      ]
+    },
+    {
+      "slug": "matrice-400",
+      "name": "DJI Matrice 400",
+      "sector": "Civil",
+      "architecture": "Multirrotor",
+      "mission": "Plataforma para sensores e missões de engenharia",
+      "fact": "Até 59 min e carga útil de até 6 kg anunciados, sob condições específicas.",
+      "lesson": "Separar plataforma, carga útil, energia e margem de retorno.",
+      "limit": "Os máximos não devem ser combinados livremente. Verificar configuração e condições da ficha.",
+      "refs": [
+        "matrice400",
+        "launch400"
+      ]
+    },
+    {
+      "slug": "agras-t50",
+      "name": "DJI Agras T50",
+      "sector": "Civil",
+      "architecture": "Multirrotor",
+      "mission": "Aplicação agrícola e distribuição de materiais",
+      "fact": "Plataforma projetada para trabalho aeroagrícola, com sistemas específicos de aplicação.",
+      "lesson": "O produto aplicado, vazão e área tratada são parte do sistema de engenharia.",
+      "limit": "Não é demonstração adequada ao curso introdutório: operação requer enquadramento e qualificação próprios.",
+      "refs": [
+        "agras",
+        "805"
+      ]
+    },
+    {
+      "slug": "elios-3",
+      "name": "Flyability Elios 3",
+      "sector": "Civil",
+      "architecture": "Quadricóptero protegido",
+      "mission": "Inspeção em ambientes internos e confinados",
+      "fact": "Gaiola de proteção, câmeras, LiDAR e localização por SLAM.",
+      "lesson": "Explicar localização sem GNSS e associação de uma imagem ao modelo do ambiente.",
+      "limit": "Proteção contra contato não elimina risco; atmosfera perigosa exige avaliação e certificação próprias.",
+      "refs": [
+        "elios"
+      ]
+    },
+    {
+      "slug": "wingtra-ray",
+      "name": "WingtraRAY",
+      "sector": "Civil",
+      "architecture": "Asa fixa VTOL",
+      "mission": "Levantamento de áreas extensas",
+      "fact": "Plataforma de mapeamento com decolagem e pouso verticais e sensores intercambiáveis.",
+      "lesson": "Comparar eficiência de cruzeiro com permanência em um ponto.",
+      "limit": "Verificar sensor e configuração. Autorizações estrangeiras não são autorização de voo no Brasil.",
+      "refs": [
+        "wingtra"
+      ]
+    },
+    {
+      "slug": "anafi-ai",
+      "name": "Parrot ANAFI Ai",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Fotogrametria e exploração de conectividade",
+      "fact": "Plataforma anunciada com conectividade 4G.",
+      "lesson": "Debater latência, cobertura, dependência de infraestrutura e integração de software.",
+      "limit": "Cobertura celular não garante continuidade do enlace nem autorização BVLOS.",
+      "refs": [
+        "parrot"
+      ]
+    },
+    {
+      "slug": "nauru-500c",
+      "name": "Xmobots Nauru 500C ISR",
+      "sector": "Civil e defesa",
+      "architecture": "Asa fixa VTOL",
+      "mission": "Monitoramento, segurança e inteligência",
+      "fact": "Fabricante brasileiro; até 4 h de voo declaradas para a plataforma ISR.",
+      "lesson": "Examinar integração de sensores e logística em uma solução nacional.",
+      "limit": "Aplicabilidade de aprovação e autorização depende da configuração e operação. Não generalizar alegações de exclusividade.",
+      "refs": [
+        "nauru"
+      ]
+    },
+    {
+      "slug": "hermes-900",
+      "name": "Elbit Hermes 900 / RQ-900",
+      "sector": "Militar",
+      "architecture": "Asa fixa",
+      "mission": "Inteligência, vigilância e reconhecimento",
+      "fact": "Plataforma MALE com múltiplas cargas úteis e aplicações de vigilância.",
+      "lesson": "Distinguir inteligência obtida pelo sistema e dados brutos produzidos pelo sensor.",
+      "limit": "O emprego pela FAB não torna suas regras operacionais aplicáveis a uma turma civil.",
+      "refs": [
+        "hermes",
+        "fab"
+      ]
+    },
+    {
+      "slug": "mq-9b",
+      "name": "GA-ASI MQ-9B SkyGuardian",
+      "sector": "Militar",
+      "architecture": "Asa fixa",
+      "mission": "Vigilância persistente e missões marítimas conforme configuração",
+      "fact": "Fabricante anuncia permanência de mais de 40 h e enlace por satélite.",
+      "lesson": "Comparar alcance de comunicação, autonomia, cobertura de sensores e integração ao espaço aéreo.",
+      "limit": "Desempenho depende da carga e configuração. Capacidade técnica não equivale a autorização operacional.",
+      "refs": [
+        "mq9"
+      ]
+    },
+    {
+      "slug": "tb2",
+      "name": "Baykar Bayraktar TB2",
+      "sector": "Militar",
+      "architecture": "Asa fixa",
+      "mission": "Reconhecimento e aplicações de defesa",
+      "fact": "Família MALE com automação e redundância; versões devem ser distinguidas.",
+      "lesson": "Acompanhar a cadeia aeronave, estação, enlace, sensores e interpretação.",
+      "limit": "Não confundir recorde de voo, autonomia típica e dados de variantes. Discussão desta série é tecnológica.",
+      "refs": [
+        "tb2"
+      ]
+    },
+    {
+      "slug": "black-hornet",
+      "name": "Teledyne FLIR Black Hornet 4",
+      "sector": "Militar",
+      "architecture": "Helicóptero de rotor único",
+      "mission": "Reconhecimento de proximidade",
+      "fact": "70 g e mais de 30 min declarados pelo fabricante.",
+      "lesson": "Mostrar como energia, câmera, comunicação e ergonomia mudam na miniaturização.",
+      "limit": "Comparação apenas tecnológica; alcance de rádio declarado depende do cenário.",
+      "refs": [
+        "black"
+      ]
+    },
+    {
+      "slug": "ingenuity",
+      "name": "NASA Ingenuity",
+      "sector": "Pesquisa",
+      "architecture": "Helicóptero coaxial",
+      "mission": "Demonstração de voo e exploração em Marte",
+      "fact": "72 voos; último voo em 18/01/2024; fim da missão anunciado em 25/01/2024.",
+      "lesson": "Relacionar navegação visual, autonomia embarcada e análise de falhas.",
+      "limit": "Missão encerrada. Não é produto comercial nem plataforma utilizável no curso.",
+      "refs": [
+        "nasa",
+        "nasa-invest"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "slug": "fpsos",
+      "title": "Inspecionar um FPSO sem entrar em cada compartimento",
+      "label": "Caso documentado",
+      "area": "Indústria",
+      "fact": "A Flyability relata o uso de drones de inspeção, incluindo Elios 3, no processo de digitalização e inspeção de FPSOs da TotalEnergies. O relato é do fornecedor da tecnologia.",
+      "analysis": [
+        "Um FPSO reúne ambientes internos complexos. O dado só vira evidência de inspeção se houver localização, qualidade visual e rastreabilidade da observação.",
+        "LiDAR e SLAM ajudam a organizar a navegação e o modelo espacial. O objetivo é reduzir exposição humana e ampliar a documentação, sem presumir que toda inspeção possa ser substituída.",
+        "O ganho anunciado pelo fornecedor precisa ser conferido para cada instalação. Não inferir aprovação para atmosferas explosivas a partir da gaiola do drone."
+      ],
+      "activity": "Projetar, em papel, uma inspeção de tanque desativado: identificar iluminação, acesso, comunicação, atmosfera, critérios de abortagem e validação por profissional responsável.",
+      "deliverable": "Uma matriz com necessidade, sensor, evidência e limite de interpretação.",
+      "answer": "A equipe deve distinguir localizar uma imagem de medir espessura ou confirmar integridade. Cada tarefa pede instrumentação e método próprios.",
+      "refs": [
+        "fpsos",
+        "elios"
+      ]
+    },
+    {
+      "slug": "entregas",
+      "title": "O que um milhão de entregas diz — e o que não diz",
+      "label": "Caso documentado",
+      "area": "Logística",
+      "fact": "Em 29/05/2026, o Walmart anunciou mais de um milhão de entregas por drones. Wing e Zipline aparecem entre os parceiros. A contagem é empresarial, não uma auditoria independente apresentada nesta série.",
+      "analysis": [
+        "Uma entrega é um serviço completo: pedido, separação, embalagem, despacho, voo, transferência da carga e confirmação. O drone ocupa apenas parte do processo.",
+        "Volume acumulado não revela sozinho custo por entrega, exposição ao risco, taxa de cancelamento ou eficiência energética. Métricas precisam de denominador.",
+        "Aplicações brasileiras exigem análise local. Um serviço autorizado nos Estados Unidos não estabelece, por analogia, autorização no Brasil."
+      ],
+      "activity": "Comparar duas alternativas fictícias: motocicleta e drone. Definir massa, janela de entrega, densidade de pedidos, clima e pontos de transferência. Não usar custos inventados como dados reais.",
+      "deliverable": "Quadro com cinco métricas: tempo porta a porta, custo total, cancelamentos, energia e segurança.",
+      "answer": "A escolha depende do serviço e dos requisitos. Uma rota aérea mais curta pode não produzir menor tempo total.",
+      "refs": [
+        "walmart"
+      ]
+    },
+    {
+      "slug": "enchentes-rs",
+      "title": "Um drone militar também pode apoiar uma resposta humanitária",
+      "label": "Caso documentado",
+      "area": "Resgate",
+      "fact": "Em relato de maio de 2024 sobre as enchentes no Rio Grande do Sul, a FAB informou o emprego do RQ-900 no apoio aos resgates. Trata-se de registro histórico, sem inferência sobre a disponibilidade atual da frota.",
+      "analysis": [
+        "Vigilância aérea pode ampliar a consciência situacional de equipes em solo. Isso exige transmissão útil, localização e coordenação com os demais meios.",
+        "Não transformar o caso em recomendação de voo voluntário na área de desastre: aeronaves de resgate, condições meteorológicas e necessidade de coordenação são decisivas.",
+        "O caso conecta defesa e sociedade pela função da informação. Um sistema militar pode produzir dados para uma missão humanitária sem perder a especificidade de sua operação."
+      ],
+      "activity": "Em um mapa fictício, assinalar três informações que uma equipe de resgate precisaria receber e quem deve validar cada uma.",
+      "deliverable": "Fluxo de informação com horário, posição, confiança e destinatário.",
+      "answer": "Não basta enviar um vídeo. A equipe precisa saber onde, quando, o que foi observado e qual é a incerteza.",
+      "refs": [
+        "fab",
+        "hermes"
+      ]
+    },
+    {
+      "slug": "ingenuity",
+      "title": "Quando o piloto fica a milhões de quilômetros",
+      "label": "Caso documentado",
+      "area": "Pesquisa",
+      "fact": "O Ingenuity realizou 72 voos em Marte. A NASA anunciou o término da missão em janeiro de 2024, após danos nas pás. Uma investigação posterior discutiu limitações da navegação na etapa final.",
+      "analysis": [
+        "A distância impede que o operador dependa de um controle manual instantâneo como o de um pequeno drone próximo. A missão expõe a relevância do processamento embarcado.",
+        "A navegação visual precisa de informação no ambiente. Falta de textura, mudanças de iluminação e qualidade da estimativa devem entrar na análise de confiabilidade.",
+        "O caso ensina a separar observação inicial, hipótese e conclusão de investigação. Uma narrativa de acidente pode mudar com o acesso a novos dados."
+      ],
+      "activity": "Listar quais decisões devem ocorrer a bordo e quais podem ficar no planejamento em solo, sem reproduzir o software da missão.",
+      "deliverable": "Tabela: função, sensor, tempo de decisão e resposta à perda de confiança.",
+      "answer": "Estabilização e reação a falhas precisam de prazos compatíveis com a dinâmica. A supervisão remota não substitui essa camada.",
+      "refs": [
+        "nasa",
+        "nasa-invest"
+      ]
+    },
+    {
+      "slug": "campus",
+      "title": "Missão curta no campus: antes da imagem, o objetivo",
+      "label": "Cenário didático",
+      "area": "Operação",
+      "fact": "Cenário fictício: documentar uma área de 30 × 20 m, sem pessoas expostas, com voo curto supervisionado. Dimensões servem ao exercício e não descrevem uma área aprovada do Mackenzie.",
+      "analysis": [
+        "A missão deve dizer que imagem será entregue e que decisão ela permite. Fotografar sem requisito produz material difícil de avaliar.",
+        "Desenhar limites, decolagem, pouso alternativo, posições de piloto e observador. A liberação da atividade depende de autorização real, regras aplicáveis e condições do dia.",
+        "O critério de conclusão é obter evidência suficiente com exposição controlada. Persistir em voo para deixar o vídeo bonito não é requisito técnico."
+      ],
+      "activity": "Redigir um briefing de uma página e um GO/NO-GO justificado. Apresentar ao instrutor antes de qualquer prática.",
+      "deliverable": "Objetivo, mapa esquemático, responsabilidades, condições de parada e uma fotografia de exemplo já existente.",
+      "answer": "Sem autorizações ou sem perímetro adequado, o resultado correto é NO-GO e migração para simulação.",
+      "refs": [
+        "decea",
+        "805",
+        "806"
+      ]
+    },
+    {
+      "slug": "solar",
+      "title": "Uma mancha térmica não é um diagnóstico completo",
+      "label": "Cenário didático",
+      "area": "Energia",
+      "fact": "Cenário fictício: procurar anomalias em um conjunto fotovoltaico por imagem RGB e térmica. Não há uma usina real nem resultado pericial associado a este exercício.",
+      "analysis": [
+        "Temperatura aparente depende de condições de observação e características da superfície. O contraste térmico sugere uma hipótese, não fecha a causa da falha.",
+        "Padronizar horário, condições ambientais e identificação do módulo permite comparar campanhas. A manutenção responsável confirma a hipótese com método próprio.",
+        "Uma câmera térmica é um recurso útil quando a pergunta pede temperatura. Uma imagem RGB pode ser suficiente para detectar dano visível ou obstrução."
+      ],
+      "activity": "Classificar imagens fictícias em observação, hipótese e confirmação necessária. Explicar por que trocar essas três etapas gera erro.",
+      "deliverable": "Registro com ID do módulo, imagem RGB, imagem térmica, contexto e encaminhamento.",
+      "answer": "O relatório deve conservar a incerteza e encaminhar a verificação. Não afirmar defeito elétrico apenas pela cor de um pixel.",
+      "refs": [
+        "mavic",
+        "matrice4"
+      ]
+    },
+    {
+      "slug": "agricultura",
+      "title": "Agricultura de precisão começa com uma pergunta agronômica",
+      "label": "Cenário didático",
+      "area": "Agronegócio",
+      "fact": "Cenário fictício: um talhão apresenta variação de vigor. A turma compara levantamento por imagem e aplicação de insumos; são atividades com requisitos distintos.",
+      "analysis": [
+        "Uma imagem identifica padrões; o agrônomo conecta esses padrões ao contexto de cultura, solo, manejo e inspeção em campo.",
+        "Mapear e pulverizar não são a mesma missão. Payload, riscos, produto, requisitos ambientais e qualificação mudam.",
+        "Comparações antes/depois exigem condições consistentes. Um índice isolado pode confundir estresse hídrico, pragas, solo exposto e sombra."
+      ],
+      "activity": "Definir hipótese, variável observável, sensor e verificação de campo. Para um exemplo sintético de NDVI, NIR=0,60 e vermelho=0,20: obter 0,50.",
+      "deliverable": "Plano de aquisição e validação; sem aplicação real de produtos.",
+      "answer": "O cálculo é (0,60−0,20)/(0,60+0,20)=0,50. O índice não identifica sozinho a causa da variação.",
+      "refs": [
+        "agras",
+        "805"
+      ]
+    },
+    {
+      "slug": "mapeamento",
+      "title": "Medir uma obra exige mais que uma foto nítida",
+      "label": "Cenário didático",
+      "area": "Infraestrutura",
+      "fact": "Cenário fictício: registrar uma obra para comparação semanal e discutir a estimativa de dimensões. Nenhum volume real é apresentado.",
+      "analysis": [
+        "GSD, sobreposição, geometria, calibração e referências independentes influenciam o resultado. A resolução do sensor não define sozinha a exatidão do mapa.",
+        "Uma nuvem de pontos ou ortomosaico é um produto de processamento. A qualidade precisa de checagem com referências que não tenham sido usadas apenas para ajustar o modelo.",
+        "Para medir volume, o referencial de base e a época da aquisição precisam ser comparáveis. Uma superfície de referência incoerente pode dominar o erro."
+      ],
+      "activity": "Com parâmetros sintéticos H=50 m, pixel p=2,4 µm e focal f=8,8 mm, calcular GSD=H·p/f≈1,36 cm/pixel. Explicar por que isso não significa erro de posição de 1,36 cm.",
+      "deliverable": "Memória de cálculo, lista de controles e critérios de aceitação do produto.",
+      "answer": "GSD descreve amostragem no terreno em geometria ideal. A exatidão depende de todo o método.",
+      "refs": [
+        "mavic",
+        "wingtra"
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "n": 1,
+      "slug": "muito-alem-do-voo",
+      "title": "O drone é só uma parte do sistema",
+      "subtitle": "Da aeronave à decisão: o que a missão precisa entregar.",
+      "base": "Encontro 1 • fundamentos, missão e aplicações",
+      "goals": [
+        "Distinguir aeronave, sistema e missão.",
+        "Definir uma evidência que permita tomar uma decisão.",
+        "Reconhecer aplicações civis, militares e científicas."
+      ],
+      "reading": [
+        "O ponto de partida de uma missão é a pergunta que precisa ser respondida. Inspecionar um telhado, acompanhar uma obra e apoiar um resgate podem usar imagens aéreas, mas pedem sensores, enquadramentos, prazos e validações distintos.",
+        "O sistema reúne aeronave, energia, sensores, estação de controle, enlace e pessoas. A informação passa por uma cadeia: requisito, aquisição, processamento, interpretação e entrega. Uma falha em qualquer etapa pode inutilizar um voo tecnicamente correto."
+      ],
+      "models": [
+        "mini-4-pro",
+        "hermes-900",
+        "ingenuity"
+      ],
+      "cases": [
+        "campus"
+      ],
+      "refs": [
+        "mini",
+        "hermes",
+        "nasa"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "Quando alguém fala em drone, muita gente imagina uma câmera voadora. Mas a pergunta que abre esta série é outra: qual problema esse voo resolve? É disso que trata Drones Muito Além do Voo."
+        ],
+        [
+          "Instrutor",
+          "Na prática, eu preciso saber o que vou entregar antes de decolar. Uma imagem panorâmica pode ser ótima para divulgação e insuficiente para identificar uma fissura. O planejamento começa pela informação desejada."
+        ],
+        [
+          "Newton",
+          "Observe estes três exemplos: um pequeno quadricóptero, uma aeronave de vigilância e um helicóptero de pesquisa em Marte. A arquitetura muda porque a missão muda. Não existe um único drone ideal para tudo."
+        ],
+        [
+          "Instrutor",
+          "Também não existe missão feita só pela aeronave. Bateria, rádio, controle, armazenamento e equipe precisam funcionar juntos. O observador participa da segurança, e o piloto precisa saber quando interromper."
+        ],
+        [
+          "Newton",
+          "Nossa régua será simples: requisito, sensor, evidência e decisão. Se a ligação entre eles estiver fraca, é hora de revisar a missão. Tecnologia cara não conserta uma pergunta mal formulada."
+        ],
+        [
+          "Instrutor",
+          "Vamos usar um exemplo curto: registrar uma área delimitada. Antes do voo, mostramos a imagem esperada, verificamos se podemos operar no local e combinamos o que nos faria parar."
+        ],
+        [
+          "Newton",
+          "Essa lógica serve também para parceiros da universidade: começa na necessidade e termina em uma entrega verificável. O voo é o caminho para obter informação."
+        ],
+        [
+          "Instrutor",
+          "No próximo episódio, abriremos a aeronave conceitualmente: como quatro motores, sensores e uma controladora mantêm tudo isso no ar."
+        ]
+      ],
+      "demo": [
+        "Exibir uma fotografia já disponível e perguntar qual decisão ela permite.",
+        "Colocar aeronave desligada, controle e bateria sobre a bancada; identificar componentes.",
+        "Desenhar no quadro a cadeia requisito → sensor → dado → interpretação → decisão."
+      ],
+      "exercise": "Para inspeção de telhado, cobertura vegetal e divulgação de um evento, definir uma pergunta e uma evidência para cada missão.",
+      "answer": "Inspeção pede detalhe e localização; vegetação pede padrão e validação; divulgação pede composição visual e autorização de uso de imagem. Não presumir que uma câmera atende igualmente às três.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 2,
+      "slug": "como-um-drone-voa",
+      "title": "Como um drone voa e se orienta",
+      "subtitle": "Propulsão, sensores e controle sem transformar a explicação em caixa-preta.",
+      "base": "Encontro 2 • comandos, simulador e hover",
+      "goals": [
+        "Relacionar variações de empuxo aos movimentos.",
+        "Distinguir atitude e posição.",
+        "Explicar o papel de sensores e realimentação."
+      ],
+      "reading": [
+        "Em um quadricóptero, empuxo total e distribuição entre motores participam dos movimentos. Inclinar a aeronave produz uma componente horizontal da força. Atitude descreve orientação; posição descreve onde ela está.",
+        "A controladora combina medições, estima o estado e comanda atuadores. Uma leitura de sensor possui ruído e limitações. A estabilidade que o operador observa resulta de correções repetidas e não de uma capacidade de equilíbrio independente do controle."
+      ],
+      "models": [
+        "phantom-4",
+        "mini-4-pro",
+        "black-hornet"
+      ],
+      "cases": [],
+      "refs": [
+        "phantom",
+        "mini",
+        "black",
+        "px4"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "Como quatro hélices mantêm uma aeronave parada? A resposta passa por força, torque e correção contínua. Um drone estabilizado parece quieto, mas o sistema de controle está trabalhando o tempo todo."
+        ],
+        [
+          "Instrutor",
+          "Antes de ligar qualquer motor, vamos identificar frente, hélices e comandos. Usaremos uma aeronave desligada e a tela do simulador. Aqui, o aprendizado não depende de hélices girando perto da bancada."
+        ],
+        [
+          "Newton",
+          "Para subir, o conjunto precisa produzir força vertical suficiente. Para deslocar, a aeronave inclina e passa a ter uma componente horizontal. Rolagem, arfagem e guinada descrevem movimentos de orientação."
+        ],
+        [
+          "Instrutor",
+          "No controle, trocar a referência entre a frente do drone e a frente do piloto costuma confundir iniciantes. Por isso, começamos com movimentos curtos e orientação bem definida no simulador."
+        ],
+        [
+          "Newton",
+          "Giroscópio e acelerômetro ajudam a estimar a dinâmica; outros recursos participam da posição e navegação. O GNSS não é a mesma coisa que internet, e sensores visuais dependem do ambiente."
+        ],
+        [
+          "Instrutor",
+          "Um Phantom 4 permite discutir essas camadas com um equipamento conhecido. Vamos observar telemetria, separar posição de atitude e comparar a resposta a pequenos comandos simulados."
+        ],
+        [
+          "Newton",
+          "O objetivo é entender a cadeia medir, estimar, agir e conferir. Esse raciocínio reaparece em robótica, automação e sistemas embarcados."
+        ],
+        [
+          "Instrutor",
+          "Quando a aeronave parece estável, ainda precisamos manter atenção. A assistência facilita a operação, mas não substitui o conhecimento de seus limites."
+        ]
+      ],
+      "demo": [
+        "Sem hélices energizadas, apontar sentido e função dos rotores.",
+        "No simulador, executar subida, rolagem, arfagem e guinada separadamente.",
+        "Mostrar telemetria e pedir que a turma identifique uma grandeza de atitude e uma de posição."
+      ],
+      "exercise": "Por que inclinar a aeronave pode reduzir a componente vertical do empuxo se o empuxo total não mudar?",
+      "answer": "A componente vertical é T·cos(θ). Ao inclinar, parte da força atua horizontalmente; o controle pode compensar elevando o empuxo total.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 3,
+      "slug": "regras-e-responsabilidades",
+      "title": "Quem autoriza o quê no Brasil",
+      "subtitle": "ANAC, DECEA e ANATEL na mesma missão.",
+      "base": "Encontros 3–4 • regras e enquadramento",
+      "goals": [
+        "Separar atribuições dos órgãos.",
+        "Consultar a norma vigente e sua aplicabilidade.",
+        "Distinguir capacidade técnica e autorização."
+      ],
+      "reading": [
+        "A Resolução 805/2026 aprovou o RBAC 100 em substituição ao RBAC-E 94 e incluiu disposições de transição. A Resolução 806/2026 trata de UA até 250 g e aeromodelos nas condições de seu texto. São referências de enquadramento, e não uma autorização individual de missão.",
+        "DECEA trata de acesso ao espaço aéreo; ANATEL trata da conformidade de produtos e telecomunicações. A norma aplicável, o manual, o local e as condições da autorização precisam ser compatíveis. Este episódio ensina o percurso de consulta, sem resumir toda a regulamentação em uma regra de peso."
+      ],
+      "models": [
+        "mini-4-pro",
+        "nauru-500c"
+      ],
+      "cases": [
+        "campus"
+      ],
+      "refs": [
+        "805",
+        "806",
+        "ica",
+        "decea",
+        "anatel"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "Meu drone pesa pouco. Posso voar em qualquer lugar? Não. O peso é uma informação relevante, mas a missão também envolve finalidade, pessoas, espaço aéreo e equipamentos de comunicação."
+        ],
+        [
+          "Instrutor",
+          "Na preparação, consultamos o enquadramento e as condições reais. Uma autorização pendente não é um sinal verde. E o desbloqueio de uma restrição no aplicativo não substitui uma autorização pública."
+        ],
+        [
+          "Newton",
+          "Vamos abrir as fontes oficiais. A ANAC publicou as Resoluções 805 e 806 em junho de 2026. O DECEA tem sua regulamentação de acesso ao espaço aéreo. A ANATEL participa pela conformidade dos equipamentos."
+        ],
+        [
+          "Instrutor",
+          "O exercício será identificar o documento e a responsabilidade, não decorar uma lista sem contexto. Qual norma se aplica à aeronave? Qual condição se aplica ao local? O que precisa estar disponível à equipe?"
+        ],
+        [
+          "Newton",
+          "Regras de transição também contam. Não se deve apresentar um prazo como permanente. Ao gravar ou atualizar esta série, conferimos novamente os textos oficiais."
+        ],
+        [
+          "Instrutor",
+          "Na prática do curso, trabalhamos com uma missão curta e supervisionada. Se o cenário exigir sair do enquadramento previsto, reformulamos a missão ou encaminhamos a análise adequada."
+        ],
+        [
+          "Newton",
+          "O alcance que aparece no catálogo mostra uma capacidade de comunicação em condições de teste. Ele não concede direito de voar a essa distância."
+        ],
+        [
+          "Instrutor",
+          "O checklist começa antes da decolagem. O resultado pode ser GO, NO-GO ou migração para simulação. Saber decidir é parte da formação."
+        ]
+      ],
+      "demo": [
+        "Abrir Resoluções 805 e 806 e mostrar título, data e aplicabilidade.",
+        "Apresentar uma autorização fictícia claramente marcada, sem simular documento oficial.",
+        "Relacionar três pendências a seus responsáveis: enquadramento, espaço aéreo e homologação."
+      ],
+      "exercise": "Um equipamento anuncia 20 km de comunicação. Essa ficha basta para autorizar um voo a 20 km?",
+      "answer": "Não. Capacidade do enlace não resolve enquadramento da operação, espaço aéreo, terceiros, manual e condições de autorização.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 4,
+      "slug": "escolher-o-drone",
+      "title": "Qual drone combina com a missão?",
+      "subtitle": "Comparar plataformas pela tarefa, sem cair na guerra de megapixels.",
+      "base": "Encontros 1 e 6 • aplicações e aeronave pronta",
+      "goals": [
+        "Construir critérios de seleção.",
+        "Comparar quadricóptero, asa fixa e VTOL.",
+        "Interpretar máximos de catálogo com suas condições."
+      ],
+      "reading": [
+        "Um multirrotor pode permanecer em um ponto; uma asa fixa favorece deslocamento sustentado; um VTOL combina fases de voo com complexidades próprias. A escolha deve considerar decolagem, pouso, área, sensores, equipe, manutenção e produto final.",
+        "Tempo máximo de voo não deve ser tratado como tempo útil de missão. Acessórios mudam massa e consumo. Um equipamento já existente pode atender ao objetivo introdutório, desde que esteja apto e sua informação seja suficiente."
+      ],
+      "models": [
+        "phantom-4",
+        "mavic-3e",
+        "elios-3",
+        "wingtra-ray",
+        "nauru-500c"
+      ],
+      "cases": [
+        "mapeamento",
+        "fpsos"
+      ],
+      "refs": [
+        "phantom",
+        "mavic",
+        "elios",
+        "wingtra",
+        "nauru"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "Qual é o melhor drone? Sem a missão, essa pergunta fica incompleta. Vamos substituir ranking por requisito: o que precisa ser observado, com que detalhe e em qual ambiente?"
+        ],
+        [
+          "Instrutor",
+          "Para começar a treinar, posso usar um equipamento disponível e apto. Para mapear uma área extensa ou entrar em um espaço confinado, eu preciso de outra arquitetura e de outra preparação."
+        ],
+        [
+          "Newton",
+          "O quadricóptero consegue permanecer em um ponto. A asa fixa obtém sustentação em cruzeiro pelas asas. Um VTOL precisa lidar com decolagem vertical e voo de cruzeiro. Cada solução cobra seu preço em complexidade."
+        ],
+        [
+          "Instrutor",
+          "Também precisamos verificar o ambiente. Vento, obstáculos, acesso, área de pouso, pessoas e capacidade da equipe participam da seleção. Um drone de inspeção interna não é uma versão universal de um drone de filmagem."
+        ],
+        [
+          "Newton",
+          "No catálogo, vamos olhar missão, sensor, limite e fonte. Megapixels, sozinhos, não dizem a qualidade de um mapa, de um diagnóstico ou de uma identificação."
+        ],
+        [
+          "Instrutor",
+          "Vamos comparar o Phantom 4, o Mavic 3E e o Elios 3 com três tarefas. A ideia é justificar a adequação, sem produzir uma recomendação de compra fora do contexto."
+        ],
+        [
+          "Newton",
+          "Incluímos ainda exemplos brasileiros, como o Nauru 500C ISR. O interesse é entender integração tecnológica e configuração, evitando transferir autorizações de uma plataforma para qualquer operador."
+        ],
+        [
+          "Instrutor",
+          "A escolha final precisa mostrar o que o sistema entrega e onde ele deixa de atender. Conhecer esse limite é tão útil quanto conhecer uma função nova."
+        ]
+      ],
+      "demo": [
+        "Usar as fichas do catálogo e selecionar três plataformas para três tarefas.",
+        "Preencher matriz com sensor, ambiente, equipe, autonomia útil e validação.",
+        "Explicar por que o maior número de câmera ou alcance pode ser irrelevante para a pergunta."
+      ],
+      "exercise": "Uma mesma plataforma deve inspecionar o interior de um tanque e mapear centenas de hectares?",
+      "answer": "Não necessariamente. Os requisitos de proteção, localização, permanência e cobertura apontam para escolhas especializadas.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 5,
+      "slug": "planejar-e-decidir",
+      "title": "GO ou NO-GO: a decisão antes de decolar",
+      "subtitle": "Briefing, pessoas, energia e condições de parada.",
+      "base": "Encontros 5 e 8–9 • risco, missão curta e pré-voo",
+      "goals": [
+        "Preparar um briefing objetivo.",
+        "Estabelecer condições de parada.",
+        "Calcular uma margem didática de energia sem confundi-la com regra universal."
+      ],
+      "reading": [
+        "O briefing estabelece objetivo, papéis, local, condição de retorno e comunicação. Um checklist é útil quando os itens são verificáveis. Escrever apenas “clima OK” esconde a ausência de um critério.",
+        "Exemplo sintético: bateria entrega 80 Wh úteis em um cenário estimado, com potência média de 240 W. A razão E/P dá 20 min. Reservar 25% nesse exercício deixa 15 min antes de descontar deslocamento. A reserva é hipótese pedagógica; operação real segue manual, ensaio e avaliação do cenário."
+      ],
+      "models": [
+        "phantom-4",
+        "mini-4-pro"
+      ],
+      "cases": [
+        "campus"
+      ],
+      "refs": [
+        "phantom",
+        "decea",
+        "805"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "É possível pilotar bem e tomar uma decisão ruim antes do voo. Hoje vamos olhar para o que deve acontecer ainda em solo: objetivo, responsabilidades, condições e margens."
+        ],
+        [
+          "Instrutor",
+          "Eu começo pelo briefing. Quem está no comando? Onde está o observador? Qual é o limite da área? Onde vamos pousar? O que nos fará interromper? Todos precisam compreender as mesmas respostas."
+        ],
+        [
+          "Newton",
+          "Na energia, uma conta simples ajuda a pensar. Energia dividida por potência estima um tempo, mas não reproduz automaticamente o consumo real da aeronave. Vento, carga e manobras mudam o resultado."
+        ],
+        [
+          "Instrutor",
+          "Por isso, o número do catálogo não vira cronômetro da missão. A equipe considera retorno e contingência. Quando a margem deixa de ser suficiente, a tarefa pode terminar antes da imagem desejada."
+        ],
+        [
+          "Newton",
+          "Vamos usar valores fictícios e explicitar a hipótese. A conta serve para aprender unidades e margens. Não é uma prescrição de bateria para todo modelo."
+        ],
+        [
+          "Instrutor",
+          "O GO exige itens realmente conferidos. Se uma pessoa entrar na área, uma condição mudar ou surgir tráfego, a decisão precisa ser reavaliada. O checklist não congela o mundo."
+        ],
+        [
+          "Newton",
+          "Existe ainda o risco da pressão por gravar. A câmera não deve definir a segurança da operação. Na produção desta série, podemos substituir a prática por simulação sem perder o aprendizado."
+        ],
+        [
+          "Instrutor",
+          "Vamos mostrar um briefing curto, apontar uma pendência e decidir juntos. A resposta técnica pode ser NO-GO. Isso é competência, não fracasso."
+        ]
+      ],
+      "demo": [
+        "Preencher a ficha de missão disponível em Materiais.",
+        "Calcular 80/240 h e discutir reserva e deslocamento.",
+        "Introduzir uma pendência fictícia e pedir nova decisão GO/NO-GO."
+      ],
+      "exercise": "No exemplo, se deslocamento de ida e volta consumir quatro minutos, quanto sobra para coleta?",
+      "answer": "Dos 15 min após a reserva didática, sobram 11 min. A estimativa não substitui medição de consumo nem limites do manual.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 6,
+      "slug": "camera-ao-dado",
+      "title": "Da câmera ao dado confiável",
+      "subtitle": "RGB, térmica, multispectral e LiDAR: cada sensor responde a uma pergunta.",
+      "base": "Encontro 11 • objetivo, coleta e evidência",
+      "goals": [
+        "Escolher sensor pela variável observada.",
+        "Distinguir resolução, amostragem e exatidão.",
+        "Conservar metadados e validar resultados."
+      ],
+      "reading": [
+        "RGB registra aparência em bandas visíveis; imagem térmica permite examinar padrões de temperatura aparente; multispectral observa bandas específicas; LiDAR mede distâncias para representar geometria. Essas informações podem se complementar, mas não são intercambiáveis.",
+        "Uma medida exige referência, unidade, método e incerteza. GSD é a amostragem no solo em um modelo geométrico; não é o erro final de posição. Preservar data, parâmetros e contexto permite avaliar se uma comparação é válida."
+      ],
+      "models": [
+        "mavic-3e",
+        "mavic-3t",
+        "elios-3",
+        "matrice-400"
+      ],
+      "cases": [
+        "solar",
+        "mapeamento"
+      ],
+      "refs": [
+        "mavic",
+        "elios",
+        "matrice400"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "Uma imagem bonita pode ser um dado ruim para uma medida. Hoje vamos trocar a pergunta “qual câmera tem mais pixels?” por “qual variável precisa ser observada?”."
+        ],
+        [
+          "Instrutor",
+          "Eu começo com uma imagem RGB e uma imagem térmica. A primeira mostra aparência; a segunda traz outro tipo de informação. A interpretação muda, e o contexto da captura precisa acompanhar os arquivos."
+        ],
+        [
+          "Newton",
+          "LiDAR entra pela geometria. Multispectral entra por bandas específicas. Nenhum sensor transforma sozinho uma observação em diagnóstico. É preciso método e uma verificação adequada."
+        ],
+        [
+          "Instrutor",
+          "Na coleta, também registramos configurações, horário e posição. Se duas campanhas forem feitas em condições incompatíveis, o resultado pode parecer mudança no objeto quando é mudança na aquisição."
+        ],
+        [
+          "Newton",
+          "Vamos calcular um GSD com números sintéticos. A fórmula relaciona altura, tamanho do pixel e distância focal. O resultado descreve amostragem e não garante a exatidão do mapa."
+        ],
+        [
+          "Instrutor",
+          "Para validar, precisamos de referências independentes e de critérios. Não basta que o software tenha concluído o processamento e produzido uma imagem convincente."
+        ],
+        [
+          "Newton",
+          "Essa é a diferença entre produzir dados e produzir evidência: outra pessoa deve conseguir compreender o método e os limites da conclusão."
+        ],
+        [
+          "Instrutor",
+          "Ao final, cada arquivo será acompanhado de uma pequena ficha. Parece detalhe, mas é o que permite usar a informação depois que o voo terminou."
+        ]
+      ],
+      "demo": [
+        "Mostrar os tipos de sensor com as fichas verificadas do catálogo.",
+        "Resolver o exemplo de GSD do caso Mapeamento.",
+        "Organizar três arquivos fictícios com nome, data, contexto e critério de validação."
+      ],
+      "exercise": "Se o GSD for 2 cm/pixel, posso declarar que todas as coordenadas têm erro de 2 cm?",
+      "answer": "Não. GSD e exatidão descrevem aspectos distintos. A estimativa do erro exige validação do produto e de seu referencial.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 7,
+      "slug": "inspecao-e-energia",
+      "title": "Drones na indústria, nas obras e na energia",
+      "subtitle": "Transformar observações em evidência útil para manutenção.",
+      "base": "Encontros 1 e 11 • aplicações e missão de engenharia",
+      "goals": [
+        "Distinguir inspeção visual e diagnóstico.",
+        "Estruturar registros rastreáveis.",
+        "Comparar inspeção externa e interna."
+      ],
+      "reading": [
+        "Em manutenção, a coleta deve identificar o ativo e permitir localizar a observação. Uma imagem de possível corrosão precisa de escala, contexto e encaminhamento. A decisão pertence ao processo técnico de inspeção.",
+        "O caso Flyability/TotalEnergies permite discutir inspeção interna; o cenário solar permite discutir interpretação térmica. A vantagem proposta é obter informação com exposição controlada, mantendo claro o que o método consegue confirmar."
+      ],
+      "models": [
+        "elios-3",
+        "mavic-3t",
+        "matrice-400"
+      ],
+      "cases": [
+        "fpsos",
+        "solar"
+      ],
+      "refs": [
+        "fpsos",
+        "elios",
+        "mavic"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "O drone pode aproximar um sensor de um ativo de difícil acesso. Mas a manutenção não precisa só de imagens: precisa saber qual ativo, qual ponto e qual decisão pode ser sustentada."
+        ],
+        [
+          "Instrutor",
+          "Em uma inspeção, eu preparo o percurso de aquisição e a identificação dos registros. Se houver uma observação relevante, ela precisa aparecer em um relatório que outra equipe consiga localizar."
+        ],
+        [
+          "Newton",
+          "Nos ambientes internos, a localização pode depender de recursos como SLAM. Na termografia, a interpretação depende das condições da superfície e da captura. São problemas tecnológicos distintos."
+        ],
+        [
+          "Instrutor",
+          "Usaremos o caso documentado de FPSOs e um cenário solar fictício. Vamos marcar claramente o que a fonte relata e o que é análise pedagógica nossa."
+        ],
+        [
+          "Newton",
+          "Um ponto quente pode indicar uma hipótese. Uma imagem de uma área corroída pode orientar outra inspeção. Não devemos pular da observação para uma conclusão que o sensor não sustenta."
+        ],
+        [
+          "Instrutor",
+          "O relatório que vamos montar terá imagem, identificação, contexto, limitação e próximo passo. Sem isso, o cliente pode receber muitos arquivos e pouca informação útil."
+        ],
+        [
+          "Newton",
+          "É aqui que a engenharia conecta a aquisição ao processo da empresa. Equipamento, procedimento e julgamento profissional precisam conversar."
+        ],
+        [
+          "Instrutor",
+          "O resultado do exercício será uma ficha de inspeção, sem ensaio em instalação real. Depois, a equipe decide quais condições seriam necessárias para uma aplicação de campo."
+        ]
+      ],
+      "demo": [
+        "Abrir o caso FPSOs e identificar o tipo de fonte.",
+        "Montar um registro de inspeção com imagem demonstrativa.",
+        "Separar em três colunas observação, hipótese e confirmação necessária."
+      ],
+      "exercise": "Uma imagem mostra temperatura elevada em um módulo. Qual deve ser a próxima frase do relatório?",
+      "answer": "Registrar a observação com contexto e sugerir confirmação adequada. Não afirmar causa específica sem evidência adicional.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 8,
+      "slug": "campo-e-ambiente",
+      "title": "Drones no campo e no meio ambiente",
+      "subtitle": "Observar padrões, medir mudanças e validar em solo.",
+      "base": "Encontros 1 e 11 • aplicações e evidência",
+      "goals": [
+        "Separar mapeamento e aplicação agrícola.",
+        "Interpretar um índice sem diagnosticar sozinho.",
+        "Planejar comparações ambientais consistentes."
+      ],
+      "reading": [
+        "O drone pode revelar padrões espaciais que são difíceis de observar ao nível do solo. Porém, a interpretação precisa de contexto e amostras de referência. A cor de um mapa é uma representação produzida por um método.",
+        "Em agricultura, mapear vigor e aplicar insumos são atividades distintas. Em ambiente, comparar erosão, cobertura ou margem de curso d’água pede consistência temporal, geométrica e de método. O exercício não autoriza intervenção, voo em área protegida nem aplicação de produtos."
+      ],
+      "models": [
+        "agras-t50",
+        "wingtra-ray",
+        "nauru-500c"
+      ],
+      "cases": [
+        "agricultura",
+        "mapeamento"
+      ],
+      "refs": [
+        "agras",
+        "wingtra",
+        "nauru"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "Um mapa colorido de vegetação parece dizer tudo. Na verdade, ele responde a uma pergunta limitada, construída com bandas, índices e contexto. Vamos aprender a ler essa resposta sem exagerar a conclusão."
+        ],
+        [
+          "Instrutor",
+          "Antes da coleta, eu preciso saber que área, que cultura ou que mudança será analisada. Uma fotografia solta não permite comparar épocas com confiança."
+        ],
+        [
+          "Newton",
+          "No exemplo sintético de NDVI, usamos valores já fornecidos. O cálculo é simples; o desafio é entender o significado. Um valor não identifica sozinho praga, falta de água ou qualquer causa específica."
+        ],
+        [
+          "Instrutor",
+          "Também vamos separar mapear de aplicar. O Agras é uma plataforma de trabalho aeroagrícola. Isso não quer dizer que seja apropriado para nossa demonstração introdutória."
+        ],
+        [
+          "Newton",
+          "No meio ambiente, uma série temporal consistente pode ajudar a observar mudanças. O método deve distinguir mudança real, diferença de luz, posição e processamento."
+        ],
+        [
+          "Instrutor",
+          "Nossa atividade será feita com imagens e dados simulados. A verificação de campo entra no plano, e a atuação real precisa de profissionais e condições adequadas."
+        ],
+        [
+          "Newton",
+          "O dado aéreo ganha valor quando se conecta a uma decisão e a uma validação. Esse vínculo evita que uma visualização atraente seja confundida com diagnóstico."
+        ],
+        [
+          "Instrutor",
+          "No próximo episódio, olharemos para situações em que a informação precisa chegar rápido: emergências e resgate."
+        ]
+      ],
+      "demo": [
+        "Resolver o NDVI sintético do caso Agricultura.",
+        "Comparar duas imagens de datas e condições distintas; identificar limitações.",
+        "Propor um plano de validação em solo sem executar aplicação agrícola."
+      ],
+      "exercise": "Se duas imagens de uma área foram obtidas com luz e geometria distintas, toda mudança de cor significa mudança ambiental?",
+      "answer": "Não. É preciso controlar aquisição, referencial e processamento antes de interpretar a diferença.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 9,
+      "slug": "resgate-e-servicos",
+      "title": "Drones em emergências e serviços públicos",
+      "subtitle": "Informação útil, coordenação e proteção das pessoas.",
+      "base": "Encontros 5 e 8–10 • pessoas, comunicação e contingências",
+      "goals": [
+        "Conectar observação à ação de uma equipe.",
+        "Reconhecer a prioridade da coordenação aérea.",
+        "Evitar confundir detecção com identificação confirmada."
+      ],
+      "reading": [
+        "Em emergências, informação útil inclui horário, localização, significado e confiança. Uma transmissão de vídeo sem contexto pode gerar decisões erradas. A imagem precisa entrar em uma cadeia de coordenação.",
+        "O emprego histórico do RQ-900 pela FAB no Rio Grande do Sul serve à discussão do apoio informacional. Não é convite a deslocar drones particulares para cenários de resgate. Interferir no trabalho aéreo de emergência pode aumentar a exposição de quem precisa de ajuda."
+      ],
+      "models": [
+        "matrice-4t",
+        "hermes-900",
+        "nauru-500c"
+      ],
+      "cases": [
+        "enchentes-rs"
+      ],
+      "refs": [
+        "fab",
+        "hermes",
+        "decea"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "Em uma emergência, ver de cima pode ajudar. Mas ajudar exige coordenação: a equipe em solo precisa receber informação certa, no tempo certo e com a incerteza conhecida."
+        ],
+        [
+          "Instrutor",
+          "Um vídeo não resolve tudo. Eu preciso indicar posição, horário e o que foi observado. Também preciso saber a quem entregar a informação e quem vai confirmá-la."
+        ],
+        [
+          "Newton",
+          "O caso das enchentes no Rio Grande do Sul mostra o emprego de um sistema de vigilância em apoio ao resgate. É um uso que conecta tecnologia militar e uma necessidade humanitária."
+        ],
+        [
+          "Instrutor",
+          "A operação ocorreu em uma estrutura coordenada. Um participante desta série não deve interpretar o caso como autorização para lançar seu drone numa área de desastre."
+        ],
+        [
+          "Newton",
+          "Na imagem térmica, uma assinatura pode sugerir algo que merece verificação. Detecção, classificação e identificação têm níveis de certeza distintos."
+        ],
+        [
+          "Instrutor",
+          "No exercício, usaremos um mapa fictício e três observações. Vamos elaborar mensagens curtas com localização e confiança, sem expor pessoas reais."
+        ],
+        [
+          "Newton",
+          "O valor do sistema está no apoio à decisão coletiva. A melhor informação perde utilidade se chega sem referência ou ao destinatário errado."
+        ],
+        [
+          "Instrutor",
+          "E a segurança da aviação tripulada continua decisiva. O plano de coordenação faz parte da missão desde o início."
+        ]
+      ],
+      "demo": [
+        "Usar o caso histórico da FAB, com data visível.",
+        "Montar uma mensagem de observação com horário, posição e confiança.",
+        "Simular coordenação em mesa, sem voos em cenário de emergência."
+      ],
+      "exercise": "Qual mensagem é mais útil: “vi algo no rio” ou uma observação com localização, horário, descrição e grau de confiança?",
+      "answer": "A segunda. Ela permite checagem, priorização e encaminhamento; uma descrição sem contexto pode induzir busca no local errado.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 10,
+      "slug": "entregas-e-redes",
+      "title": "Entrega por drone: o desafio é o serviço inteiro",
+      "subtitle": "Logística, conectividade e uma leitura crítica das notícias.",
+      "base": "Encontros 7–8 e 11 • espaço aéreo, missão e dados",
+      "goals": [
+        "Analisar métricas de um serviço.",
+        "Separar tempo de voo e tempo de entrega.",
+        "Explicar que conexão celular não equivale a autorização BVLOS."
+      ],
+      "reading": [
+        "A entrega por drone integra infraestrutura e processo. A rota aérea pode ser curta enquanto preparação e transferência da carga dominam o tempo porta a porta. O caso Walmart é um ponto de partida para examinar a escala e perguntar pelas métricas que faltam.",
+        "Conectividade celular acrescenta questões de cobertura, latência, continuidade e dependência de infraestrutura. Pesquisas de 5G e Open RAN exploram essas relações, mas resultado experimental não é garantia universal nem autorização operacional."
+      ],
+      "models": [
+        "anafi-ai",
+        "nauru-500c"
+      ],
+      "cases": [
+        "entregas"
+      ],
+      "refs": [
+        "walmart",
+        "parrot",
+        "5g"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "Quando vemos uma notícia sobre entrega por drone, normalmente pensamos no voo. Mas o cliente percebe o serviço inteiro, desde o pedido até o recebimento."
+        ],
+        [
+          "Instrutor",
+          "A preparação da carga, o ponto de transferência, as condições do tempo e a coordenação podem definir o resultado. Não basta desenhar uma linha curta no mapa."
+        ],
+        [
+          "Newton",
+          "O Walmart anunciou um milhão de entregas em maio de 2026. Esse número mostra volume relatado pela empresa. Para avaliar eficiência, precisamos também de custo, cancelamento, tempo total e exposição ao risco."
+        ],
+        [
+          "Instrutor",
+          "Vamos usar a notícia para formular perguntas, sem transformar o anúncio em uma promessa de que todo endereço pode receber entrega aérea."
+        ],
+        [
+          "Newton",
+          "A comunicação é outra camada. Plataformas com conexão celular e pesquisa em 5G mostram possibilidades de integração. Cobertura no mapa, porém, não garante o desempenho necessário durante toda a missão."
+        ],
+        [
+          "Instrutor",
+          "Na demonstração, acompanharemos etapas de uma entrega fictícia. A turma vai descobrir quais tempos são de voo e quais pertencem à operação em solo."
+        ],
+        [
+          "Newton",
+          "BVLOS é uma condição de operação, não um botão habilitado pela presença de internet. Capacidade tecnológica e aprovação precisam ser examinadas separadamente."
+        ],
+        [
+          "Instrutor",
+          "Ao final, teremos um quadro de avaliação de serviço. A pergunta deixa de ser “o drone consegue chegar?” e passa a incluir “a solução entrega o que promete?”."
+        ]
+      ],
+      "demo": [
+        "Abrir a notícia de 29/05/2026 e identificar métricas divulgadas.",
+        "Construir uma linha do tempo fictícia: preparo 5 min, voo 4 min, transferência 3 min.",
+        "Listar três riscos de depender de uma rede de comunicação."
+      ],
+      "exercise": "No exemplo sintético, o voo levou quatro minutos. Qual foi o tempo total do serviço mostrado?",
+      "answer": "12 min. A medida de ponta a ponta inclui preparo e transferência. Acrescentar espera e confirmação se fizerem parte do escopo.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 11,
+      "slug": "drones-e-defesa",
+      "title": "Drones civis e militares: o que muda na engenharia",
+      "subtitle": "Miniaturização, permanência, sensores e responsabilidade.",
+      "base": "Encontros 1 e 11 • aplicações, arquitetura e missão",
+      "goals": [
+        "Comparar sistemas pela função e arquitetura.",
+        "Distinguir vigilância, plataforma armada e munição de uso único em nível conceitual.",
+        "Debater supervisão humana, direito e responsabilidade."
+      ],
+      "reading": [
+        "Um sistema de defesa pode priorizar permanência, cobertura de sensores, redundância, comunicações e logística. Um nanodrone e uma aeronave MALE resolvem problemas de escala distintos. Sua análise tecnológica não transfere procedimentos militares para o curso civil.",
+        "Vigilância e reconhecimento produzem informação. Algumas plataformas também possuem versões armadas; munições de uso único representam outra finalidade. Aqui, a discussão se limita às categorias, à engenharia pública dos sistemas e às implicações de responsabilidade e supervisão."
+      ],
+      "models": [
+        "black-hornet",
+        "hermes-900",
+        "mq-9b",
+        "tb2",
+        "nauru-500c"
+      ],
+      "cases": [
+        "enchentes-rs"
+      ],
+      "refs": [
+        "black",
+        "hermes",
+        "mq9",
+        "tb2",
+        "ecosystem"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "Drones militares não formam uma única categoria tecnológica. Há equipamentos muito pequenos e aeronaves de grande permanência. Hoje vamos comparar os requisitos que explicam essa diversidade."
+        ],
+        [
+          "Instrutor",
+          "O Black Hornet mostra miniaturização. O Hermes 900 e o MQ-9B mostram outra escala de missão, com estação, enlaces, sensores e logística. O conjunto é bem maior que a aeronave."
+        ],
+        [
+          "Newton",
+          "MALE significa média altitude e longa permanência. Essa descrição ajuda a entender a arquitetura, mas não substitui a identificação da versão e da configuração."
+        ],
+        [
+          "Instrutor",
+          "Também precisamos separar capacidade anunciada, uso documentado e interpretação. No catálogo, mantivemos essa distinção e evitamos combinar especificações de variantes."
+        ],
+        [
+          "Newton",
+          "Alguns sistemas coletam informação; outros também podem ser configurados para emprego armado. Essa diferença de finalidade exige discussão de supervisão, responsabilidade e proteção de civis."
+        ],
+        [
+          "Instrutor",
+          "Na bancada do curso, a atividade será comparar requisitos e sensores. Não simularemos emprego ofensivo: o objetivo é compreender engenharia e as decisões que delimitam sua aplicação."
+        ],
+        [
+          "Newton",
+          "A notícia sobre ecossistemas não tripulados permite falar de integração em rede. Como é um texto de fabricante, suas afirmações são ponto de partida para análise, não conclusão independente."
+        ],
+        [
+          "Instrutor",
+          "A ponte com as aplicações civis está em energia, confiabilidade, sensores e comunicação. A finalidade e o enquadramento operacional continuam próprios de cada contexto."
+        ]
+      ],
+      "demo": [
+        "Comparar quatro fichas: nano, VTOL brasileiro, MALE e plataforma civil.",
+        "Preencher matriz de missão, sensor, autonomia declarada, infraestrutura e responsabilidade.",
+        "Debater uma hipótese de erro de identificação sem discutir emprego de armas."
+      ],
+      "exercise": "Que comparação é mais útil: tamanho da aeronave ou relação entre missão, sensor, permanência e infraestrutura?",
+      "answer": "A relação sistêmica. Tamanho ajuda a caracterizar a plataforma, mas não informa sozinho a utilidade da missão nem a qualidade da evidência.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    },
+    {
+      "n": 12,
+      "slug": "autonomia-e-futuro",
+      "title": "Autonomia, IA e o próximo voo",
+      "subtitle": "Simular, validar e aprender com falhas antes de ampliar a missão.",
+      "base": "Encontros 10–12 • contingências, operação integrada e debrief",
+      "goals": [
+        "Distinguir automação de autonomia.",
+        "Planejar um ensaio seguro em simulação.",
+        "Usar debrief e análise de falhas para produzir aprendizado."
+      ],
+      "reading": [
+        "Uma missão por pontos programados automatiza uma sequência; autonomia inclui adaptar decisões dentro de limites. Em ambos os casos, a confiabilidade precisa ser avaliada. IA pode auxiliar detecção, mas resultados variam com contexto e dados.",
+        "O Ingenuity oferece um caso de processamento embarcado e investigação de falha. PX4 e QGroundControl permitem estudar missões em ambiente simulado. A prova de conceito deve explicitar hipótese, condições de teste, resultados e limite do que foi demonstrado."
+      ],
+      "models": [
+        "ingenuity",
+        "matrice-4t",
+        "anafi-ai"
+      ],
+      "cases": [
+        "ingenuity"
+      ],
+      "refs": [
+        "nasa",
+        "nasa-invest",
+        "px4",
+        "qgc",
+        "5g"
+      ],
+      "dialogue": [
+        [
+          "Newton",
+          "O próximo passo dos drones envolve autonomia e inteligência embarcada. Mas antes de aumentar a complexidade, precisamos perguntar: como vamos verificar que o sistema responde bem ao que não esperávamos?"
+        ],
+        [
+          "Instrutor",
+          "Começamos pela simulação. Com ferramentas compatíveis, podemos observar missões, telemetria e respostas a condições de teste sem colocar uma aeronave real no espaço aéreo."
+        ],
+        [
+          "Newton",
+          "Automatizar uma sequência não é o mesmo que adaptar decisões. Se a percepção falhar, o sistema precisa reconhecer sua limitação e responder dentro de condições previstas."
+        ],
+        [
+          "Instrutor",
+          "No exercício, vamos registrar o que esperávamos, o que ocorreu e o que pode ser concluído. Um teste que funciona uma vez não valida todos os cenários."
+        ],
+        [
+          "Newton",
+          "O caso do Ingenuity mostra o valor de investigar falhas. A narrativa inicial de um acidente não substitui a análise posterior dos dados. É preciso revisar hipóteses conforme a evidência."
+        ],
+        [
+          "Instrutor",
+          "Também faremos um debrief. Qual etapa consumiu mais tempo? Qual informação faltou? O que seria necessário antes de uma próxima missão? Essas respostas viram melhoria de procedimento."
+        ],
+        [
+          "Newton",
+          "Para os engenheirandos, a série pode abrir projetos em sensores, telemetria, controle, visão e sistemas embarcados. O projeto ganha força quando a pergunta é mensurável e a validação é honesta."
+        ],
+        [
+          "Instrutor",
+          "Drones Muito Além do Voo termina aqui como série inicial, mas o material continua disponível para consulta. A ideia é voar com propósito, entregar evidência e aprender com cada missão."
+        ]
+      ],
+      "demo": [
+        "Mostrar a documentação oficial de SITL e QGroundControl.",
+        "Executar apenas em simulador uma missão simples de referência; registrar a versão usada.",
+        "Preencher debrief: hipótese, resultado, limitações e próxima verificação."
+      ],
+      "exercise": "Uma detecção por IA funcionou em dez imagens de um ambiente. Isso comprova desempenho em qualquer local?",
+      "answer": "Não. É necessário avaliar representatividade, condições de captura, erros e critérios de decisão. Um ensaio restrito sustenta uma conclusão restrita.",
+      "minutes": "6–9 min, incluindo demonstração",
+      "video_url": null
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-07-01",
+      "title": "ICA 100-40/2026 entra em vigor",
+      "tag": "Regulação",
+      "refs": [
+        "ica",
+        "decea"
+      ],
+      "summary": "A edição de 2026 atualiza os procedimentos de acesso ao espaço aéreo por aeronaves não tripuladas.",
+      "question": "Qual condição de sua missão depende da autorização de acesso?",
+      "ep": 3
+    },
+    {
+      "date": "2026-06-16",
+      "title": "ANAC publica as Resoluções 805 e 806",
+      "tag": "Regulação",
+      "refs": [
+        "805",
+        "806"
+      ],
+      "summary": "O novo marco separa o RBAC 100 e as regras específicas de UA até 250 g e aeromodelos nas condições previstas.",
+      "question": "Como conferir aplicabilidade e transição sem resumir a regra a um número de massa?",
+      "ep": 3
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Walmart anuncia um milhão de entregas por drones",
+      "tag": "Logística",
+      "refs": [
+        "walmart"
+      ],
+      "summary": "A empresa divulga volume acumulado de entregas e operação com parceiros como Wing e Zipline.",
+      "question": "Quais denominadores faltam para comparar custo, confiabilidade e eficiência?",
+      "ep": 10
+    },
+    {
+      "date": "2026-01-22",
+      "title": "Elbit apresenta sua visão de um ecossistema não tripulado",
+      "tag": "Defesa",
+      "refs": [
+        "ecosystem"
+      ],
+      "summary": "Artigo do fabricante discute integração de plataformas aéreas, terrestres e marítimas.",
+      "question": "Que partes da integração são demonstradas e que partes são visão comercial?",
+      "ep": 11
+    },
+    {
+      "date": "2025-06-10",
+      "title": "DJI lança a Matrice 400",
+      "tag": "Engenharia",
+      "refs": [
+        "launch400"
+      ],
+      "summary": "O anúncio destaca permanência, cargas úteis e sensores de obstáculos numa plataforma de trabalho empresarial.",
+      "question": "Qual combinação real de payload e condições sustentaria o tempo necessário à missão?",
+      "ep": 4
+    },
+    {
+      "date": "2025-05-07",
+      "title": "Black Hornet 4 recebe atualização de sistema",
+      "tag": "Defesa",
+      "refs": [
+        "black-update"
+      ],
+      "summary": "A FLIR anuncia mudanças em comunicação, estação de controle e características de uso.",
+      "question": "Por que autonomia da estação e ergonomia também entram na especificação de um UAS?",
+      "ep": 11
+    },
+    {
+      "date": "2025-01-08",
+      "title": "DJI anuncia a Matrice 4 Series",
+      "tag": "Sensores",
+      "refs": [
+        "launch4"
+      ],
+      "summary": "A série estreia com variantes 4E e 4T e funções de detecção e medição assistidas.",
+      "question": "O que uma detecção automática ainda precisa confirmar antes de virar decisão?",
+      "ep": 6
+    },
+    {
+      "date": "2024-01-25",
+      "title": "NASA anuncia o encerramento da missão Ingenuity",
+      "tag": "Marco histórico",
+      "refs": [
+        "nasa",
+        "nasa-invest"
+      ],
+      "summary": "Após 72 voos, a missão termina com danos nas pás; uma investigação posterior acrescenta análise técnica.",
+      "question": "Como separar hipótese inicial e conclusão posterior de uma investigação?",
+      "ep": 12
+    }
+  ],
+  "glossary": [
+    [
+      "UA",
+      "Aeronave não tripulada; o veículo aéreo."
+    ],
+    [
+      "UAS",
+      "Sistema: aeronave e elementos associados, incluindo estação e enlaces."
+    ],
+    [
+      "RPA",
+      "Aeronave pilotada remotamente."
+    ],
+    [
+      "VLOS",
+      "Operação com contato visual direto nas condições da norma aplicável."
+    ],
+    [
+      "EVLOS",
+      "Contato visual apoiado por observadores nas condições da norma."
+    ],
+    [
+      "BVLOS",
+      "Operação além da linha de visada visual; capacidade de rádio não concede autorização."
+    ],
+    [
+      "GNSS",
+      "Família de sistemas de navegação por satélite, como GPS; não é conexão de internet."
+    ],
+    [
+      "RTK / PPK",
+      "Métodos de posicionamento relativo; não garantem sozinhos a exatidão do mapa."
+    ],
+    [
+      "GSD",
+      "Distância amostrada no terreno por pixel em uma geometria de aquisição."
+    ],
+    [
+      "RGB",
+      "Imagem em bandas do espectro visível."
+    ],
+    [
+      "EO/IR",
+      "Sensores eletro-ópticos e infravermelhos."
+    ],
+    [
+      "LiDAR",
+      "Medição por luz laser para representar distâncias e geometria."
+    ],
+    [
+      "SLAM",
+      "Localização e mapeamento simultâneos."
+    ],
+    [
+      "ISR",
+      "Inteligência, vigilância e reconhecimento."
+    ],
+    [
+      "MALE",
+      "Média altitude e longa permanência."
+    ],
+    [
+      "VTOL",
+      "Decolagem e pouso verticais."
+    ],
+    [
+      "Payload",
+      "Carga útil da missão, como sensor ou outro equipamento."
+    ],
+    [
+      "RTH",
+      "Return to Home; retorno ao ponto de referência conforme recursos e configuração."
+    ],
+    [
+      "SITL",
+      "Software in the Loop: execução do software com um ambiente simulado."
+    ],
+    [
+      "GO / NO-GO",
+      "Decisão justificada de iniciar ou suspender a missão."
+    ],
+    [
+      "Debrief",
+      "Revisão após a atividade: resultado, ocorrências, limites e ações para a próxima missão."
+    ]
+  ],
+  "checklist": [
+    "Missão e evidência esperada definidas; critério de conclusão acordado.",
+    "Enquadramento, documentos, acesso ao espaço aéreo e homologação conferidos conforme aplicabilidade.",
+    "Manual, configuração, atualização e aptidão do equipamento conferidos.",
+    "Piloto remoto e observador designados; comunicação ensaiada.",
+    "Local, terceiros, acesso e condições de uso avaliados.",
+    "Clima, vento, visibilidade e interferências avaliados segundo critérios da missão e do manual.",
+    "Baterias, hélices, sensores, armazenamento e controle conferidos.",
+    "Ponto de referência, comportamento de retorno e limites da operação compreendidos.",
+    "Pouso alternativo, critérios de interrupção e contingências combinados.",
+    "Registro da decisão GO/NO-GO e das pendências concluído antes da decolagem.",
+    "Após atividade: arquivos, metadados, ocorrências e debrief registrados."
+  ]
+}
