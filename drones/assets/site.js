@@ -1,3 +1,5 @@
 'use strict';
 const search=document.querySelector('#model-search');
 if(search){let sector='Todos';const cards=[...document.querySelectorAll('.model-card')],buttons=[...document.querySelectorAll('[data-filter]')];const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();function filter(){let n=0;const q=normalize(search.value.trim());for(const c of cards){const show=(sector==='Todos'||c.dataset.sector===sector)&&normalize(c.dataset.search).includes(q);c.hidden=!show;if(show)n++;}document.querySelector('#model-count').textContent=`${n} ${n===1?'modelo':'modelos'}`;document.querySelector('#model-empty').hidden=n!==0;}search.addEventListener('input',filter);for(const b of buttons)b.addEventListener('click',()=>{sector=b.dataset.filter;buttons.forEach(x=>x.setAttribute('aria-pressed',String(x===b)));filter();});}
+
+for(const button of document.querySelectorAll('.youtube-launch')){button.addEventListener('click',()=>{const player=button.closest('.youtube-preview').querySelector('iframe');player.src=player.dataset.youtubeSrc;button.hidden=true;player.hidden=false;});}
