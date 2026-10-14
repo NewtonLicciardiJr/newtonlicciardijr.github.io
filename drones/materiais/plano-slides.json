@@ -1,0 +1,547 @@
+{
+  "title": "Drones Muito Além do Voo",
+  "edition": "Apoio visual 1.0",
+  "created": "2026-10-13",
+  "source_content_date": "2026-10-09",
+  "slides": 37,
+  "episodes": [
+    {
+      "n": 1,
+      "first_slide": 2,
+      "last_slide": 4,
+      "title": "O drone é só uma parte do sistema",
+      "concept": "A missão define a informação que o sistema precisa entregar",
+      "body": [
+        "A aeronave transporta sensores e executa uma trajetória.",
+        "O resultado precisa apoiar uma decisão verificável."
+      ],
+      "case": {
+        "headline": "A missão define a informação que o sistema precisa entregar",
+        "body": [
+          "A aeronave transporta sensores e executa uma trajetória.",
+          "O resultado precisa apoiar uma decisão verificável."
+        ],
+        "case_title": "Três plataformas, três contextos",
+        "columns": [
+          "Plataforma",
+          "Contexto",
+          "Informação discutida"
+        ],
+        "rows": [
+          [
+            "DJI Mini 4 Pro",
+            "Fotografia e inspeção visual",
+            "Imagem próxima do objeto"
+          ],
+          [
+            "Hermes 900 / RQ-900",
+            "Vigilância e reconhecimento",
+            "Consciência situacional"
+          ],
+          [
+            "NASA Ingenuity",
+            "Pesquisa em Marte",
+            "Navegação e aprendizado com falhas"
+          ]
+        ],
+        "caption": "Comparação de funções. As plataformas seguem requisitos e condições próprios."
+      },
+      "question": "Para inspeção de telhado, cobertura vegetal e divulgação de um evento, definir uma pergunta e uma evidência para cada missão.",
+      "notes": [
+        "Episódio 01: O drone é só uma parte do sistema\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontro 1 • fundamentos, missão e aplicações\n\n\n\nProf. Newton: Quando alguém fala em drone, muita gente imagina uma câmera voadora. Mas a pergunta que abre esta série é outra: qual problema esse voo resolve? É disso que trata Drones Muito Além do Voo.\n\nProfessor instrutor: Na prática, eu preciso saber o que vou entregar antes de decolar. Uma imagem panorâmica pode ser ótima para divulgação e insuficiente para identificar uma fissura. O planejamento começa pela informação desejada.\n\nProf. Newton: Observe estes três exemplos: um pequeno quadricóptero, uma aeronave de vigilância e um helicóptero de pesquisa em Marte. A arquitetura muda porque a missão muda. Não existe um único drone ideal para tudo.\n\n\n\nLeitura de apoio:\n\nO ponto de partida de uma missão é a pergunta que precisa ser respondida. Inspecionar um telhado, acompanhar uma obra e apoiar um resgate podem usar imagens aéreas, mas pedem sensores, enquadramentos, prazos e validações distintos.\n\nO sistema reúne aeronave, energia, sensores, estação de controle, enlace e pessoas. A informação passa por uma cadeia: requisito, aquisição, processamento, interpretação e entrega. Uma falha em qualquer etapa pode inutilizar um voo tecnicamente correto.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Mini 4 Pro — especificações [Fabricante]: https://www.dji.com/mini-4-pro/specs\n\nElbit Systems • Hermes 900 [Fabricante]: https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900\n\nNASA • encerramento da missão Ingenuity [Agência de pesquisa]: https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/01-muito-alem-do-voo.html",
+        "Episódio 01: O drone é só uma parte do sistema\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontro 1 • fundamentos, missão e aplicações\n\n\n\nProfessor instrutor: Também não existe missão feita só pela aeronave. Bateria, rádio, controle, armazenamento e equipe precisam funcionar juntos. O observador participa da segurança, e o piloto precisa saber quando interromper.\n\nProf. Newton: Nossa régua será simples: requisito, sensor, evidência e decisão. Se a ligação entre eles estiver fraca, é hora de revisar a missão. Tecnologia cara não conserta uma pergunta mal formulada.\n\nProfessor instrutor: Vamos usar um exemplo curto: registrar uma área delimitada. Antes do voo, mostramos a imagem esperada, verificamos se podemos operar no local e combinamos o que nos faria parar.\n\n\n\nDemonstração:\n\nExibir uma fotografia já disponível e perguntar qual decisão ela permite.\n\nColocar aeronave desligada, controle e bateria sobre a bancada; identificar componentes.\n\nDesenhar no quadro a cadeia requisito → sensor → dado → interpretação → decisão.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Mini 4 Pro — especificações [Fabricante]: https://www.dji.com/mini-4-pro/specs\n\nElbit Systems • Hermes 900 [Fabricante]: https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900\n\nNASA • encerramento da missão Ingenuity [Agência de pesquisa]: https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/01-muito-alem-do-voo.html",
+        "Episódio 01: O drone é só uma parte do sistema\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontro 1 • fundamentos, missão e aplicações\n\n\n\nProf. Newton: Essa lógica serve também para parceiros da universidade: começa na necessidade e termina em uma entrega verificável. O voo é o caminho para obter informação.\n\nProfessor instrutor: No próximo episódio, abriremos a aeronave conceitualmente: como quatro motores, sensores e uma controladora mantêm tudo isso no ar.\n\n\n\nResposta comentada: Inspeção pede detalhe e localização; vegetação pede padrão e validação; divulgação pede composição visual e autorização de uso de imagem. Não presumir que uma câmera atende igualmente às três.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Mini 4 Pro — especificações [Fabricante]: https://www.dji.com/mini-4-pro/specs\n\nElbit Systems • Hermes 900 [Fabricante]: https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900\n\nNASA • encerramento da missão Ingenuity [Agência de pesquisa]: https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/01-muito-alem-do-voo.html"
+      ]
+    },
+    {
+      "n": 2,
+      "first_slide": 5,
+      "last_slide": 7,
+      "title": "Como um drone voa e se orienta",
+      "concept": "A inclinação muda a direção da força de empuxo",
+      "body": [
+        "O controle combina sensores com ajustes nos motores.",
+        "A componente vertical precisa sustentar o peso."
+      ],
+      "case": {
+        "headline": "A inclinação muda a direção da força de empuxo",
+        "body": [
+          "O controle combina sensores com ajustes nos motores.",
+          "A componente vertical precisa sustentar o peso."
+        ],
+        "case_title": "Componentes do empuxo",
+        "columns": [
+          "Grandeza",
+          "Cálculo",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Empuxo total",
+            "T = 10 N",
+            "10 N"
+          ],
+          [
+            "Inclinação",
+            "θ = 30°",
+            "30°"
+          ],
+          [
+            "Componente vertical",
+            "T cos(θ)",
+            "8,66 N"
+          ],
+          [
+            "Componente horizontal",
+            "T sen(θ)",
+            "5,00 N"
+          ]
+        ],
+        "caption": "Exemplo sintético de mecânica. Sem arrasto e sem aceleração angular."
+      },
+      "question": "Por que inclinar a aeronave pode reduzir a componente vertical do empuxo se o empuxo total não mudar?",
+      "notes": [
+        "Episódio 02: Como um drone voa e se orienta\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontro 2 • comandos, simulador e hover\n\n\n\nProf. Newton: Como quatro hélices mantêm uma aeronave parada? A resposta passa por força, torque e correção contínua. Um drone estabilizado parece quieto, mas o sistema de controle está trabalhando o tempo todo.\n\nProfessor instrutor: Antes de ligar qualquer motor, vamos identificar frente, hélices e comandos. Usaremos uma aeronave desligada e a tela do simulador. Aqui, o aprendizado não depende de hélices girando perto da bancada.\n\nProf. Newton: Para subir, o conjunto precisa produzir força vertical suficiente. Para deslocar, a aeronave inclina e passa a ter uma componente horizontal. Rolagem, arfagem e guinada descrevem movimentos de orientação.\n\n\n\nLeitura de apoio:\n\nEm um quadricóptero, empuxo total e distribuição entre motores participam dos movimentos. Inclinar a aeronave produz uma componente horizontal da força. Atitude descreve orientação; posição descreve onde ela está.\n\nA controladora combina medições, estima o estado e comanda atuadores. Uma leitura de sensor possui ruído e limitações. A estabilidade que o operador observa resulta de correções repetidas e não de uma capacidade de equilíbrio independente do controle.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Phantom 4 — suporte e especificações [Fabricante]: https://www.dji.com/support/product/phantom-4\n\nDJI • Mini 4 Pro — especificações [Fabricante]: https://www.dji.com/mini-4-pro/specs\n\nTeledyne FLIR • Black Hornet 4 [Fabricante]: https://defense.flir.com/defense-products/black-hornet-4-prs/\n\nPX4 • documentação de simulação [Documentação técnica]: https://docs.px4.io/main/en/simulation/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/02-como-um-drone-voa.html",
+        "Episódio 02: Como um drone voa e se orienta\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontro 2 • comandos, simulador e hover\n\n\n\nProfessor instrutor: No controle, trocar a referência entre a frente do drone e a frente do piloto costuma confundir iniciantes. Por isso, começamos com movimentos curtos e orientação bem definida no simulador.\n\nProf. Newton: Giroscópio e acelerômetro ajudam a estimar a dinâmica; outros recursos participam da posição e navegação. O GNSS não é a mesma coisa que internet, e sensores visuais dependem do ambiente.\n\nProfessor instrutor: Um Phantom 4 permite discutir essas camadas com um equipamento conhecido. Vamos observar telemetria, separar posição de atitude e comparar a resposta a pequenos comandos simulados.\n\n\n\nDemonstração:\n\nSem hélices energizadas, apontar sentido e função dos rotores.\n\nNo simulador, executar subida, rolagem, arfagem e guinada separadamente.\n\nMostrar telemetria e pedir que a turma identifique uma grandeza de atitude e uma de posição.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Phantom 4 — suporte e especificações [Fabricante]: https://www.dji.com/support/product/phantom-4\n\nDJI • Mini 4 Pro — especificações [Fabricante]: https://www.dji.com/mini-4-pro/specs\n\nTeledyne FLIR • Black Hornet 4 [Fabricante]: https://defense.flir.com/defense-products/black-hornet-4-prs/\n\nPX4 • documentação de simulação [Documentação técnica]: https://docs.px4.io/main/en/simulation/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/02-como-um-drone-voa.html",
+        "Episódio 02: Como um drone voa e se orienta\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontro 2 • comandos, simulador e hover\n\n\n\nProf. Newton: O objetivo é entender a cadeia medir, estimar, agir e conferir. Esse raciocínio reaparece em robótica, automação e sistemas embarcados.\n\nProfessor instrutor: Quando a aeronave parece estável, ainda precisamos manter atenção. A assistência facilita a operação, mas não substitui o conhecimento de seus limites.\n\n\n\nResposta comentada: A componente vertical é T·cos(θ). Ao inclinar, parte da força atua horizontalmente; o controle pode compensar elevando o empuxo total.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Phantom 4 — suporte e especificações [Fabricante]: https://www.dji.com/support/product/phantom-4\n\nDJI • Mini 4 Pro — especificações [Fabricante]: https://www.dji.com/mini-4-pro/specs\n\nTeledyne FLIR • Black Hornet 4 [Fabricante]: https://defense.flir.com/defense-products/black-hornet-4-prs/\n\nPX4 • documentação de simulação [Documentação técnica]: https://docs.px4.io/main/en/simulation/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/02-como-um-drone-voa.html"
+      ]
+    },
+    {
+      "n": 3,
+      "first_slide": 8,
+      "last_slide": 10,
+      "title": "Quem autoriza o quê no Brasil",
+      "concept": "O planejamento reúne requisitos de diferentes órgãos",
+      "body": [
+        "A ficha de alcance descreve uma capacidade técnica.",
+        "O enquadramento depende da missão e das condições de operação."
+      ],
+      "case": {
+        "headline": "O planejamento reúne requisitos de diferentes órgãos",
+        "body": [
+          "A ficha de alcance descreve uma capacidade técnica.",
+          "O enquadramento depende da missão e das condições de operação."
+        ],
+        "case_title": "Responsabilidades no Brasil",
+        "columns": [
+          "Órgão",
+          "Tema de consulta"
+        ],
+        "rows": [
+          [
+            "ANAC",
+            "Requisitos aplicáveis à aeronave, ao operador e à operação civil"
+          ],
+          [
+            "DECEA",
+            "Acesso e uso do espaço aéreo"
+          ],
+          [
+            "ANATEL",
+            "Conformidade e homologação dos equipamentos de telecomunicações"
+          ]
+        ],
+        "caption": "Referências de consulta. Conferir normas e condições aplicáveis antes da operação."
+      },
+      "question": "Um equipamento anuncia 20 km de comunicação. Essa ficha basta para autorizar um voo a 20 km?",
+      "notes": [
+        "Episódio 03: Quem autoriza o quê no Brasil\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontros 3–4 • regras e enquadramento\n\n\n\nProf. Newton: Meu drone pesa pouco. Posso voar em qualquer lugar? Não. O peso é uma informação relevante, mas a missão também envolve finalidade, pessoas, espaço aéreo e equipamentos de comunicação.\n\nProfessor instrutor: Na preparação, consultamos o enquadramento e as condições reais. Uma autorização pendente não é um sinal verde. E o desbloqueio de uma restrição no aplicativo não substitui uma autorização pública.\n\nProf. Newton: Vamos abrir as fontes oficiais. A ANAC publicou as Resoluções 805 e 806 em junho de 2026. O DECEA tem sua regulamentação de acesso ao espaço aéreo. A ANATEL participa pela conformidade dos equipamentos.\n\n\n\nLeitura de apoio:\n\nA Resolução 805/2026 aprovou o RBAC 100 em substituição ao RBAC-E 94 e incluiu disposições de transição. A Resolução 806/2026 trata de UA até 250 g e aeromodelos nas condições de seu texto. São referências de enquadramento, e não uma autorização individual de missão.\n\nDECEA trata de acesso ao espaço aéreo; ANATEL trata da conformidade de produtos e telecomunicações. A norma aplicável, o manual, o local e as condições da autorização precisam ser compatíveis. Este episódio ensina o percurso de consulta, sem resumir toda a regulamentação em uma regra de peso.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nANAC • Resolução 805/2026 [Norma]: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-805\n\nANAC • Resolução 806/2026 [Norma]: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-806\n\nDECEA • ICA 100-40/2026 [Norma]: https://www.gov.br/defesa/pt-br/assuntos/aerolevantamento/arquivos/2026/ica-100-40-publicada-port-2094-dnor8-18-03-2026-bca-058-30-03-2026.pdf\n\nDECEA • Portal Drone UAS [Órgão público]: https://www.decea.mil.br/drone/\n\nANATEL • certificação de produtos [Órgão público]: https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/03-regras-e-responsabilidades.html\n\nANAC e DECEA reconferidos em 13/10/2026. Resolução 806 e acervo oficial ANAC 2026.",
+        "Episódio 03: Quem autoriza o quê no Brasil\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontros 3–4 • regras e enquadramento\n\n\n\nProfessor instrutor: O exercício será identificar o documento e a responsabilidade, não decorar uma lista sem contexto. Qual norma se aplica à aeronave? Qual condição se aplica ao local? O que precisa estar disponível à equipe?\n\nProf. Newton: Regras de transição também contam. Não se deve apresentar um prazo como permanente. Ao gravar ou atualizar esta série, conferimos novamente os textos oficiais.\n\nProfessor instrutor: Na prática do curso, trabalhamos com uma missão curta e supervisionada. Se o cenário exigir sair do enquadramento previsto, reformulamos a missão ou encaminhamos a análise adequada.\n\n\n\nDemonstração:\n\nAbrir Resoluções 805 e 806 e mostrar título, data e aplicabilidade.\n\nApresentar uma autorização fictícia claramente marcada, sem simular documento oficial.\n\nRelacionar três pendências a seus responsáveis: enquadramento, espaço aéreo e homologação.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nANAC • Resolução 805/2026 [Norma]: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-805\n\nANAC • Resolução 806/2026 [Norma]: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-806\n\nDECEA • ICA 100-40/2026 [Norma]: https://www.gov.br/defesa/pt-br/assuntos/aerolevantamento/arquivos/2026/ica-100-40-publicada-port-2094-dnor8-18-03-2026-bca-058-30-03-2026.pdf\n\nDECEA • Portal Drone UAS [Órgão público]: https://www.decea.mil.br/drone/\n\nANATEL • certificação de produtos [Órgão público]: https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/03-regras-e-responsabilidades.html\n\nANAC e DECEA reconferidos em 13/10/2026. Resolução 806 e acervo oficial ANAC 2026.",
+        "Episódio 03: Quem autoriza o quê no Brasil\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontros 3–4 • regras e enquadramento\n\n\n\nProf. Newton: O alcance que aparece no catálogo mostra uma capacidade de comunicação em condições de teste. Ele não concede direito de voar a essa distância.\n\nProfessor instrutor: O checklist começa antes da decolagem. O resultado pode ser GO, NO-GO ou migração para simulação. Saber decidir é parte da formação.\n\n\n\nResposta comentada: Não. Capacidade do enlace não resolve enquadramento da operação, espaço aéreo, terceiros, manual e condições de autorização.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nANAC • Resolução 805/2026 [Norma]: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-805\n\nANAC • Resolução 806/2026 [Norma]: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-806\n\nDECEA • ICA 100-40/2026 [Norma]: https://www.gov.br/defesa/pt-br/assuntos/aerolevantamento/arquivos/2026/ica-100-40-publicada-port-2094-dnor8-18-03-2026-bca-058-30-03-2026.pdf\n\nDECEA • Portal Drone UAS [Órgão público]: https://www.decea.mil.br/drone/\n\nANATEL • certificação de produtos [Órgão público]: https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/03-regras-e-responsabilidades.html\n\nANAC e DECEA reconferidos em 13/10/2026. Resolução 806 e acervo oficial ANAC 2026."
+      ]
+    },
+    {
+      "n": 4,
+      "first_slide": 11,
+      "last_slide": 13,
+      "title": "Qual drone combina com a missão?",
+      "concept": "A plataforma acompanha os requisitos da tarefa",
+      "body": [
+        "O interior de um tanque exige proteção e localização em ambiente confinado.",
+        "Uma área extensa exige cobertura e geometria de aquisição."
+      ],
+      "case": {
+        "headline": "A plataforma acompanha os requisitos da tarefa",
+        "body": [
+          "O interior de um tanque exige proteção e localização em ambiente confinado.",
+          "Uma área extensa exige cobertura e geometria de aquisição."
+        ],
+        "case_title": "Escolha de plataforma por missão",
+        "columns": [
+          "Tarefa",
+          "Exemplo",
+          "Questão de engenharia"
+        ],
+        "rows": [
+          [
+            "Treino e imagem RGB",
+            "Phantom 4",
+            "Condição do equipamento legado"
+          ],
+          [
+            "Fotogrametria",
+            "Mavic 3E",
+            "Geometria e controle da qualidade"
+          ],
+          [
+            "Inspeção interna",
+            "Elios 3",
+            "Proteção e localização por SLAM"
+          ],
+          [
+            "Levantamento extenso",
+            "WingtraRAY",
+            "Cobertura em voo de cruzeiro"
+          ]
+        ],
+        "caption": "Exemplos do catálogo. A configuração e as condições reais completam a escolha."
+      },
+      "question": "Uma mesma plataforma deve inspecionar o interior de um tanque e mapear centenas de hectares?",
+      "notes": [
+        "Episódio 04: Qual drone combina com a missão?\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 6 • aplicações e aeronave pronta\n\n\n\nProf. Newton: Qual é o melhor drone? Sem a missão, essa pergunta fica incompleta. Vamos substituir ranking por requisito: o que precisa ser observado, com que detalhe e em qual ambiente?\n\nProfessor instrutor: Para começar a treinar, posso usar um equipamento disponível e apto. Para mapear uma área extensa ou entrar em um espaço confinado, eu preciso de outra arquitetura e de outra preparação.\n\nProf. Newton: O quadricóptero consegue permanecer em um ponto. A asa fixa obtém sustentação em cruzeiro pelas asas. Um VTOL precisa lidar com decolagem vertical e voo de cruzeiro. Cada solução cobra seu preço em complexidade.\n\n\n\nLeitura de apoio:\n\nUm multirrotor pode permanecer em um ponto; uma asa fixa favorece deslocamento sustentado; um VTOL combina fases de voo com complexidades próprias. A escolha deve considerar decolagem, pouso, área, sensores, equipe, manutenção e produto final.\n\nTempo máximo de voo não deve ser tratado como tempo útil de missão. Acessórios mudam massa e consumo. Um equipamento já existente pode atender ao objetivo introdutório, desde que esteja apto e sua informação seja suficiente.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Phantom 4 — suporte e especificações [Fabricante]: https://www.dji.com/support/product/phantom-4\n\nDJI • Mavic 3 Enterprise Series [Fabricante]: https://enterprise.dji.com/mavic-3-enterprise\n\nFlyability • Elios 3 [Fabricante]: https://www.flyability.com/elios-3\n\nWingtra • WingtraRAY [Fabricante]: https://wingtra.com/ray/\n\nXmobots • Nauru 500C ISR [Fabricante brasileiro]: https://xmobots.com.br/produto/nauru-500c-isr/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/04-escolher-o-drone.html",
+        "Episódio 04: Qual drone combina com a missão?\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 6 • aplicações e aeronave pronta\n\n\n\nProfessor instrutor: Também precisamos verificar o ambiente. Vento, obstáculos, acesso, área de pouso, pessoas e capacidade da equipe participam da seleção. Um drone de inspeção interna não é uma versão universal de um drone de filmagem.\n\nProf. Newton: No catálogo, vamos olhar missão, sensor, limite e fonte. Megapixels, sozinhos, não dizem a qualidade de um mapa, de um diagnóstico ou de uma identificação.\n\nProfessor instrutor: Vamos comparar o Phantom 4, o Mavic 3E e o Elios 3 com três tarefas. A ideia é justificar a adequação, sem produzir uma recomendação de compra fora do contexto.\n\n\n\nDemonstração:\n\nUsar as fichas do catálogo e selecionar três plataformas para três tarefas.\n\nPreencher matriz com sensor, ambiente, equipe, autonomia útil e validação.\n\nExplicar por que o maior número de câmera ou alcance pode ser irrelevante para a pergunta.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Phantom 4 — suporte e especificações [Fabricante]: https://www.dji.com/support/product/phantom-4\n\nDJI • Mavic 3 Enterprise Series [Fabricante]: https://enterprise.dji.com/mavic-3-enterprise\n\nFlyability • Elios 3 [Fabricante]: https://www.flyability.com/elios-3\n\nWingtra • WingtraRAY [Fabricante]: https://wingtra.com/ray/\n\nXmobots • Nauru 500C ISR [Fabricante brasileiro]: https://xmobots.com.br/produto/nauru-500c-isr/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/04-escolher-o-drone.html",
+        "Episódio 04: Qual drone combina com a missão?\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 6 • aplicações e aeronave pronta\n\n\n\nProf. Newton: Incluímos ainda exemplos brasileiros, como o Nauru 500C ISR. O interesse é entender integração tecnológica e configuração, evitando transferir autorizações de uma plataforma para qualquer operador.\n\nProfessor instrutor: A escolha final precisa mostrar o que o sistema entrega e onde ele deixa de atender. Conhecer esse limite é tão útil quanto conhecer uma função nova.\n\n\n\nResposta comentada: Não necessariamente. Os requisitos de proteção, localização, permanência e cobertura apontam para escolhas especializadas.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Phantom 4 — suporte e especificações [Fabricante]: https://www.dji.com/support/product/phantom-4\n\nDJI • Mavic 3 Enterprise Series [Fabricante]: https://enterprise.dji.com/mavic-3-enterprise\n\nFlyability • Elios 3 [Fabricante]: https://www.flyability.com/elios-3\n\nWingtra • WingtraRAY [Fabricante]: https://wingtra.com/ray/\n\nXmobots • Nauru 500C ISR [Fabricante brasileiro]: https://xmobots.com.br/produto/nauru-500c-isr/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/04-escolher-o-drone.html"
+      ]
+    },
+    {
+      "n": 5,
+      "first_slide": 14,
+      "last_slide": 16,
+      "title": "GO ou NO-GO: a decisão antes de decolar",
+      "concept": "O briefing transforma riscos em critérios de decisão",
+      "body": [
+        "A equipe combina papéis, área, retorno e condições de interrupção.",
+        "A margem de energia precisa considerar a missão completa."
+      ],
+      "case": {
+        "headline": "O briefing transforma riscos em critérios de decisão",
+        "body": [
+          "A equipe combina papéis, área, retorno e condições de interrupção.",
+          "A margem de energia precisa considerar a missão completa."
+        ],
+        "case_title": "Uma conta didática de autonomia",
+        "columns": [
+          "Etapa",
+          "Cálculo",
+          "Resultado"
+        ],
+        "rows": [
+          [
+            "Energia útil e potência média",
+            "80 Wh / 240 W",
+            "1/3 h"
+          ],
+          [
+            "Tempo estimado",
+            "(1/3 h) × 60 min/h",
+            "20 min"
+          ],
+          [
+            "Reserva adotada no exercício",
+            "25% × 20 min",
+            "5 min"
+          ],
+          [
+            "Tempo antes dos deslocamentos",
+            "20 min − 5 min",
+            "15 min"
+          ]
+        ],
+        "caption": "Valores sintéticos. A reserva de 25% pertence ao exercício e não é regra universal."
+      },
+      "question": "No exemplo, se deslocamento de ida e volta consumir quatro minutos, quanto sobra para coleta?",
+      "notes": [
+        "Episódio 05: GO ou NO-GO: a decisão antes de decolar\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontros 5 e 8–9 • risco, missão curta e pré-voo\n\n\n\nProf. Newton: É possível pilotar bem e tomar uma decisão ruim antes do voo. Hoje vamos olhar para o que deve acontecer ainda em solo: objetivo, responsabilidades, condições e margens.\n\nProfessor instrutor: Eu começo pelo briefing. Quem está no comando? Onde está o observador? Qual é o limite da área? Onde vamos pousar? O que nos fará interromper? Todos precisam compreender as mesmas respostas.\n\nProf. Newton: Na energia, uma conta simples ajuda a pensar. Energia dividida por potência estima um tempo, mas não reproduz automaticamente o consumo real da aeronave. Vento, carga e manobras mudam o resultado.\n\n\n\nLeitura de apoio:\n\nO briefing estabelece objetivo, papéis, local, condição de retorno e comunicação. Um checklist é útil quando os itens são verificáveis. Escrever apenas “clima OK” esconde a ausência de um critério.\n\nExemplo sintético: bateria entrega 80 Wh úteis em um cenário estimado, com potência média de 240 W. A razão E/P dá 20 min. Reservar 25% nesse exercício deixa 15 min antes de descontar deslocamento. A reserva é hipótese pedagógica; operação real segue manual, ensaio e avaliação do cenário.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Phantom 4 — suporte e especificações [Fabricante]: https://www.dji.com/support/product/phantom-4\n\nDECEA • Portal Drone UAS [Órgão público]: https://www.decea.mil.br/drone/\n\nANAC • Resolução 805/2026 [Norma]: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-805\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/05-planejar-e-decidir.html",
+        "Episódio 05: GO ou NO-GO: a decisão antes de decolar\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontros 5 e 8–9 • risco, missão curta e pré-voo\n\n\n\nProfessor instrutor: Por isso, o número do catálogo não vira cronômetro da missão. A equipe considera retorno e contingência. Quando a margem deixa de ser suficiente, a tarefa pode terminar antes da imagem desejada.\n\nProf. Newton: Vamos usar valores fictícios e explicitar a hipótese. A conta serve para aprender unidades e margens. Não é uma prescrição de bateria para todo modelo.\n\nProfessor instrutor: O GO exige itens realmente conferidos. Se uma pessoa entrar na área, uma condição mudar ou surgir tráfego, a decisão precisa ser reavaliada. O checklist não congela o mundo.\n\n\n\nDemonstração:\n\nPreencher a ficha de missão disponível em Materiais.\n\nCalcular 80/240 h e discutir reserva e deslocamento.\n\nIntroduzir uma pendência fictícia e pedir nova decisão GO/NO-GO.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Phantom 4 — suporte e especificações [Fabricante]: https://www.dji.com/support/product/phantom-4\n\nDECEA • Portal Drone UAS [Órgão público]: https://www.decea.mil.br/drone/\n\nANAC • Resolução 805/2026 [Norma]: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-805\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/05-planejar-e-decidir.html",
+        "Episódio 05: GO ou NO-GO: a decisão antes de decolar\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontros 5 e 8–9 • risco, missão curta e pré-voo\n\n\n\nProf. Newton: Existe ainda o risco da pressão por gravar. A câmera não deve definir a segurança da operação. Na produção desta série, podemos substituir a prática por simulação sem perder o aprendizado.\n\nProfessor instrutor: Vamos mostrar um briefing curto, apontar uma pendência e decidir juntos. A resposta técnica pode ser NO-GO. Isso é competência, não fracasso.\n\n\n\nResposta comentada: Dos 15 min após a reserva didática, sobram 11 min. A estimativa não substitui medição de consumo nem limites do manual.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Phantom 4 — suporte e especificações [Fabricante]: https://www.dji.com/support/product/phantom-4\n\nDECEA • Portal Drone UAS [Órgão público]: https://www.decea.mil.br/drone/\n\nANAC • Resolução 805/2026 [Norma]: https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-805\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/05-planejar-e-decidir.html"
+      ]
+    },
+    {
+      "n": 6,
+      "first_slide": 17,
+      "last_slide": 19,
+      "title": "Da câmera ao dado confiável",
+      "concept": "Cada sensor responde a uma pergunta diferente",
+      "body": [
+        "O produto final depende da aquisição, do processamento e da validação.",
+        "GSD descreve amostragem no terreno. A exatidão precisa de verificação independente."
+      ],
+      "case": {
+        "headline": "Cada sensor responde a uma pergunta diferente",
+        "body": [
+          "O produto final depende da aquisição, do processamento e da validação.",
+          "GSD descreve amostragem no terreno. A exatidão precisa de verificação independente."
+        ],
+        "case_title": "Sensor e pergunta de investigação",
+        "columns": [
+          "Sensor",
+          "Pergunta que pode apoiar"
+        ],
+        "rows": [
+          [
+            "RGB",
+            "Há dano visível ou mudança de geometria?"
+          ],
+          [
+            "Térmico",
+            "Há uma anomalia de temperatura aparente?"
+          ],
+          [
+            "Multiespectral",
+            "Há um padrão de reflectância diferente?"
+          ],
+          [
+            "LiDAR",
+            "Qual é a geometria medida no ambiente?"
+          ]
+        ],
+        "caption": "A evidência depende de condições de aquisição, calibração e interpretação."
+      },
+      "question": "Se o GSD for 2 cm/pixel, posso declarar que todas as coordenadas têm erro de 2 cm?",
+      "notes": [
+        "Episódio 06: Da câmera ao dado confiável\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontro 11 • objetivo, coleta e evidência\n\n\n\nProf. Newton: Uma imagem bonita pode ser um dado ruim para uma medida. Hoje vamos trocar a pergunta “qual câmera tem mais pixels?” por “qual variável precisa ser observada?”.\n\nProfessor instrutor: Eu começo com uma imagem RGB e uma imagem térmica. A primeira mostra aparência; a segunda traz outro tipo de informação. A interpretação muda, e o contexto da captura precisa acompanhar os arquivos.\n\nProf. Newton: LiDAR entra pela geometria. Multispectral entra por bandas específicas. Nenhum sensor transforma sozinho uma observação em diagnóstico. É preciso método e uma verificação adequada.\n\n\n\nLeitura de apoio:\n\nRGB registra aparência em bandas visíveis; imagem térmica permite examinar padrões de temperatura aparente; multispectral observa bandas específicas; LiDAR mede distâncias para representar geometria. Essas informações podem se complementar, mas não são intercambiáveis.\n\nUma medida exige referência, unidade, método e incerteza. GSD é a amostragem no solo em um modelo geométrico; não é o erro final de posição. Preservar data, parâmetros e contexto permite avaliar se uma comparação é válida.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Mavic 3 Enterprise Series [Fabricante]: https://enterprise.dji.com/mavic-3-enterprise\n\nFlyability • Elios 3 [Fabricante]: https://www.flyability.com/elios-3\n\nDJI • Matrice 400 [Fabricante]: https://enterprise.dji.com/matrice-400\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/06-camera-ao-dado.html",
+        "Episódio 06: Da câmera ao dado confiável\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontro 11 • objetivo, coleta e evidência\n\n\n\nProfessor instrutor: Na coleta, também registramos configurações, horário e posição. Se duas campanhas forem feitas em condições incompatíveis, o resultado pode parecer mudança no objeto quando é mudança na aquisição.\n\nProf. Newton: Vamos calcular um GSD com números sintéticos. A fórmula relaciona altura, tamanho do pixel e distância focal. O resultado descreve amostragem e não garante a exatidão do mapa.\n\nProfessor instrutor: Para validar, precisamos de referências independentes e de critérios. Não basta que o software tenha concluído o processamento e produzido uma imagem convincente.\n\n\n\nDemonstração:\n\nMostrar os tipos de sensor com as fichas verificadas do catálogo.\n\nResolver o exemplo de GSD do caso Mapeamento.\n\nOrganizar três arquivos fictícios com nome, data, contexto e critério de validação.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Mavic 3 Enterprise Series [Fabricante]: https://enterprise.dji.com/mavic-3-enterprise\n\nFlyability • Elios 3 [Fabricante]: https://www.flyability.com/elios-3\n\nDJI • Matrice 400 [Fabricante]: https://enterprise.dji.com/matrice-400\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/06-camera-ao-dado.html",
+        "Episódio 06: Da câmera ao dado confiável\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontro 11 • objetivo, coleta e evidência\n\n\n\nProf. Newton: Essa é a diferença entre produzir dados e produzir evidência: outra pessoa deve conseguir compreender o método e os limites da conclusão.\n\nProfessor instrutor: Ao final, cada arquivo será acompanhado de uma pequena ficha. Parece detalhe, mas é o que permite usar a informação depois que o voo terminou.\n\n\n\nResposta comentada: Não. GSD e exatidão descrevem aspectos distintos. A estimativa do erro exige validação do produto e de seu referencial.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Mavic 3 Enterprise Series [Fabricante]: https://enterprise.dji.com/mavic-3-enterprise\n\nFlyability • Elios 3 [Fabricante]: https://www.flyability.com/elios-3\n\nDJI • Matrice 400 [Fabricante]: https://enterprise.dji.com/matrice-400\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/06-camera-ao-dado.html"
+      ]
+    },
+    {
+      "n": 7,
+      "first_slide": 20,
+      "last_slide": 22,
+      "title": "Drones na indústria, nas obras e na energia",
+      "concept": "A inspeção produz uma observação rastreável",
+      "body": [
+        "A equipe registra posição, horário, condições e identificação do componente.",
+        "A manutenção confirma hipóteses com evidência adicional."
+      ],
+      "case": {
+        "headline": "A inspeção produz uma observação rastreável",
+        "body": [
+          "A equipe registra posição, horário, condições e identificação do componente.",
+          "A manutenção confirma hipóteses com evidência adicional."
+        ],
+        "case_title": "Inspeção por drone em um FPSO",
+        "fact": "A Flyability relata o uso de drones de inspeção no processo de digitalização e inspeção de FPSOs da TotalEnergies.",
+        "questions": [
+          "Como localizar a observação no compartimento?",
+          "Que evidência a equipe de manutenção precisa receber?"
+        ],
+        "caption": "Caso documentado pelo fornecedor. FPSO é uma unidade flutuante de produção, armazenamento e transferência de petróleo."
+      },
+      "question": "Uma imagem mostra temperatura elevada em um módulo. Qual deve ser a próxima frase do relatório?",
+      "notes": [
+        "Episódio 07: Drones na indústria, nas obras e na energia\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 11 • aplicações e missão de engenharia\n\n\n\nProf. Newton: O drone pode aproximar um sensor de um ativo de difícil acesso. Mas a manutenção não precisa só de imagens: precisa saber qual ativo, qual ponto e qual decisão pode ser sustentada.\n\nProfessor instrutor: Em uma inspeção, eu preparo o percurso de aquisição e a identificação dos registros. Se houver uma observação relevante, ela precisa aparecer em um relatório que outra equipe consiga localizar.\n\nProf. Newton: Nos ambientes internos, a localização pode depender de recursos como SLAM. Na termografia, a interpretação depende das condições da superfície e da captura. São problemas tecnológicos distintos.\n\n\n\nLeitura de apoio:\n\nEm manutenção, a coleta deve identificar o ativo e permitir localizar a observação. Uma imagem de possível corrosão precisa de escala, contexto e encaminhamento. A decisão pertence ao processo técnico de inspeção.\n\nO caso Flyability/TotalEnergies permite discutir inspeção interna; o cenário solar permite discutir interpretação térmica. A vantagem proposta é obter informação com exposição controlada, mantendo claro o que o método consegue confirmar.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nFlyability • inspeção de petróleo e gás [Caso de fabricante]: https://www.flyability.com/oil-and-gas-drones\n\nFlyability • Elios 3 [Fabricante]: https://www.flyability.com/elios-3\n\nDJI • Mavic 3 Enterprise Series [Fabricante]: https://enterprise.dji.com/mavic-3-enterprise\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/07-inspecao-e-energia.html",
+        "Episódio 07: Drones na indústria, nas obras e na energia\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 11 • aplicações e missão de engenharia\n\n\n\nProfessor instrutor: Usaremos o caso documentado de FPSOs e um cenário solar fictício. Vamos marcar claramente o que a fonte relata e o que é análise pedagógica nossa.\n\nProf. Newton: Um ponto quente pode indicar uma hipótese. Uma imagem de uma área corroída pode orientar outra inspeção. Não devemos pular da observação para uma conclusão que o sensor não sustenta.\n\nProfessor instrutor: O relatório que vamos montar terá imagem, identificação, contexto, limitação e próximo passo. Sem isso, o cliente pode receber muitos arquivos e pouca informação útil.\n\n\n\nDemonstração:\n\nAbrir o caso FPSOs e identificar o tipo de fonte.\n\nMontar um registro de inspeção com imagem demonstrativa.\n\nSeparar em três colunas observação, hipótese e confirmação necessária.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nFlyability • inspeção de petróleo e gás [Caso de fabricante]: https://www.flyability.com/oil-and-gas-drones\n\nFlyability • Elios 3 [Fabricante]: https://www.flyability.com/elios-3\n\nDJI • Mavic 3 Enterprise Series [Fabricante]: https://enterprise.dji.com/mavic-3-enterprise\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/07-inspecao-e-energia.html",
+        "Episódio 07: Drones na indústria, nas obras e na energia\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 11 • aplicações e missão de engenharia\n\n\n\nProf. Newton: É aqui que a engenharia conecta a aquisição ao processo da empresa. Equipamento, procedimento e julgamento profissional precisam conversar.\n\nProfessor instrutor: O resultado do exercício será uma ficha de inspeção, sem ensaio em instalação real. Depois, a equipe decide quais condições seriam necessárias para uma aplicação de campo.\n\n\n\nResposta comentada: Registrar a observação com contexto e sugerir confirmação adequada. Não afirmar causa específica sem evidência adicional.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nFlyability • inspeção de petróleo e gás [Caso de fabricante]: https://www.flyability.com/oil-and-gas-drones\n\nFlyability • Elios 3 [Fabricante]: https://www.flyability.com/elios-3\n\nDJI • Mavic 3 Enterprise Series [Fabricante]: https://enterprise.dji.com/mavic-3-enterprise\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/07-inspecao-e-energia.html"
+      ]
+    },
+    {
+      "n": 8,
+      "first_slide": 23,
+      "last_slide": 25,
+      "title": "Drones no campo e no meio ambiente",
+      "concept": "Um padrão na imagem orienta a investigação em campo",
+      "body": [
+        "Mapear uma lavoura e aplicar insumos exigem sistemas e qualificações diferentes.",
+        "A interpretação depende da cultura, do solo e das condições de aquisição."
+      ],
+      "case": {
+        "headline": "Um padrão na imagem orienta a investigação em campo",
+        "body": [
+          "Mapear uma lavoura e aplicar insumos exigem sistemas e qualificações diferentes.",
+          "A interpretação depende da cultura, do solo e das condições de aquisição."
+        ],
+        "case_title": "NDVI em um cenário didático",
+        "columns": [
+          "Dado ou cálculo",
+          "Valor"
+        ],
+        "rows": [
+          [
+            "Reflectância no infravermelho próximo (NIR)",
+            "0,60"
+          ],
+          [
+            "Reflectância no vermelho (R)",
+            "0,20"
+          ],
+          [
+            "NDVI = (NIR − R) / (NIR + R)",
+            "0,50"
+          ]
+        ],
+        "caption": "Valores sintéticos. O índice isolado não determina a causa da variação observada."
+      },
+      "question": "Se duas imagens de uma área foram obtidas com luz e geometria distintas, toda mudança de cor significa mudança ambiental?",
+      "notes": [
+        "Episódio 08: Drones no campo e no meio ambiente\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 11 • aplicações e evidência\n\n\n\nProf. Newton: Um mapa colorido de vegetação parece dizer tudo. Na verdade, ele responde a uma pergunta limitada, construída com bandas, índices e contexto. Vamos aprender a ler essa resposta sem exagerar a conclusão.\n\nProfessor instrutor: Antes da coleta, eu preciso saber que área, que cultura ou que mudança será analisada. Uma fotografia solta não permite comparar épocas com confiança.\n\nProf. Newton: No exemplo sintético de NDVI, usamos valores já fornecidos. O cálculo é simples; o desafio é entender o significado. Um valor não identifica sozinho praga, falta de água ou qualquer causa específica.\n\n\n\nLeitura de apoio:\n\nO drone pode revelar padrões espaciais que são difíceis de observar ao nível do solo. Porém, a interpretação precisa de contexto e amostras de referência. A cor de um mapa é uma representação produzida por um método.\n\nEm agricultura, mapear vigor e aplicar insumos são atividades distintas. Em ambiente, comparar erosão, cobertura ou margem de curso d’água pede consistência temporal, geométrica e de método. O exercício não autoriza intervenção, voo em área protegida nem aplicação de produtos.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Agras T50 — especificações [Fabricante]: https://ag.dji.com/t50/specs\n\nWingtra • WingtraRAY [Fabricante]: https://wingtra.com/ray/\n\nXmobots • Nauru 500C ISR [Fabricante brasileiro]: https://xmobots.com.br/produto/nauru-500c-isr/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/08-campo-e-ambiente.html",
+        "Episódio 08: Drones no campo e no meio ambiente\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 11 • aplicações e evidência\n\n\n\nProfessor instrutor: Também vamos separar mapear de aplicar. O Agras é uma plataforma de trabalho aeroagrícola. Isso não quer dizer que seja apropriado para nossa demonstração introdutória.\n\nProf. Newton: No meio ambiente, uma série temporal consistente pode ajudar a observar mudanças. O método deve distinguir mudança real, diferença de luz, posição e processamento.\n\nProfessor instrutor: Nossa atividade será feita com imagens e dados simulados. A verificação de campo entra no plano, e a atuação real precisa de profissionais e condições adequadas.\n\n\n\nDemonstração:\n\nResolver o NDVI sintético do caso Agricultura.\n\nComparar duas imagens de datas e condições distintas; identificar limitações.\n\nPropor um plano de validação em solo sem executar aplicação agrícola.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Agras T50 — especificações [Fabricante]: https://ag.dji.com/t50/specs\n\nWingtra • WingtraRAY [Fabricante]: https://wingtra.com/ray/\n\nXmobots • Nauru 500C ISR [Fabricante brasileiro]: https://xmobots.com.br/produto/nauru-500c-isr/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/08-campo-e-ambiente.html",
+        "Episódio 08: Drones no campo e no meio ambiente\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 11 • aplicações e evidência\n\n\n\nProf. Newton: O dado aéreo ganha valor quando se conecta a uma decisão e a uma validação. Esse vínculo evita que uma visualização atraente seja confundida com diagnóstico.\n\nProfessor instrutor: No próximo episódio, olharemos para situações em que a informação precisa chegar rápido: emergências e resgate.\n\n\n\nResposta comentada: Não. É preciso controlar aquisição, referencial e processamento antes de interpretar a diferença.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nDJI • Agras T50 — especificações [Fabricante]: https://ag.dji.com/t50/specs\n\nWingtra • WingtraRAY [Fabricante]: https://wingtra.com/ray/\n\nXmobots • Nauru 500C ISR [Fabricante brasileiro]: https://xmobots.com.br/produto/nauru-500c-isr/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/08-campo-e-ambiente.html"
+      ]
+    },
+    {
+      "n": 9,
+      "first_slide": 26,
+      "last_slide": 28,
+      "title": "Drones em emergências e serviços públicos",
+      "concept": "A informação útil chega à equipe com contexto",
+      "body": [
+        "O observador comunica localização, horário, descrição e grau de confiança.",
+        "A coordenação integra o drone aos demais meios de resposta."
+      ],
+      "case": {
+        "headline": "A informação útil chega à equipe com contexto",
+        "body": [
+          "O observador comunica localização, horário, descrição e grau de confiança.",
+          "A coordenação integra o drone aos demais meios de resposta."
+        ],
+        "case_title": "Apoio às enchentes no Rio Grande do Sul",
+        "fact": "Em maio de 2024, a FAB relatou o emprego do RQ-900 no apoio aos resgates durante as enchentes no Rio Grande do Sul.",
+        "questions": [
+          "Como a observação ajuda a equipe em solo?",
+          "Que informação permite checagem e encaminhamento?"
+        ],
+        "caption": "Caso histórico da FAB. A missão exige coordenação com os demais meios de resposta."
+      },
+      "question": "Qual mensagem é mais útil: “vi algo no rio” ou uma observação com localização, horário, descrição e grau de confiança?",
+      "notes": [
+        "Episódio 09: Drones em emergências e serviços públicos\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontros 5 e 8–10 • pessoas, comunicação e contingências\n\n\n\nProf. Newton: Em uma emergência, ver de cima pode ajudar. Mas ajudar exige coordenação: a equipe em solo precisa receber informação certa, no tempo certo e com a incerteza conhecida.\n\nProfessor instrutor: Um vídeo não resolve tudo. Eu preciso indicar posição, horário e o que foi observado. Também preciso saber a quem entregar a informação e quem vai confirmá-la.\n\nProf. Newton: O caso das enchentes no Rio Grande do Sul mostra o emprego de um sistema de vigilância em apoio ao resgate. É um uso que conecta tecnologia militar e uma necessidade humanitária.\n\n\n\nLeitura de apoio:\n\nEm emergências, informação útil inclui horário, localização, significado e confiança. Uma transmissão de vídeo sem contexto pode gerar decisões erradas. A imagem precisa entrar em uma cadeia de coordenação.\n\nO emprego histórico do RQ-900 pela FAB no Rio Grande do Sul serve à discussão do apoio informacional. Não é convite a deslocar drones particulares para cenários de resgate. Interferir no trabalho aéreo de emergência pode aumentar a exposição de quem precisa de ajuda.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nFAB • apoio às vítimas das enchentes no RS [Órgão público]: https://www.fab.mil.br/noticias/imprime/42589/\n\nElbit Systems • Hermes 900 [Fabricante]: https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900\n\nDECEA • Portal Drone UAS [Órgão público]: https://www.decea.mil.br/drone/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/09-resgate-e-servicos.html",
+        "Episódio 09: Drones em emergências e serviços públicos\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontros 5 e 8–10 • pessoas, comunicação e contingências\n\n\n\nProfessor instrutor: A operação ocorreu em uma estrutura coordenada. Um participante desta série não deve interpretar o caso como autorização para lançar seu drone numa área de desastre.\n\nProf. Newton: Na imagem térmica, uma assinatura pode sugerir algo que merece verificação. Detecção, classificação e identificação têm níveis de certeza distintos.\n\nProfessor instrutor: No exercício, usaremos um mapa fictício e três observações. Vamos elaborar mensagens curtas com localização e confiança, sem expor pessoas reais.\n\n\n\nDemonstração:\n\nUsar o caso histórico da FAB, com data visível.\n\nMontar uma mensagem de observação com horário, posição e confiança.\n\nSimular coordenação em mesa, sem voos em cenário de emergência.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nFAB • apoio às vítimas das enchentes no RS [Órgão público]: https://www.fab.mil.br/noticias/imprime/42589/\n\nElbit Systems • Hermes 900 [Fabricante]: https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900\n\nDECEA • Portal Drone UAS [Órgão público]: https://www.decea.mil.br/drone/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/09-resgate-e-servicos.html",
+        "Episódio 09: Drones em emergências e serviços públicos\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontros 5 e 8–10 • pessoas, comunicação e contingências\n\n\n\nProf. Newton: O valor do sistema está no apoio à decisão coletiva. A melhor informação perde utilidade se chega sem referência ou ao destinatário errado.\n\nProfessor instrutor: E a segurança da aviação tripulada continua decisiva. O plano de coordenação faz parte da missão desde o início.\n\n\n\nResposta comentada: A segunda. Ela permite checagem, priorização e encaminhamento; uma descrição sem contexto pode induzir busca no local errado.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nFAB • apoio às vítimas das enchentes no RS [Órgão público]: https://www.fab.mil.br/noticias/imprime/42589/\n\nElbit Systems • Hermes 900 [Fabricante]: https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900\n\nDECEA • Portal Drone UAS [Órgão público]: https://www.decea.mil.br/drone/\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/09-resgate-e-servicos.html"
+      ]
+    },
+    {
+      "n": 10,
+      "first_slide": 29,
+      "last_slide": 31,
+      "title": "Entrega por drone: o desafio é o serviço inteiro",
+      "concept": "O cliente percebe o tempo do serviço completo",
+      "body": [
+        "Preparação e transferência também entram na medida de desempenho.",
+        "A análise inclui tempo total, cancelamentos e custo do processo."
+      ],
+      "case": {
+        "headline": "O cliente percebe o tempo do serviço completo",
+        "body": [
+          "Preparação e transferência também entram na medida de desempenho.",
+          "A análise inclui tempo total, cancelamentos e custo do processo."
+        ],
+        "case_title": "Uma entrega fictícia de 12 minutos",
+        "columns": [
+          "Etapa",
+          "Duração"
+        ],
+        "rows": [
+          [
+            "Preparação da carga",
+            "5 min"
+          ],
+          [
+            "Voo",
+            "4 min"
+          ],
+          [
+            "Transferência",
+            "3 min"
+          ],
+          [
+            "Total do escopo apresentado",
+            "12 min"
+          ]
+        ],
+        "caption": "Exemplo sintético. Espera e confirmação entram na conta quando pertencem ao escopo."
+      },
+      "question": "No exemplo sintético, o voo levou quatro minutos. Qual foi o tempo total do serviço mostrado?",
+      "notes": [
+        "Episódio 10: Entrega por drone: o desafio é o serviço inteiro\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontros 7–8 e 11 • espaço aéreo, missão e dados\n\n\n\nProf. Newton: Quando vemos uma notícia sobre entrega por drone, normalmente pensamos no voo. Mas o cliente percebe o serviço inteiro, desde o pedido até o recebimento.\n\nProfessor instrutor: A preparação da carga, o ponto de transferência, as condições do tempo e a coordenação podem definir o resultado. Não basta desenhar uma linha curta no mapa.\n\nProf. Newton: O Walmart anunciou um milhão de entregas em maio de 2026. Esse número mostra volume relatado pela empresa. Para avaliar eficiência, precisamos também de custo, cancelamento, tempo total e exposição ao risco.\n\n\n\nLeitura de apoio:\n\nA entrega por drone integra infraestrutura e processo. A rota aérea pode ser curta enquanto preparação e transferência da carga dominam o tempo porta a porta. O caso Walmart é um ponto de partida para examinar a escala e perguntar pelas métricas que faltam.\n\nConectividade celular acrescenta questões de cobertura, latência, continuidade e dependência de infraestrutura. Pesquisas de 5G e Open RAN exploram essas relações, mas resultado experimental não é garantia universal nem autorização operacional.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nWalmart • um milhão de entregas por drones [Comunicado empresarial]: https://corporate.walmart.com/news/2026/05/29/walmart-celebrates-1-million-drone-deliveries-marking-a-major-milestone-in-customer-convenience\n\nParrot • ANAFI Ai [Fabricante]: https://www.parrot.com/en/drones/anafi-ai\n\nBaguer et al. • BVLOS, Open RAN e network slicing [Preprint]: https://arxiv.org/abs/2608.09481\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/10-entregas-e-redes.html",
+        "Episódio 10: Entrega por drone: o desafio é o serviço inteiro\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontros 7–8 e 11 • espaço aéreo, missão e dados\n\n\n\nProfessor instrutor: Vamos usar a notícia para formular perguntas, sem transformar o anúncio em uma promessa de que todo endereço pode receber entrega aérea.\n\nProf. Newton: A comunicação é outra camada. Plataformas com conexão celular e pesquisa em 5G mostram possibilidades de integração. Cobertura no mapa, porém, não garante o desempenho necessário durante toda a missão.\n\nProfessor instrutor: Na demonstração, acompanharemos etapas de uma entrega fictícia. A turma vai descobrir quais tempos são de voo e quais pertencem à operação em solo.\n\n\n\nDemonstração:\n\nAbrir a notícia de 29/05/2026 e identificar métricas divulgadas.\n\nConstruir uma linha do tempo fictícia: preparo 5 min, voo 4 min, transferência 3 min.\n\nListar três riscos de depender de uma rede de comunicação.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nWalmart • um milhão de entregas por drones [Comunicado empresarial]: https://corporate.walmart.com/news/2026/05/29/walmart-celebrates-1-million-drone-deliveries-marking-a-major-milestone-in-customer-convenience\n\nParrot • ANAFI Ai [Fabricante]: https://www.parrot.com/en/drones/anafi-ai\n\nBaguer et al. • BVLOS, Open RAN e network slicing [Preprint]: https://arxiv.org/abs/2608.09481\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/10-entregas-e-redes.html",
+        "Episódio 10: Entrega por drone: o desafio é o serviço inteiro\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontros 7–8 e 11 • espaço aéreo, missão e dados\n\n\n\nProf. Newton: BVLOS é uma condição de operação, não um botão habilitado pela presença de internet. Capacidade tecnológica e aprovação precisam ser examinadas separadamente.\n\nProfessor instrutor: Ao final, teremos um quadro de avaliação de serviço. A pergunta deixa de ser “o drone consegue chegar?” e passa a incluir “a solução entrega o que promete?”.\n\n\n\nResposta comentada: 12 min. A medida de ponta a ponta inclui preparo e transferência. Acrescentar espera e confirmação se fizerem parte do escopo.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nWalmart • um milhão de entregas por drones [Comunicado empresarial]: https://corporate.walmart.com/news/2026/05/29/walmart-celebrates-1-million-drone-deliveries-marking-a-major-milestone-in-customer-convenience\n\nParrot • ANAFI Ai [Fabricante]: https://www.parrot.com/en/drones/anafi-ai\n\nBaguer et al. • BVLOS, Open RAN e network slicing [Preprint]: https://arxiv.org/abs/2608.09481\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/10-entregas-e-redes.html"
+      ]
+    },
+    {
+      "n": 11,
+      "first_slide": 32,
+      "last_slide": 34,
+      "title": "Drones civis e militares: o que muda na engenharia",
+      "concept": "A missão explica a escala do sistema",
+      "body": [
+        "Miniaturização e permanência exigem escolhas diferentes de energia e comunicação.",
+        "A comparação inclui sensores, equipe, infraestrutura e responsabilidade."
+      ],
+      "case": {
+        "headline": "A missão explica a escala do sistema",
+        "body": [
+          "Miniaturização e permanência exigem escolhas diferentes de energia e comunicação.",
+          "A comparação inclui sensores, equipe, infraestrutura e responsabilidade."
+        ],
+        "case_title": "Arquiteturas em aplicações de defesa",
+        "columns": [
+          "Plataforma",
+          "Arquitetura",
+          "Tema de engenharia"
+        ],
+        "rows": [
+          [
+            "Black Hornet 4",
+            "Helicóptero de rotor único",
+            "Miniaturização e reconhecimento próximo"
+          ],
+          [
+            "Hermes 900 / RQ-900",
+            "Asa fixa",
+            "Sensores e consciência situacional"
+          ],
+          [
+            "MQ-9B SkyGuardian",
+            "Asa fixa",
+            "Permanência e integração de enlaces"
+          ],
+          [
+            "Nauru 500C ISR",
+            "Asa fixa VTOL",
+            "Integração em uma plataforma brasileira"
+          ]
+        ],
+        "caption": "Comparação pública de engenharia. Capacidades técnicas dependem da configuração."
+      },
+      "question": "Que comparação é mais útil: tamanho da aeronave ou relação entre missão, sensor, permanência e infraestrutura?",
+      "notes": [
+        "Episódio 11: Drones civis e militares: o que muda na engenharia\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 11 • aplicações, arquitetura e missão\n\n\n\nProf. Newton: Drones militares não formam uma única categoria tecnológica. Há equipamentos muito pequenos e aeronaves de grande permanência. Hoje vamos comparar os requisitos que explicam essa diversidade.\n\nProfessor instrutor: O Black Hornet mostra miniaturização. O Hermes 900 e o MQ-9B mostram outra escala de missão, com estação, enlaces, sensores e logística. O conjunto é bem maior que a aeronave.\n\nProf. Newton: MALE significa média altitude e longa permanência. Essa descrição ajuda a entender a arquitetura, mas não substitui a identificação da versão e da configuração.\n\n\n\nLeitura de apoio:\n\nUm sistema de defesa pode priorizar permanência, cobertura de sensores, redundância, comunicações e logística. Um nanodrone e uma aeronave MALE resolvem problemas de escala distintos. Sua análise tecnológica não transfere procedimentos militares para o curso civil.\n\nVigilância e reconhecimento produzem informação. Algumas plataformas também possuem versões armadas; munições de uso único representam outra finalidade. Aqui, a discussão se limita às categorias, à engenharia pública dos sistemas e às implicações de responsabilidade e supervisão.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nTeledyne FLIR • Black Hornet 4 [Fabricante]: https://defense.flir.com/defense-products/black-hornet-4-prs/\n\nElbit Systems • Hermes 900 [Fabricante]: https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900\n\nGA-ASI • MQ-9B SkyGuardian [Fabricante]: https://www.ga-asi.com/remotely-piloted-aircraft/mq-9b-skyguardian\n\nBaykar • Bayraktar TB2 [Fabricante]: https://www.baykartech.com/en/uav/bayraktar-tb2/\n\nElbit • ecossistema de sistemas não tripulados [Artigo de fabricante]: https://www.elbitsystems.com/blog/rise-unmanned-combat-ecosystem\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/11-drones-e-defesa.html",
+        "Episódio 11: Drones civis e militares: o que muda na engenharia\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 11 • aplicações, arquitetura e missão\n\n\n\nProfessor instrutor: Também precisamos separar capacidade anunciada, uso documentado e interpretação. No catálogo, mantivemos essa distinção e evitamos combinar especificações de variantes.\n\nProf. Newton: Alguns sistemas coletam informação; outros também podem ser configurados para emprego armado. Essa diferença de finalidade exige discussão de supervisão, responsabilidade e proteção de civis.\n\nProfessor instrutor: Na bancada do curso, a atividade será comparar requisitos e sensores. Não simularemos emprego ofensivo: o objetivo é compreender engenharia e as decisões que delimitam sua aplicação.\n\n\n\nDemonstração:\n\nComparar quatro fichas: nano, VTOL brasileiro, MALE e plataforma civil.\n\nPreencher matriz de missão, sensor, autonomia declarada, infraestrutura e responsabilidade.\n\nDebater uma hipótese de erro de identificação sem discutir emprego de armas.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nTeledyne FLIR • Black Hornet 4 [Fabricante]: https://defense.flir.com/defense-products/black-hornet-4-prs/\n\nElbit Systems • Hermes 900 [Fabricante]: https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900\n\nGA-ASI • MQ-9B SkyGuardian [Fabricante]: https://www.ga-asi.com/remotely-piloted-aircraft/mq-9b-skyguardian\n\nBaykar • Bayraktar TB2 [Fabricante]: https://www.baykartech.com/en/uav/bayraktar-tb2/\n\nElbit • ecossistema de sistemas não tripulados [Artigo de fabricante]: https://www.elbitsystems.com/blog/rise-unmanned-combat-ecosystem\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/11-drones-e-defesa.html",
+        "Episódio 11: Drones civis e militares: o que muda na engenharia\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontros 1 e 11 • aplicações, arquitetura e missão\n\n\n\nProf. Newton: A notícia sobre ecossistemas não tripulados permite falar de integração em rede. Como é um texto de fabricante, suas afirmações são ponto de partida para análise, não conclusão independente.\n\nProfessor instrutor: A ponte com as aplicações civis está em energia, confiabilidade, sensores e comunicação. A finalidade e o enquadramento operacional continuam próprios de cada contexto.\n\n\n\nResposta comentada: A relação sistêmica. Tamanho ajuda a caracterizar a plataforma, mas não informa sozinho a utilidade da missão nem a qualidade da evidência.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nTeledyne FLIR • Black Hornet 4 [Fabricante]: https://defense.flir.com/defense-products/black-hornet-4-prs/\n\nElbit Systems • Hermes 900 [Fabricante]: https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900\n\nGA-ASI • MQ-9B SkyGuardian [Fabricante]: https://www.ga-asi.com/remotely-piloted-aircraft/mq-9b-skyguardian\n\nBaykar • Bayraktar TB2 [Fabricante]: https://www.baykartech.com/en/uav/bayraktar-tb2/\n\nElbit • ecossistema de sistemas não tripulados [Artigo de fabricante]: https://www.elbitsystems.com/blog/rise-unmanned-combat-ecosystem\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/11-drones-e-defesa.html"
+      ]
+    },
+    {
+      "n": 12,
+      "first_slide": 35,
+      "last_slide": 37,
+      "title": "Autonomia, IA e o próximo voo",
+      "concept": "A autonomia exige validação nas condições da missão",
+      "body": [
+        "A simulação permite ensaiar condições e falhas com exposição controlada.",
+        "Os resultados precisam informar onde o sistema funciona e quais erros permanecem."
+      ],
+      "case": {
+        "headline": "A autonomia exige validação nas condições da missão",
+        "body": [
+          "A simulação permite ensaiar condições e falhas com exposição controlada.",
+          "Os resultados precisam informar onde o sistema funciona e quais erros permanecem."
+        ],
+        "case_title": "Ingenuity: 72 voos em Marte",
+        "fact": "A NASA anunciou o fim da missão em janeiro de 2024. A investigação posterior discutiu limitações da navegação na etapa final.",
+        "questions": [
+          "Como o ambiente afeta a navegação visual?",
+          "Que decisão precisa ocorrer a bordo?"
+        ],
+        "caption": "Caso histórico. Foto: NASA/JPL-Caltech/ASU/MSSS, registro de 02/08/2023.",
+        "image": "assets/ingenuity.jpg"
+      },
+      "question": "Uma detecção por IA funcionou em dez imagens de um ambiente. Isso comprova desempenho em qualquer local?",
+      "notes": [
+        "Episódio 12: Autonomia, IA e o próximo voo\n\nTela 1 de 3. Usar as notas no modo Apresentador.\n\nEncontros 10–12 • contingências, operação integrada e debrief\n\n\n\nProf. Newton: O próximo passo dos drones envolve autonomia e inteligência embarcada. Mas antes de aumentar a complexidade, precisamos perguntar: como vamos verificar que o sistema responde bem ao que não esperávamos?\n\nProfessor instrutor: Começamos pela simulação. Com ferramentas compatíveis, podemos observar missões, telemetria e respostas a condições de teste sem colocar uma aeronave real no espaço aéreo.\n\nProf. Newton: Automatizar uma sequência não é o mesmo que adaptar decisões. Se a percepção falhar, o sistema precisa reconhecer sua limitação e responder dentro de condições previstas.\n\n\n\nLeitura de apoio:\n\nUma missão por pontos programados automatiza uma sequência; autonomia inclui adaptar decisões dentro de limites. Em ambos os casos, a confiabilidade precisa ser avaliada. IA pode auxiliar detecção, mas resultados variam com contexto e dados.\n\nO Ingenuity oferece um caso de processamento embarcado e investigação de falha. PX4 e QGroundControl permitem estudar missões em ambiente simulado. A prova de conceito deve explicitar hipótese, condições de teste, resultados e limite do que foi demonstrado.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nNASA • encerramento da missão Ingenuity [Agência de pesquisa]: https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/\n\nNASA • investigação do último voo do Ingenuity [Agência de pesquisa]: https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasa-performs-first-aircraft-accident-investigation-on-another-world/\n\nPX4 • documentação de simulação [Documentação técnica]: https://docs.px4.io/main/en/simulation/\n\nQGroundControl • guia de uso [Documentação técnica]: https://docs.qgroundcontrol.com/master/en/qgc-user-guide/\n\nBaguer et al. • BVLOS, Open RAN e network slicing [Preprint]: https://arxiv.org/abs/2608.09481\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/12-autonomia-e-futuro.html",
+        "Episódio 12: Autonomia, IA e o próximo voo\n\nTela 2 de 3. Usar as notas no modo Apresentador.\n\nEncontros 10–12 • contingências, operação integrada e debrief\n\n\n\nProfessor instrutor: No exercício, vamos registrar o que esperávamos, o que ocorreu e o que pode ser concluído. Um teste que funciona uma vez não valida todos os cenários.\n\nProf. Newton: O caso do Ingenuity mostra o valor de investigar falhas. A narrativa inicial de um acidente não substitui a análise posterior dos dados. É preciso revisar hipóteses conforme a evidência.\n\nProfessor instrutor: Também faremos um debrief. Qual etapa consumiu mais tempo? Qual informação faltou? O que seria necessário antes de uma próxima missão? Essas respostas viram melhoria de procedimento.\n\n\n\nDemonstração:\n\nMostrar a documentação oficial de SITL e QGroundControl.\n\nExecutar apenas em simulador uma missão simples de referência; registrar a versão usada.\n\nPreencher debrief: hipótese, resultado, limitações e próxima verificação.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nNASA • encerramento da missão Ingenuity [Agência de pesquisa]: https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/\n\nNASA • investigação do último voo do Ingenuity [Agência de pesquisa]: https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasa-performs-first-aircraft-accident-investigation-on-another-world/\n\nPX4 • documentação de simulação [Documentação técnica]: https://docs.px4.io/main/en/simulation/\n\nQGroundControl • guia de uso [Documentação técnica]: https://docs.qgroundcontrol.com/master/en/qgc-user-guide/\n\nBaguer et al. • BVLOS, Open RAN e network slicing [Preprint]: https://arxiv.org/abs/2608.09481\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/12-autonomia-e-futuro.html\n\nFoto: NASA/JPL-Caltech/ASU/MSSS. https://www.nasa.gov/wp-content/uploads/2024/01/1-pia25968-fig-a.jpg?w=1024",
+        "Episódio 12: Autonomia, IA e o próximo voo\n\nTela 3 de 3. Usar as notas no modo Apresentador.\n\nEncontros 10–12 • contingências, operação integrada e debrief\n\n\n\nProf. Newton: Para os engenheirandos, a série pode abrir projetos em sensores, telemetria, controle, visão e sistemas embarcados. O projeto ganha força quando a pergunta é mensurável e a validação é honesta.\n\nProfessor instrutor: Drones Muito Além do Voo termina aqui como série inicial, mas o material continua disponível para consulta. A ideia é voar com propósito, entregar evidência e aprender com cada missão.\n\n\n\nResposta comentada: Não. É necessário avaliar representatividade, condições de captura, erros e critérios de decisão. Um ensaio restrito sustenta uma conclusão restrita.\n\n\n\nEncerramento: convidar o público a consultar o roteiro e registrar a evidência da atividade.\n\n\n\nFontes (consulta editorial: 09/10/2026):\n\nNASA • encerramento da missão Ingenuity [Agência de pesquisa]: https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/\n\nNASA • investigação do último voo do Ingenuity [Agência de pesquisa]: https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasa-performs-first-aircraft-accident-investigation-on-another-world/\n\nPX4 • documentação de simulação [Documentação técnica]: https://docs.px4.io/main/en/simulation/\n\nQGroundControl • guia de uso [Documentação técnica]: https://docs.qgroundcontrol.com/master/en/qgc-user-guide/\n\nBaguer et al. • BVLOS, Open RAN e network slicing [Preprint]: https://arxiv.org/abs/2608.09481\n\n\n\nRoteiro: https://newtonlicciardijr.github.io/drones/episodios/12-autonomia-e-futuro.html"
+      ]
+    }
+  ]
+}

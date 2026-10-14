@@ -7,6 +7,7 @@ Acervo de apoio à série de extensão planejada pelo Prof. Newton Licciardi Jr.
 ## O que está disponível
 
 - 12 roteiros-base com leitura, demonstração, atividade e resposta.
+- 37 slides de apoio aos 12 episódios, em PowerPoint editável com notas e em PDF para consulta e projeção. [Guia e mapa dos slides](materiais/guia-slides.md).
 - 17 modelos civis, militares, brasileiros e de pesquisa, com fonte e limite de aplicação.
 - 4 casos documentados e 4 cenários didáticos; 8 notícias comentadas de 2024–2026.
 - Apostila ampliada, caderno complementar, roteiros em PDF e arquivos editáveis.
@@ -30,6 +31,8 @@ Acervo de apoio à série de extensão planejada pelo Prof. Newton Licciardi Jr.
 4. Publicar alterações na branch `main`: o GitHub Pages já atende este repositório.
 
 O conteúdo de gravações e seus URLs deve ser acrescentado quando houver vídeos publicados. Não existe atualização automática de notícias nesta edição.
+
+Os slides estão em `downloads/slides-apoio-serie.pptx` e `downloads/slides-apoio-serie.pdf`. O arquivo `materiais/plano-slides.json` conserva o conteúdo estruturado e as notas. O PDF contém as telas exibidas ao público; as notas de apresentação, respostas e referências completas ficam no PowerPoint. A geração do site não recria estes dois arquivos.
 
 ## Critérios
 

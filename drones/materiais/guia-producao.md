@@ -39,7 +39,7 @@ Roteiros-base de 6–9 minutos, contando demonstração e comentários. As falas
 - Cartela curta: título da série, número do episódio e pergunta central.
 - Descrição: resumo, modelos, links do episódio, fontes e data de consulta.
 - Não usar “mais recente”, “único” ou “garantido” sem verificação do contexto.
-- Publicar o vídeo na plataforma escolhida e informar o URL no campo video_url de conteudo.py. A vinculação visual requer adaptar a página correspondente no build.py.
+- Publicar o vídeo na plataforma escolhida e informar o URL no campo video_url de conteudo.py. Ao gerar o site, a página do episódio passa a mostrar o link para assistir.
 - Atualizar o site com o processo documentado no README. Gravações não estão incluídas nesta edição.
 
 ## Modelo de descrição de vídeo
