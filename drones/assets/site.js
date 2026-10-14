@@ -1,26 +1,3 @@
-(() => {
-  const search = document.querySelector('#busca-modelos');
-  if (!search) return;
-  const cards = [...document.querySelectorAll('[data-model]')];
-  const buttons = [...document.querySelectorAll('[data-filter]')];
-  let sector = 'Todos';
-  const normalize = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  function update() {
-    const term = normalize(search.value.trim());
-    let count = 0;
-    cards.forEach(card => {
-      const visible = normalize(card.textContent).includes(term) && (sector === 'Todos' || card.dataset.sector.includes(sector));
-      card.hidden = !visible;
-      count += Number(visible);
-    });
-    document.querySelector('#resultados').textContent = `${count} de ${cards.length} modelos`;
-    document.querySelector('#sem-resultados').hidden = count > 0;
-  }
-  search.addEventListener('input', update);
-  buttons.forEach(button => button.addEventListener('click', () => {
-    sector = button.dataset.filter;
-    buttons.forEach(b => b.setAttribute('aria-pressed', String(b === button)));
-    update();
-  }));
-  update();
-})();
+'use strict';
+const search=document.querySelector('#model-search');
+if(search){let sector='Todos';const cards=[...document.querySelectorAll('.model-card')],buttons=[...document.querySelectorAll('[data-filter]')];const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();function filter(){let n=0;const q=normalize(search.value.trim());for(const c of cards){const show=(sector==='Todos'||c.dataset.sector===sector)&&normalize(c.dataset.search).includes(q);c.hidden=!show;if(show)n++;}document.querySelector('#model-count').textContent=`${n} ${n===1?'modelo':'modelos'}`;document.querySelector('#model-empty').hidden=n!==0;}search.addEventListener('input',filter);for(const b of buttons)b.addEventListener('click',()=>{sector=b.dataset.filter;buttons.forEach(x=>x.setAttribute('aria-pressed',String(x===b)));filter();});}

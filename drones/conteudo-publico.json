@@ -1,0 +1,1321 @@
+{
+  "title": "Drones Muito Além do Voo",
+  "edition": "2.0",
+  "updated": "2026-10-13",
+  "sources": [
+    {
+      "id": "805",
+      "title": "ANAC • Resolução 805/2026",
+      "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-805",
+      "kind": "Norma",
+      "note": "Aprova o RBAC 100; contém regras de transição e substituição do RBAC-E 94.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "806",
+      "title": "ANAC • Resolução 806/2026",
+      "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-806",
+      "kind": "Norma",
+      "note": "UA até 250 g e aeromodelos em VLOS/EVLOS; observar a aplicabilidade do texto completo.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "ica",
+      "title": "DECEA • ICA 100-40/2026",
+      "url": "https://www.gov.br/defesa/pt-br/assuntos/aerolevantamento/arquivos/2026/ica-100-40-publicada-port-2094-dnor8-18-03-2026-bca-058-30-03-2026.pdf",
+      "kind": "Norma",
+      "note": "Edição de 2026, em vigor desde 1º de julho; consultar também o portal DECEA para emendas posteriores.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "decea",
+      "title": "DECEA • Portal Drone UAS",
+      "url": "https://www.decea.mil.br/drone/",
+      "kind": "Órgão público",
+      "note": "Entrada para legislação e serviços; normas e condições da autorização prevalecem.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "mini",
+      "title": "DJI • Mini 4 Pro — especificações",
+      "url": "https://www.dji.com/mini-4-pro/specs",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "phantom",
+      "title": "DJI • Phantom 4 — suporte e especificações",
+      "url": "https://www.dji.com/support/product/phantom-4",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "mavic",
+      "title": "DJI • Mavic 3 Enterprise Series",
+      "url": "https://enterprise.dji.com/mavic-3-enterprise",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "matrice4",
+      "title": "DJI • Matrice 4 Series",
+      "url": "https://www.dji.com/matrice-4-series",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "matrice400",
+      "title": "DJI • Matrice 400",
+      "url": "https://enterprise.dji.com/matrice-400",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "agras",
+      "title": "DJI • Agras T50 — especificações",
+      "url": "https://ag.dji.com/t50/specs",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "elios",
+      "title": "Flyability • Elios 3",
+      "url": "https://www.flyability.com/elios-3",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "fpsos",
+      "title": "Flyability • inspeção de petróleo e gás",
+      "url": "https://www.flyability.com/oil-and-gas-drones",
+      "kind": "Caso de fabricante",
+      "note": "Relato comercial sobre inspeções de FPSOs, incluindo TotalEnergies; resultados não constituem avaliação independente.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "wingtra",
+      "title": "Wingtra • WingtraRAY",
+      "url": "https://wingtra.com/ray/",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "parrot",
+      "title": "Parrot • ANAFI Ai",
+      "url": "https://www.parrot.com/en/drones/anafi-ai",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "nauru",
+      "title": "Xmobots • Nauru 500C ISR",
+      "url": "https://xmobots.com.br/produto/nauru-500c-isr/",
+      "kind": "Fabricante brasileiro",
+      "note": "Ficha da plataforma. Alegações de exclusividade e autorizações não foram generalizadas para outros modelos ou operadores.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "hermes",
+      "title": "Elbit Systems • Hermes 900",
+      "url": "https://www.elbitsystems.com/autonomous/aerial/male-unmanned-aircraft-systems/hermes-900",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "mq9",
+      "title": "GA-ASI • MQ-9B SkyGuardian",
+      "url": "https://www.ga-asi.com/remotely-piloted-aircraft/mq-9b-skyguardian",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "tb2",
+      "title": "Baykar • Bayraktar TB2",
+      "url": "https://www.baykartech.com/en/uav/bayraktar-tb2/",
+      "kind": "Fabricante",
+      "note": "Página atual reúne versões TB2-A/B/C/D. Não transferir especificações entre versões; recorde de voo não equivale à autonomia de toda missão.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "black",
+      "title": "Teledyne FLIR • Black Hornet 4",
+      "url": "https://defense.flir.com/defense-products/black-hornet-4-prs/",
+      "kind": "Fabricante",
+      "note": "Página oficial; desempenho depende da configuração e das condições de ensaio.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "nasa",
+      "title": "NASA • encerramento da missão Ingenuity",
+      "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/",
+      "kind": "Agência de pesquisa",
+      "note": "Notícia de 25/01/2024. Fotografias: NASA/JPL-Caltech/ASU/MSSS, conforme créditos da publicação.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "nasa-invest",
+      "title": "NASA • investigação do último voo do Ingenuity",
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/ingenuity-helicopter/nasa-performs-first-aircraft-accident-investigation-on-another-world/",
+      "kind": "Agência de pesquisa",
+      "note": "Análise posterior do acidente: separar hipótese inicial e conclusão técnica.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "fab",
+      "title": "FAB • apoio às vítimas das enchentes no RS",
+      "url": "https://www.fab.mil.br/noticias/imprime/42589/",
+      "kind": "Órgão público",
+      "note": "Relato histórico de maio de 2024, indexado na fonte oficial. Não apresenta a situação atual da frota.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "walmart",
+      "title": "Walmart • um milhão de entregas por drones",
+      "url": "https://corporate.walmart.com/news/2026/05/29/walmart-celebrates-1-million-drone-deliveries-marking-a-major-milestone-in-customer-convenience",
+      "kind": "Comunicado empresarial",
+      "note": "Publicado em 29/05/2026; métricas divulgadas pela empresa, com Wing e Zipline entre os parceiros.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "launch4",
+      "title": "DJI • lançamento da Matrice 4 Series",
+      "url": "https://www.dji.com/media-center/announcements/matrice-4-series",
+      "kind": "Notícia de fabricante",
+      "note": "08/01/2025; anúncio não é comparação independente de desempenho.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "launch400",
+      "title": "DJI • lançamento da Matrice 400",
+      "url": "https://www.dji.com/media-center/announcements/dji-release-matrice-400",
+      "kind": "Notícia de fabricante",
+      "note": "10/06/2025; números máximos de ensaio não são planejamento de missão.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "black-update",
+      "title": "FLIR • atualização do Black Hornet 4",
+      "url": "https://defense.flir.com/about/news/teledyne-flir-defense-unveils-multiple-upgrades-to-black-hornet-4/",
+      "kind": "Notícia de fabricante",
+      "note": "07/05/2025; alcance anunciado de rádio em condições ótimas.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "ecosystem",
+      "title": "Elbit • ecossistema de sistemas não tripulados",
+      "url": "https://www.elbitsystems.com/blog/rise-unmanned-combat-ecosystem",
+      "kind": "Artigo de fabricante",
+      "note": "22/01/2026; visão comercial sobre integração entre domínios, e não ensaio independente de sistemas.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "px4",
+      "title": "PX4 • documentação de simulação",
+      "url": "https://docs.px4.io/main/en/simulation/",
+      "kind": "Documentação técnica",
+      "note": "SITL permite simular software e comportamento; não certifica aeronave nem substitui treinamento supervisionado.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "qgc",
+      "title": "QGroundControl • guia de uso",
+      "url": "https://docs.qgroundcontrol.com/master/en/qgc-user-guide/",
+      "kind": "Documentação técnica",
+      "note": "Planejamento e telemetria em plataformas compatíveis; recursos variam com versão e autopiloto.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "anatel",
+      "title": "ANATEL • certificação de produtos",
+      "url": "https://www.gov.br/anatel/pt-br/regulado/certificacao-de-produtos",
+      "kind": "Órgão público",
+      "note": "Consultar homologação do equipamento e dos enlaces aplicáveis.",
+      "checked": "2026-10-09"
+    },
+    {
+      "id": "5g",
+      "title": "Baguer et al. • BVLOS, Open RAN e network slicing",
+      "url": "https://arxiv.org/abs/2608.09481",
+      "kind": "Preprint",
+      "note": "10/08/2026; pesquisa experimental. Revisão por pares não confirmada nesta consulta.",
+      "checked": "2026-10-09"
+    }
+  ],
+  "models": [
+    {
+      "slug": "mini-4-pro",
+      "name": "DJI Mini 4 Pro",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Introdução, fotografia e inspeção visual leve",
+      "fact": "Menos de 249 g na configuração padrão; até 34 min anunciados com bateria padrão.",
+      "lesson": "Relacionar massa em voo, bateria, acessórios e finalidade ao planejamento.",
+      "limit": "Bateria Plus e acessórios podem alterar a massa. Porte pequeno não libera o espaço aéreo.",
+      "refs": [
+        "mini",
+        "806"
+      ]
+    },
+    {
+      "slug": "phantom-4",
+      "name": "DJI Phantom 4",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Treino e aquisição RGB com equipamento já disponível",
+      "fact": "1.380 g e cerca de 28 min máximos declarados; câmera de 12,4 MP.",
+      "lesson": "Comparar informação da câmera, gimbal, cartão microSD e imagem de transmissão.",
+      "limit": "Modelo legado: conferir bateria, suporte e aplicativo. Esta ficha não é do Phantom 4 Pro.",
+      "refs": [
+        "phantom"
+      ]
+    },
+    {
+      "slug": "mavic-3e",
+      "name": "DJI Mavic 3E",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Fotogrametria e documentação de obras",
+      "fact": "Câmera com obturador mecânico; módulo RTK opcional.",
+      "lesson": "Explicar por que geometria de aquisição e controle em solo participam da qualidade do mapa.",
+      "limit": "RTK na aeronave não garante automaticamente exatidão centimétrica do produto final.",
+      "refs": [
+        "mavic"
+      ]
+    },
+    {
+      "slug": "mavic-3t",
+      "name": "DJI Mavic 3T",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Termografia, busca e inspeção",
+      "fact": "Versão com câmera térmica de 640 × 512 pixels.",
+      "lesson": "Comparar imagem RGB e térmica: aparência e distribuição de temperatura não são a mesma informação.",
+      "limit": "Emissividade, reflexos, distância e contexto interferem na interpretação.",
+      "refs": [
+        "mavic"
+      ]
+    },
+    {
+      "slug": "matrice-4e",
+      "name": "DJI Matrice 4E",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Mapeamento e medição em missões empresariais",
+      "fact": "Integra câmeras e telêmetro laser; variante orientada a levantamentos.",
+      "lesson": "Converter requisitos da missão em sensor, resolução e evidência.",
+      "limit": "Escolha de variante e acessórios deve ser feita pela missão, não apenas pelo nome da família.",
+      "refs": [
+        "matrice4"
+      ]
+    },
+    {
+      "slug": "matrice-4t",
+      "name": "DJI Matrice 4T",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Inspeção e resposta a emergências",
+      "fact": "Variante multissensor com imagem térmica.",
+      "lesson": "Discutir detecção assistida e necessidade de confirmação humana.",
+      "limit": "Uma detecção automática pode ter falso positivo; o operador precisa conhecer o contexto.",
+      "refs": [
+        "matrice4"
+      ]
+    },
+    {
+      "slug": "matrice-400",
+      "name": "DJI Matrice 400",
+      "sector": "Civil",
+      "architecture": "Multirrotor",
+      "mission": "Plataforma para sensores e missões de engenharia",
+      "fact": "Até 59 min e carga útil de até 6 kg anunciados, sob condições específicas.",
+      "lesson": "Separar plataforma, carga útil, energia e margem de retorno.",
+      "limit": "Os máximos não devem ser combinados livremente. Verificar configuração e condições da ficha.",
+      "refs": [
+        "matrice400",
+        "launch400"
+      ]
+    },
+    {
+      "slug": "agras-t50",
+      "name": "DJI Agras T50",
+      "sector": "Civil",
+      "architecture": "Multirrotor",
+      "mission": "Aplicação agrícola e distribuição de materiais",
+      "fact": "Plataforma projetada para trabalho aeroagrícola, com sistemas específicos de aplicação.",
+      "lesson": "O produto aplicado, vazão e área tratada são parte do sistema de engenharia.",
+      "limit": "Não é demonstração adequada ao curso introdutório: operação requer enquadramento e qualificação próprios.",
+      "refs": [
+        "agras",
+        "805"
+      ]
+    },
+    {
+      "slug": "elios-3",
+      "name": "Flyability Elios 3",
+      "sector": "Civil",
+      "architecture": "Quadricóptero protegido",
+      "mission": "Inspeção em ambientes internos e confinados",
+      "fact": "Gaiola de proteção, câmeras, LiDAR e localização por SLAM.",
+      "lesson": "Explicar localização sem GNSS e associação de uma imagem ao modelo do ambiente.",
+      "limit": "Proteção contra contato não elimina risco; atmosfera perigosa exige avaliação e certificação próprias.",
+      "refs": [
+        "elios"
+      ]
+    },
+    {
+      "slug": "wingtra-ray",
+      "name": "WingtraRAY",
+      "sector": "Civil",
+      "architecture": "Asa fixa VTOL",
+      "mission": "Levantamento de áreas extensas",
+      "fact": "Plataforma de mapeamento com decolagem e pouso verticais e sensores intercambiáveis.",
+      "lesson": "Comparar eficiência de cruzeiro com permanência em um ponto.",
+      "limit": "Verificar sensor e configuração. Autorizações estrangeiras não são autorização de voo no Brasil.",
+      "refs": [
+        "wingtra"
+      ]
+    },
+    {
+      "slug": "anafi-ai",
+      "name": "Parrot ANAFI Ai",
+      "sector": "Civil",
+      "architecture": "Quadricóptero",
+      "mission": "Fotogrametria e exploração de conectividade",
+      "fact": "Plataforma anunciada com conectividade 4G.",
+      "lesson": "Debater latência, cobertura, dependência de infraestrutura e integração de software.",
+      "limit": "Cobertura celular não garante continuidade do enlace nem autorização BVLOS.",
+      "refs": [
+        "parrot"
+      ]
+    },
+    {
+      "slug": "nauru-500c",
+      "name": "Xmobots Nauru 500C ISR",
+      "sector": "Civil e defesa",
+      "architecture": "Asa fixa VTOL",
+      "mission": "Monitoramento, segurança e inteligência",
+      "fact": "Fabricante brasileiro; até 4 h de voo declaradas para a plataforma ISR.",
+      "lesson": "Examinar integração de sensores e logística em uma solução nacional.",
+      "limit": "Aplicabilidade de aprovação e autorização depende da configuração e operação. Não generalizar alegações de exclusividade.",
+      "refs": [
+        "nauru"
+      ]
+    },
+    {
+      "slug": "hermes-900",
+      "name": "Elbit Hermes 900 / RQ-900",
+      "sector": "Militar",
+      "architecture": "Asa fixa",
+      "mission": "Inteligência, vigilância e reconhecimento",
+      "fact": "Plataforma MALE com múltiplas cargas úteis e aplicações de vigilância.",
+      "lesson": "Distinguir inteligência obtida pelo sistema e dados brutos produzidos pelo sensor.",
+      "limit": "O emprego pela FAB não torna suas regras operacionais aplicáveis a uma turma civil.",
+      "refs": [
+        "hermes",
+        "fab"
+      ]
+    },
+    {
+      "slug": "mq-9b",
+      "name": "GA-ASI MQ-9B SkyGuardian",
+      "sector": "Militar",
+      "architecture": "Asa fixa",
+      "mission": "Vigilância persistente e missões marítimas conforme configuração",
+      "fact": "Fabricante anuncia permanência de mais de 40 h e enlace por satélite.",
+      "lesson": "Comparar alcance de comunicação, autonomia, cobertura de sensores e integração ao espaço aéreo.",
+      "limit": "Desempenho depende da carga e configuração. Capacidade técnica não equivale a autorização operacional.",
+      "refs": [
+        "mq9"
+      ]
+    },
+    {
+      "slug": "tb2",
+      "name": "Baykar Bayraktar TB2",
+      "sector": "Militar",
+      "architecture": "Asa fixa",
+      "mission": "Reconhecimento e aplicações de defesa",
+      "fact": "Família MALE com automação e redundância; versões devem ser distinguidas.",
+      "lesson": "Acompanhar a cadeia aeronave, estação, enlace, sensores e interpretação.",
+      "limit": "Não confundir recorde de voo, autonomia típica e dados de variantes. Discussão desta série é tecnológica.",
+      "refs": [
+        "tb2"
+      ]
+    },
+    {
+      "slug": "black-hornet",
+      "name": "Teledyne FLIR Black Hornet 4",
+      "sector": "Militar",
+      "architecture": "Helicóptero de rotor único",
+      "mission": "Reconhecimento de proximidade",
+      "fact": "70 g e mais de 30 min declarados pelo fabricante.",
+      "lesson": "Mostrar como energia, câmera, comunicação e ergonomia mudam na miniaturização.",
+      "limit": "Comparação apenas tecnológica; alcance de rádio declarado depende do cenário.",
+      "refs": [
+        "black"
+      ]
+    },
+    {
+      "slug": "ingenuity",
+      "name": "NASA Ingenuity",
+      "sector": "Pesquisa",
+      "architecture": "Helicóptero coaxial",
+      "mission": "Demonstração de voo e exploração em Marte",
+      "fact": "72 voos; último voo em 18/01/2024; fim da missão anunciado em 25/01/2024.",
+      "lesson": "Relacionar navegação visual, autonomia embarcada e análise de falhas.",
+      "limit": "Missão encerrada. Não é produto comercial nem plataforma utilizável no curso.",
+      "refs": [
+        "nasa",
+        "nasa-invest"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "slug": "fpsos",
+      "title": "Inspecionar um FPSO sem entrar em cada compartimento",
+      "label": "Caso documentado",
+      "area": "Indústria",
+      "fact": "A Flyability relata o uso de drones de inspeção, incluindo Elios 3, no processo de digitalização e inspeção de FPSOs da TotalEnergies. O relato é do fornecedor da tecnologia.",
+      "analysis": [
+        "Um FPSO reúne ambientes internos complexos. O dado só vira evidência de inspeção se houver localização, qualidade visual e rastreabilidade da observação.",
+        "LiDAR e SLAM ajudam a organizar a navegação e o modelo espacial. O objetivo é reduzir exposição humana e ampliar a documentação, sem presumir que toda inspeção possa ser substituída.",
+        "O ganho anunciado pelo fornecedor precisa ser conferido para cada instalação. Não inferir aprovação para atmosferas explosivas a partir da gaiola do drone."
+      ],
+      "activity": "Projetar, em papel, uma inspeção de tanque desativado: identificar iluminação, acesso, comunicação, atmosfera, critérios de abortagem e validação por profissional responsável.",
+      "deliverable": "Uma matriz com necessidade, sensor, evidência e limite de interpretação.",
+      "answer": "A equipe deve distinguir localizar uma imagem de medir espessura ou confirmar integridade. Cada tarefa pede instrumentação e método próprios.",
+      "refs": [
+        "fpsos",
+        "elios"
+      ]
+    },
+    {
+      "slug": "entregas",
+      "title": "O que um milhão de entregas diz — e o que não diz",
+      "label": "Caso documentado",
+      "area": "Logística",
+      "fact": "Em 29/05/2026, o Walmart anunciou mais de um milhão de entregas por drones. Wing e Zipline aparecem entre os parceiros. A contagem é empresarial, não uma auditoria independente apresentada nesta série.",
+      "analysis": [
+        "Uma entrega é um serviço completo: pedido, separação, embalagem, despacho, voo, transferência da carga e confirmação. O drone ocupa apenas parte do processo.",
+        "Volume acumulado não revela sozinho custo por entrega, exposição ao risco, taxa de cancelamento ou eficiência energética. Métricas precisam de denominador.",
+        "Aplicações brasileiras exigem análise local. Um serviço autorizado nos Estados Unidos não estabelece, por analogia, autorização no Brasil."
+      ],
+      "activity": "Comparar duas alternativas fictícias: motocicleta e drone. Definir massa, janela de entrega, densidade de pedidos, clima e pontos de transferência. Não usar custos inventados como dados reais.",
+      "deliverable": "Quadro com cinco métricas: tempo porta a porta, custo total, cancelamentos, energia e segurança.",
+      "answer": "A escolha depende do serviço e dos requisitos. Uma rota aérea mais curta pode não produzir menor tempo total.",
+      "refs": [
+        "walmart"
+      ]
+    },
+    {
+      "slug": "enchentes-rs",
+      "title": "Um drone militar também pode apoiar uma resposta humanitária",
+      "label": "Caso documentado",
+      "area": "Resgate",
+      "fact": "Em relato de maio de 2024 sobre as enchentes no Rio Grande do Sul, a FAB informou o emprego do RQ-900 no apoio aos resgates. Trata-se de registro histórico, sem inferência sobre a disponibilidade atual da frota.",
+      "analysis": [
+        "Vigilância aérea pode ampliar a consciência situacional de equipes em solo. Isso exige transmissão útil, localização e coordenação com os demais meios.",
+        "Não transformar o caso em recomendação de voo voluntário na área de desastre: aeronaves de resgate, condições meteorológicas e necessidade de coordenação são decisivas.",
+        "O caso conecta defesa e sociedade pela função da informação. Um sistema militar pode produzir dados para uma missão humanitária sem perder a especificidade de sua operação."
+      ],
+      "activity": "Em um mapa fictício, assinalar três informações que uma equipe de resgate precisaria receber e quem deve validar cada uma.",
+      "deliverable": "Fluxo de informação com horário, posição, confiança e destinatário.",
+      "answer": "Não basta enviar um vídeo. A equipe precisa saber onde, quando, o que foi observado e qual é a incerteza.",
+      "refs": [
+        "fab",
+        "hermes"
+      ]
+    },
+    {
+      "slug": "ingenuity",
+      "title": "Quando o piloto fica a milhões de quilômetros",
+      "label": "Caso documentado",
+      "area": "Pesquisa",
+      "fact": "O Ingenuity realizou 72 voos em Marte. A NASA anunciou o término da missão em janeiro de 2024, após danos nas pás. Uma investigação posterior discutiu limitações da navegação na etapa final.",
+      "analysis": [
+        "A distância impede que o operador dependa de um controle manual instantâneo como o de um pequeno drone próximo. A missão expõe a relevância do processamento embarcado.",
+        "A navegação visual precisa de informação no ambiente. Falta de textura, mudanças de iluminação e qualidade da estimativa devem entrar na análise de confiabilidade.",
+        "O caso ensina a separar observação inicial, hipótese e conclusão de investigação. Uma narrativa de acidente pode mudar com o acesso a novos dados."
+      ],
+      "activity": "Listar quais decisões devem ocorrer a bordo e quais podem ficar no planejamento em solo, sem reproduzir o software da missão.",
+      "deliverable": "Tabela: função, sensor, tempo de decisão e resposta à perda de confiança.",
+      "answer": "Estabilização e reação a falhas precisam de prazos compatíveis com a dinâmica. A supervisão remota não substitui essa camada.",
+      "refs": [
+        "nasa",
+        "nasa-invest"
+      ]
+    },
+    {
+      "slug": "campus",
+      "title": "Missão curta no campus: antes da imagem, o objetivo",
+      "label": "Cenário didático",
+      "area": "Operação",
+      "fact": "Cenário fictício: documentar uma área de 30 × 20 m, sem pessoas expostas, com voo curto supervisionado. Dimensões servem ao exercício e não descrevem uma área aprovada do Mackenzie.",
+      "analysis": [
+        "A missão deve dizer que imagem será entregue e que decisão ela permite. Fotografar sem requisito produz material difícil de avaliar.",
+        "Desenhar limites, decolagem, pouso alternativo, posições de piloto e observador. A liberação da atividade depende de autorização real, regras aplicáveis e condições do dia.",
+        "O critério de conclusão é obter evidência suficiente com exposição controlada. Persistir em voo para deixar o vídeo bonito não é requisito técnico."
+      ],
+      "activity": "Redigir um briefing de uma página e um GO/NO-GO justificado. Apresentar ao instrutor antes de qualquer prática.",
+      "deliverable": "Objetivo, mapa esquemático, responsabilidades, condições de parada e uma fotografia de exemplo já existente.",
+      "answer": "Sem autorizações ou sem perímetro adequado, o resultado correto é NO-GO e migração para simulação.",
+      "refs": [
+        "decea",
+        "805",
+        "806"
+      ]
+    },
+    {
+      "slug": "solar",
+      "title": "Uma mancha térmica não é um diagnóstico completo",
+      "label": "Cenário didático",
+      "area": "Energia",
+      "fact": "Cenário fictício: procurar anomalias em um conjunto fotovoltaico por imagem RGB e térmica. Não há uma usina real nem resultado pericial associado a este exercício.",
+      "analysis": [
+        "Temperatura aparente depende de condições de observação e características da superfície. O contraste térmico sugere uma hipótese, não fecha a causa da falha.",
+        "Padronizar horário, condições ambientais e identificação do módulo permite comparar campanhas. A manutenção responsável confirma a hipótese com método próprio.",
+        "Uma câmera térmica é um recurso útil quando a pergunta pede temperatura. Uma imagem RGB pode ser suficiente para detectar dano visível ou obstrução."
+      ],
+      "activity": "Classificar imagens fictícias em observação, hipótese e confirmação necessária. Explicar por que trocar essas três etapas gera erro.",
+      "deliverable": "Registro com ID do módulo, imagem RGB, imagem térmica, contexto e encaminhamento.",
+      "answer": "O relatório deve conservar a incerteza e encaminhar a verificação. Não afirmar defeito elétrico apenas pela cor de um pixel.",
+      "refs": [
+        "mavic",
+        "matrice4"
+      ]
+    },
+    {
+      "slug": "agricultura",
+      "title": "Agricultura de precisão começa com uma pergunta agronômica",
+      "label": "Cenário didático",
+      "area": "Agronegócio",
+      "fact": "Cenário fictício: um talhão apresenta variação de vigor. A turma compara levantamento por imagem e aplicação de insumos; são atividades com requisitos distintos.",
+      "analysis": [
+        "Uma imagem identifica padrões; o agrônomo conecta esses padrões ao contexto de cultura, solo, manejo e inspeção em campo.",
+        "Mapear e pulverizar não são a mesma missão. Payload, riscos, produto, requisitos ambientais e qualificação mudam.",
+        "Comparações antes/depois exigem condições consistentes. Um índice isolado pode confundir estresse hídrico, pragas, solo exposto e sombra."
+      ],
+      "activity": "Definir hipótese, variável observável, sensor e verificação de campo. Para um exemplo sintético de NDVI, NIR=0,60 e vermelho=0,20: obter 0,50.",
+      "deliverable": "Plano de aquisição e validação; sem aplicação real de produtos.",
+      "answer": "O cálculo é (0,60−0,20)/(0,60+0,20)=0,50. O índice não identifica sozinho a causa da variação.",
+      "refs": [
+        "agras",
+        "805"
+      ]
+    },
+    {
+      "slug": "mapeamento",
+      "title": "Medir uma obra exige mais que uma foto nítida",
+      "label": "Cenário didático",
+      "area": "Infraestrutura",
+      "fact": "Cenário fictício: registrar uma obra para comparação semanal e discutir a estimativa de dimensões. Nenhum volume real é apresentado.",
+      "analysis": [
+        "GSD, sobreposição, geometria, calibração e referências independentes influenciam o resultado. A resolução do sensor não define sozinha a exatidão do mapa.",
+        "Uma nuvem de pontos ou ortomosaico é um produto de processamento. A qualidade precisa de checagem com referências que não tenham sido usadas apenas para ajustar o modelo.",
+        "Para medir volume, o referencial de base e a época da aquisição precisam ser comparáveis. Uma superfície de referência incoerente pode dominar o erro."
+      ],
+      "activity": "Com parâmetros sintéticos H=50 m, pixel p=2,4 µm e focal f=8,8 mm, calcular GSD=H·p/f≈1,36 cm/pixel. Explicar por que isso não significa erro de posição de 1,36 cm.",
+      "deliverable": "Memória de cálculo, lista de controles e critérios de aceitação do produto.",
+      "answer": "GSD descreve amostragem no terreno em geometria ideal. A exatidão depende de todo o método.",
+      "refs": [
+        "mavic",
+        "wingtra"
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "n": 1,
+      "slug": "muito-alem-do-voo",
+      "title": "O drone é só uma parte do sistema",
+      "subtitle": "Da aeronave à decisão: o que a missão precisa entregar.",
+      "goals": [
+        "Distinguir aeronave, sistema e missão.",
+        "Definir uma evidência que permita tomar uma decisão.",
+        "Reconhecer aplicações civis, militares e científicas."
+      ],
+      "reading": [
+        "O ponto de partida de uma missão é a pergunta que precisa ser respondida. Inspecionar um telhado, acompanhar uma obra e apoiar um resgate podem usar imagens aéreas, mas pedem sensores, enquadramentos, prazos e validações distintos.",
+        "O sistema reúne aeronave, energia, sensores, estação de controle, enlace e pessoas. A informação passa por uma cadeia: requisito, aquisição, processamento, interpretação e entrega. Uma falha em qualquer etapa pode inutilizar um voo tecnicamente correto."
+      ],
+      "models": [
+        "mini-4-pro",
+        "hermes-900",
+        "ingenuity"
+      ],
+      "cases": [
+        "campus"
+      ],
+      "refs": [
+        "mini",
+        "hermes",
+        "nasa"
+      ],
+      "exercise": "Para inspeção de telhado, cobertura vegetal e divulgação de um evento, definir uma pergunta e uma evidência para cada missão.",
+      "video_url": null
+    },
+    {
+      "n": 2,
+      "slug": "como-um-drone-voa",
+      "title": "Como um drone voa e se orienta",
+      "subtitle": "Propulsão, sensores e controle sem transformar a explicação em caixa-preta.",
+      "goals": [
+        "Relacionar variações de empuxo aos movimentos.",
+        "Distinguir atitude e posição.",
+        "Explicar o papel de sensores e realimentação."
+      ],
+      "reading": [
+        "Em um quadricóptero, empuxo total e distribuição entre motores participam dos movimentos. Inclinar a aeronave produz uma componente horizontal da força. Atitude descreve orientação; posição descreve onde ela está.",
+        "A controladora combina medições, estima o estado e comanda atuadores. Uma leitura de sensor possui ruído e limitações. A estabilidade que o operador observa resulta de correções repetidas e não de uma capacidade de equilíbrio independente do controle."
+      ],
+      "models": [
+        "phantom-4",
+        "mini-4-pro",
+        "black-hornet"
+      ],
+      "cases": [],
+      "refs": [
+        "phantom",
+        "mini",
+        "black",
+        "px4"
+      ],
+      "exercise": "Por que inclinar a aeronave pode reduzir a componente vertical do empuxo se o empuxo total não mudar?",
+      "video_url": null
+    },
+    {
+      "n": 3,
+      "slug": "regras-e-responsabilidades",
+      "title": "Quem autoriza o quê no Brasil",
+      "subtitle": "ANAC, DECEA e ANATEL na mesma missão.",
+      "goals": [
+        "Separar atribuições dos órgãos.",
+        "Consultar a norma vigente e sua aplicabilidade.",
+        "Distinguir capacidade técnica e autorização."
+      ],
+      "reading": [
+        "A Resolução 805/2026 aprovou o RBAC 100 em substituição ao RBAC-E 94 e incluiu disposições de transição. A Resolução 806/2026 trata de UA até 250 g e aeromodelos nas condições de seu texto. São referências de enquadramento, e não uma autorização individual de missão.",
+        "DECEA trata de acesso ao espaço aéreo; ANATEL trata da conformidade de produtos e telecomunicações. A norma aplicável, o manual, o local e as condições da autorização precisam ser compatíveis. Este episódio ensina o percurso de consulta, sem resumir toda a regulamentação em uma regra de peso."
+      ],
+      "models": [
+        "mini-4-pro",
+        "nauru-500c"
+      ],
+      "cases": [
+        "campus"
+      ],
+      "refs": [
+        "805",
+        "806",
+        "ica",
+        "decea",
+        "anatel"
+      ],
+      "exercise": "Um equipamento anuncia 20 km de comunicação. Essa ficha basta para autorizar um voo a 20 km?",
+      "video_url": null
+    },
+    {
+      "n": 4,
+      "slug": "escolher-o-drone",
+      "title": "Qual drone combina com a missão?",
+      "subtitle": "Comparar plataformas pela tarefa, sem cair na guerra de megapixels.",
+      "goals": [
+        "Construir critérios de seleção.",
+        "Comparar quadricóptero, asa fixa e VTOL.",
+        "Interpretar máximos de catálogo com suas condições."
+      ],
+      "reading": [
+        "Um multirrotor pode permanecer em um ponto; uma asa fixa favorece deslocamento sustentado; um VTOL combina fases de voo com complexidades próprias. A escolha deve considerar decolagem, pouso, área, sensores, equipe, manutenção e produto final.",
+        "Tempo máximo de voo não deve ser tratado como tempo útil de missão. Acessórios mudam massa e consumo. Um equipamento já existente pode atender ao objetivo introdutório, desde que esteja apto e sua informação seja suficiente."
+      ],
+      "models": [
+        "phantom-4",
+        "mavic-3e",
+        "elios-3",
+        "wingtra-ray",
+        "nauru-500c"
+      ],
+      "cases": [
+        "mapeamento",
+        "fpsos"
+      ],
+      "refs": [
+        "phantom",
+        "mavic",
+        "elios",
+        "wingtra",
+        "nauru"
+      ],
+      "exercise": "Uma mesma plataforma deve inspecionar o interior de um tanque e mapear centenas de hectares?",
+      "video_url": null
+    },
+    {
+      "n": 5,
+      "slug": "planejar-e-decidir",
+      "title": "GO ou NO-GO: a decisão antes de decolar",
+      "subtitle": "Briefing, pessoas, energia e condições de parada.",
+      "goals": [
+        "Preparar um briefing objetivo.",
+        "Estabelecer condições de parada.",
+        "Calcular uma margem didática de energia sem confundi-la com regra universal."
+      ],
+      "reading": [
+        "O briefing estabelece objetivo, papéis, local, condição de retorno e comunicação. Um checklist é útil quando os itens são verificáveis. Escrever apenas “clima OK” esconde a ausência de um critério.",
+        "Exemplo sintético: bateria entrega 80 Wh úteis em um cenário estimado, com potência média de 240 W. A razão E/P dá 20 min. Reservar 25% nesse exercício deixa 15 min antes de descontar deslocamento. A reserva é hipótese pedagógica; operação real segue manual, ensaio e avaliação do cenário."
+      ],
+      "models": [
+        "phantom-4",
+        "mini-4-pro"
+      ],
+      "cases": [
+        "campus"
+      ],
+      "refs": [
+        "phantom",
+        "decea",
+        "805"
+      ],
+      "exercise": "No exemplo, se deslocamento de ida e volta consumir quatro minutos, quanto sobra para coleta?",
+      "video_url": null
+    },
+    {
+      "n": 6,
+      "slug": "camera-ao-dado",
+      "title": "Da câmera ao dado confiável",
+      "subtitle": "RGB, térmica, multispectral e LiDAR: cada sensor responde a uma pergunta.",
+      "goals": [
+        "Escolher sensor pela variável observada.",
+        "Distinguir resolução, amostragem e exatidão.",
+        "Conservar metadados e validar resultados."
+      ],
+      "reading": [
+        "RGB registra aparência em bandas visíveis; imagem térmica permite examinar padrões de temperatura aparente; multispectral observa bandas específicas; LiDAR mede distâncias para representar geometria. Essas informações podem se complementar, mas não são intercambiáveis.",
+        "Uma medida exige referência, unidade, método e incerteza. GSD é a amostragem no solo em um modelo geométrico; não é o erro final de posição. Preservar data, parâmetros e contexto permite avaliar se uma comparação é válida."
+      ],
+      "models": [
+        "mavic-3e",
+        "mavic-3t",
+        "elios-3",
+        "matrice-400"
+      ],
+      "cases": [
+        "solar",
+        "mapeamento"
+      ],
+      "refs": [
+        "mavic",
+        "elios",
+        "matrice400"
+      ],
+      "exercise": "Se o GSD for 2 cm/pixel, posso declarar que todas as coordenadas têm erro de 2 cm?",
+      "video_url": null
+    },
+    {
+      "n": 7,
+      "slug": "inspecao-e-energia",
+      "title": "Drones na indústria, nas obras e na energia",
+      "subtitle": "Transformar observações em evidência útil para manutenção.",
+      "goals": [
+        "Distinguir inspeção visual e diagnóstico.",
+        "Estruturar registros rastreáveis.",
+        "Comparar inspeção externa e interna."
+      ],
+      "reading": [
+        "Em manutenção, a coleta deve identificar o ativo e permitir localizar a observação. Uma imagem de possível corrosão precisa de escala, contexto e encaminhamento. A decisão pertence ao processo técnico de inspeção.",
+        "O caso Flyability/TotalEnergies permite discutir inspeção interna; o cenário solar permite discutir interpretação térmica. A vantagem proposta é obter informação com exposição controlada, mantendo claro o que o método consegue confirmar."
+      ],
+      "models": [
+        "elios-3",
+        "mavic-3t",
+        "matrice-400"
+      ],
+      "cases": [
+        "fpsos",
+        "solar"
+      ],
+      "refs": [
+        "fpsos",
+        "elios",
+        "mavic"
+      ],
+      "exercise": "Uma imagem mostra temperatura elevada em um módulo. Qual deve ser a próxima frase do relatório?",
+      "video_url": null
+    },
+    {
+      "n": 8,
+      "slug": "campo-e-ambiente",
+      "title": "Drones no campo e no meio ambiente",
+      "subtitle": "Observar padrões, medir mudanças e validar em solo.",
+      "goals": [
+        "Separar mapeamento e aplicação agrícola.",
+        "Interpretar um índice sem diagnosticar sozinho.",
+        "Planejar comparações ambientais consistentes."
+      ],
+      "reading": [
+        "O drone pode revelar padrões espaciais que são difíceis de observar ao nível do solo. Porém, a interpretação precisa de contexto e amostras de referência. A cor de um mapa é uma representação produzida por um método.",
+        "Em agricultura, mapear vigor e aplicar insumos são atividades distintas. Em ambiente, comparar erosão, cobertura ou margem de curso d’água pede consistência temporal, geométrica e de método. O exercício não autoriza intervenção, voo em área protegida nem aplicação de produtos."
+      ],
+      "models": [
+        "agras-t50",
+        "wingtra-ray",
+        "nauru-500c"
+      ],
+      "cases": [
+        "agricultura",
+        "mapeamento"
+      ],
+      "refs": [
+        "agras",
+        "wingtra",
+        "nauru"
+      ],
+      "exercise": "Se duas imagens de uma área foram obtidas com luz e geometria distintas, toda mudança de cor significa mudança ambiental?",
+      "video_url": null
+    },
+    {
+      "n": 9,
+      "slug": "resgate-e-servicos",
+      "title": "Drones em emergências e serviços públicos",
+      "subtitle": "Informação útil, coordenação e proteção das pessoas.",
+      "goals": [
+        "Conectar observação à ação de uma equipe.",
+        "Reconhecer a prioridade da coordenação aérea.",
+        "Evitar confundir detecção com identificação confirmada."
+      ],
+      "reading": [
+        "Em emergências, informação útil inclui horário, localização, significado e confiança. Uma transmissão de vídeo sem contexto pode gerar decisões erradas. A imagem precisa entrar em uma cadeia de coordenação.",
+        "O emprego histórico do RQ-900 pela FAB no Rio Grande do Sul serve à discussão do apoio informacional. Não é convite a deslocar drones particulares para cenários de resgate. Interferir no trabalho aéreo de emergência pode aumentar a exposição de quem precisa de ajuda."
+      ],
+      "models": [
+        "matrice-4t",
+        "hermes-900",
+        "nauru-500c"
+      ],
+      "cases": [
+        "enchentes-rs"
+      ],
+      "refs": [
+        "fab",
+        "hermes",
+        "decea"
+      ],
+      "exercise": "Qual mensagem é mais útil: “vi algo no rio” ou uma observação com localização, horário, descrição e grau de confiança?",
+      "video_url": null
+    },
+    {
+      "n": 10,
+      "slug": "entregas-e-redes",
+      "title": "Entrega por drone: o desafio é o serviço inteiro",
+      "subtitle": "Logística, conectividade e uma leitura crítica das notícias.",
+      "goals": [
+        "Analisar métricas de um serviço.",
+        "Separar tempo de voo e tempo de entrega.",
+        "Explicar que conexão celular não equivale a autorização BVLOS."
+      ],
+      "reading": [
+        "A entrega por drone integra infraestrutura e processo. A rota aérea pode ser curta enquanto preparação e transferência da carga dominam o tempo porta a porta. O caso Walmart é um ponto de partida para examinar a escala e perguntar pelas métricas que faltam.",
+        "Conectividade celular acrescenta questões de cobertura, latência, continuidade e dependência de infraestrutura. Pesquisas de 5G e Open RAN exploram essas relações, mas resultado experimental não é garantia universal nem autorização operacional."
+      ],
+      "models": [
+        "anafi-ai",
+        "nauru-500c"
+      ],
+      "cases": [
+        "entregas"
+      ],
+      "refs": [
+        "walmart",
+        "parrot",
+        "5g"
+      ],
+      "exercise": "No exemplo sintético, o voo levou quatro minutos. Qual foi o tempo total do serviço mostrado?",
+      "video_url": null
+    },
+    {
+      "n": 11,
+      "slug": "drones-e-defesa",
+      "title": "Drones civis e militares: o que muda na engenharia",
+      "subtitle": "Miniaturização, permanência, sensores e responsabilidade.",
+      "goals": [
+        "Comparar sistemas pela função e arquitetura.",
+        "Distinguir vigilância, plataforma armada e munição de uso único em nível conceitual.",
+        "Debater supervisão humana, direito e responsabilidade."
+      ],
+      "reading": [
+        "Um sistema de defesa pode priorizar permanência, cobertura de sensores, redundância, comunicações e logística. Um nanodrone e uma aeronave MALE resolvem problemas de escala distintos. Sua análise tecnológica não transfere procedimentos militares para o curso civil.",
+        "Vigilância e reconhecimento produzem informação. Algumas plataformas também possuem versões armadas; munições de uso único representam outra finalidade. Aqui, a discussão se limita às categorias, à engenharia pública dos sistemas e às implicações de responsabilidade e supervisão."
+      ],
+      "models": [
+        "black-hornet",
+        "hermes-900",
+        "mq-9b",
+        "tb2",
+        "nauru-500c"
+      ],
+      "cases": [
+        "enchentes-rs"
+      ],
+      "refs": [
+        "black",
+        "hermes",
+        "mq9",
+        "tb2",
+        "ecosystem"
+      ],
+      "exercise": "Que comparação é mais útil: tamanho da aeronave ou relação entre missão, sensor, permanência e infraestrutura?",
+      "video_url": null
+    },
+    {
+      "n": 12,
+      "slug": "autonomia-e-futuro",
+      "title": "Autonomia, IA e o próximo voo",
+      "subtitle": "Simular, validar e aprender com falhas antes de ampliar a missão.",
+      "goals": [
+        "Distinguir automação de autonomia.",
+        "Planejar um ensaio seguro em simulação.",
+        "Usar debrief e análise de falhas para produzir aprendizado."
+      ],
+      "reading": [
+        "Uma missão por pontos programados automatiza uma sequência; autonomia inclui adaptar decisões dentro de limites. Em ambos os casos, a confiabilidade precisa ser avaliada. IA pode auxiliar detecção, mas resultados variam com contexto e dados.",
+        "O Ingenuity oferece um caso de processamento embarcado e investigação de falha. PX4 e QGroundControl permitem estudar missões em ambiente simulado. A prova de conceito deve explicitar hipótese, condições de teste, resultados e limite do que foi demonstrado."
+      ],
+      "models": [
+        "ingenuity",
+        "matrice-4t",
+        "anafi-ai"
+      ],
+      "cases": [
+        "ingenuity"
+      ],
+      "refs": [
+        "nasa",
+        "nasa-invest",
+        "px4",
+        "qgc",
+        "5g"
+      ],
+      "exercise": "Uma detecção por IA funcionou em dez imagens de um ambiente. Isso comprova desempenho em qualquer local?",
+      "video_url": null
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-07-01",
+      "title": "ICA 100-40/2026 entra em vigor",
+      "tag": "Regulação",
+      "refs": [
+        "ica",
+        "decea"
+      ],
+      "summary": "A edição de 2026 atualiza os procedimentos de acesso ao espaço aéreo por aeronaves não tripuladas.",
+      "question": "Qual condição de sua missão depende da autorização de acesso?",
+      "ep": 3
+    },
+    {
+      "date": "2026-06-16",
+      "title": "ANAC publica as Resoluções 805 e 806",
+      "tag": "Regulação",
+      "refs": [
+        "805",
+        "806"
+      ],
+      "summary": "O novo marco separa o RBAC 100 e as regras específicas de UA até 250 g e aeromodelos nas condições previstas.",
+      "question": "Como conferir aplicabilidade e transição sem resumir a regra a um número de massa?",
+      "ep": 3
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Walmart anuncia um milhão de entregas por drones",
+      "tag": "Logística",
+      "refs": [
+        "walmart"
+      ],
+      "summary": "A empresa divulga volume acumulado de entregas e operação com parceiros como Wing e Zipline.",
+      "question": "Quais denominadores faltam para comparar custo, confiabilidade e eficiência?",
+      "ep": 10
+    },
+    {
+      "date": "2026-01-22",
+      "title": "Elbit apresenta sua visão de um ecossistema não tripulado",
+      "tag": "Defesa",
+      "refs": [
+        "ecosystem"
+      ],
+      "summary": "Artigo do fabricante discute integração de plataformas aéreas, terrestres e marítimas.",
+      "question": "Que partes da integração são demonstradas e que partes são visão comercial?",
+      "ep": 11
+    },
+    {
+      "date": "2025-06-10",
+      "title": "DJI lança a Matrice 400",
+      "tag": "Engenharia",
+      "refs": [
+        "launch400"
+      ],
+      "summary": "O anúncio destaca permanência, cargas úteis e sensores de obstáculos numa plataforma de trabalho empresarial.",
+      "question": "Qual combinação real de payload e condições sustentaria o tempo necessário à missão?",
+      "ep": 4
+    },
+    {
+      "date": "2025-05-07",
+      "title": "Black Hornet 4 recebe atualização de sistema",
+      "tag": "Defesa",
+      "refs": [
+        "black-update"
+      ],
+      "summary": "A FLIR anuncia mudanças em comunicação, estação de controle e características de uso.",
+      "question": "Por que autonomia da estação e ergonomia também entram na especificação de um UAS?",
+      "ep": 11
+    },
+    {
+      "date": "2025-01-08",
+      "title": "DJI anuncia a Matrice 4 Series",
+      "tag": "Sensores",
+      "refs": [
+        "launch4"
+      ],
+      "summary": "A série estreia com variantes 4E e 4T e funções de detecção e medição assistidas.",
+      "question": "O que uma detecção automática ainda precisa confirmar antes de virar decisão?",
+      "ep": 6
+    },
+    {
+      "date": "2024-01-25",
+      "title": "NASA anuncia o encerramento da missão Ingenuity",
+      "tag": "Marco histórico",
+      "refs": [
+        "nasa",
+        "nasa-invest"
+      ],
+      "summary": "Após 72 voos, a missão termina com danos nas pás; uma investigação posterior acrescenta análise técnica.",
+      "question": "Como separar hipótese inicial e conclusão posterior de uma investigação?",
+      "ep": 12
+    }
+  ],
+  "glossary": [
+    [
+      "UA",
+      "Aeronave não tripulada; o veículo aéreo."
+    ],
+    [
+      "UAS",
+      "Sistema: aeronave e elementos associados, incluindo estação e enlaces."
+    ],
+    [
+      "RPA",
+      "Aeronave pilotada remotamente."
+    ],
+    [
+      "VLOS",
+      "Operação com contato visual direto nas condições da norma aplicável."
+    ],
+    [
+      "EVLOS",
+      "Contato visual apoiado por observadores nas condições da norma."
+    ],
+    [
+      "BVLOS",
+      "Operação além da linha de visada visual; capacidade de rádio não concede autorização."
+    ],
+    [
+      "GNSS",
+      "Família de sistemas de navegação por satélite, como GPS; não é conexão de internet."
+    ],
+    [
+      "RTK / PPK",
+      "Métodos de posicionamento relativo; não garantem sozinhos a exatidão do mapa."
+    ],
+    [
+      "GSD",
+      "Distância amostrada no terreno por pixel em uma geometria de aquisição."
+    ],
+    [
+      "RGB",
+      "Imagem em bandas do espectro visível."
+    ],
+    [
+      "EO/IR",
+      "Sensores eletro-ópticos e infravermelhos."
+    ],
+    [
+      "LiDAR",
+      "Medição por luz laser para representar distâncias e geometria."
+    ],
+    [
+      "SLAM",
+      "Localização e mapeamento simultâneos."
+    ],
+    [
+      "ISR",
+      "Inteligência, vigilância e reconhecimento."
+    ],
+    [
+      "MALE",
+      "Média altitude e longa permanência."
+    ],
+    [
+      "VTOL",
+      "Decolagem e pouso verticais."
+    ],
+    [
+      "Payload",
+      "Carga útil da missão, como sensor ou outro equipamento."
+    ],
+    [
+      "RTH",
+      "Return to Home; retorno ao ponto de referência conforme recursos e configuração."
+    ],
+    [
+      "SITL",
+      "Software in the Loop: execução do software com um ambiente simulado."
+    ],
+    [
+      "GO / NO-GO",
+      "Decisão justificada de iniciar ou suspender a missão."
+    ],
+    [
+      "Debrief",
+      "Revisão após a atividade: resultado, ocorrências, limites e ações para a próxima missão."
+    ]
+  ],
+  "checklist": [
+    "Missão e evidência esperada definidas; critério de conclusão acordado.",
+    "Enquadramento, documentos, acesso ao espaço aéreo e homologação conferidos conforme aplicabilidade.",
+    "Manual, configuração, atualização e aptidão do equipamento conferidos.",
+    "Piloto remoto e observador designados; comunicação ensaiada.",
+    "Local, terceiros, acesso e condições de uso avaliados.",
+    "Clima, vento, visibilidade e interferências avaliados segundo critérios da missão e do manual.",
+    "Baterias, hélices, sensores, armazenamento e controle conferidos.",
+    "Ponto de referência, comportamento de retorno e limites da operação compreendidos.",
+    "Pouso alternativo, critérios de interrupção e contingências combinados.",
+    "Registro da decisão GO/NO-GO e das pendências concluído antes da decolagem.",
+    "Após atividade: arquivos, metadados, ocorrências e debrief registrados."
+  ],
+  "facts_checked": "2026-10-09",
+  "photos": {
+    "mini-4-pro": {
+      "file": "assets/photos/mini-4-pro.png",
+      "credit": "DJI",
+      "url": "https://www-cdn.djiits.com/cms/uploads/892e39b4b76dc5a83b267ed12ce69b97@374*374.png",
+      "caption": "Foto: DJI"
+    },
+    "phantom-4": {
+      "file": "assets/photos/phantom-4.png",
+      "credit": "DJI",
+      "url": "https://www-cdn.djiits.com/cms/uploads/1176f8fa6c0f02857a8d9c167ade0b46.png",
+      "caption": "Foto: DJI"
+    },
+    "mavic-3e": {
+      "file": "assets/photos/mavic-3e.png",
+      "credit": "DJI",
+      "url": "https://www-cdn.djiits.com/cms/uploads/4cfc74354616f6a37ed4f011007bb6d0@374*374.png",
+      "caption": "Família Mavic 3 Enterprise • Foto: DJI"
+    },
+    "matrice-400": {
+      "file": "assets/photos/matrice-400.png",
+      "credit": "DJI",
+      "url": "https://www-cdn.djiits.com/cms/uploads/3c9712c308bac3e36007c3a9ded88d9d@374*374.png",
+      "caption": "Foto: DJI"
+    },
+    "agras-t50": {
+      "file": "assets/photos/agras-t50.png",
+      "credit": "DJI",
+      "url": "https://www-cdn.djiits.com/cms/uploads/01a263d016fe2160032808e7d5fbbf0d@374*374.png",
+      "caption": "Foto: DJI"
+    },
+    "elios-3": {
+      "file": "assets/photos/elios-3.png",
+      "credit": "Flyability",
+      "url": "https://www.flyability.com/hs-fs/hubfs/Elios%203%20image.png?width=676&height=409&name=Elios%203%20image.png",
+      "caption": "Foto: Flyability"
+    },
+    "wingtra-ray": {
+      "file": "assets/photos/wingtra-ray.jpg",
+      "credit": "Wingtra",
+      "url": "https://wingtra.com/wp-content/uploads/wingtraray-drone-flying-with-operator-quarry-1.jpg",
+      "caption": "Foto: Wingtra"
+    },
+    "nauru-500c": {
+      "file": "assets/photos/nauru-500c.png",
+      "credit": "Xmobots",
+      "url": "https://xmobots.com.br/wp-content/uploads/2025/04/Nauru-500C-voando-1024x430.webp",
+      "caption": "Foto: Xmobots"
+    },
+    "hermes-900": {
+      "file": "assets/photos/hermes-900.jpg",
+      "credit": "Elbit Systems",
+      "url": "https://www.elbitsystems.com/sites/default/files/2025-01/1920x1013_pic.jpg",
+      "caption": "Foto: Elbit Systems"
+    },
+    "mq-9b": {
+      "file": "assets/photos/mq-9b.jpg",
+      "credit": "General Atomics",
+      "url": "https://www.ga-asi.com/images/parallax/MQ-9B-SkyGuardian-021323-1920x600.jpg",
+      "caption": "Foto: General Atomics"
+    },
+    "tb2": {
+      "file": "assets/photos/tb2.png",
+      "credit": "Baykar",
+      "url": "https://cdn.baykartech.com/media/upload/userFormUpload/HfKd71PR8Fqln30Qu1VSVY7ujAvC9VgL.png",
+      "caption": "Foto: Baykar"
+    },
+    "black-hornet": {
+      "file": "assets/photos/black-hornet.jpg",
+      "credit": "Teledyne FLIR",
+      "url": "https://defense.flir.com/globalassets/defense/images/product-lync-images/black_hornet_4_close_up-1.jpg",
+      "caption": "Foto: Teledyne FLIR"
+    },
+    "anafi-ai": {
+      "file": "assets/photos/anafi-ai.jpg",
+      "credit": "Parrot",
+      "url": "https://www.parrot.com/assets/s3fs-public/styles/lglossless/public/2022-06/Anafi-Ai-4G-Connected.jpg",
+      "caption": "Foto: Parrot"
+    },
+    "entregas": {
+      "file": "assets/photos/entregas.jpg",
+      "credit": "Walmart",
+      "url": "https://corporate.walmart.com/content/dam/corporate/images/newsroom/2025/06/05/walmart-takes-flight-with-drone-delivery-expansion-to-5-new-cities-redefining-fast-flexible-retail/drone-carrying-walmart-delivery.jpg",
+      "caption": "Foto: Walmart"
+    },
+    "fpsos": {
+      "file": "assets/photos/fpsos.png",
+      "credit": "Flyability",
+      "url": "https://www.flyability.com/hubfs/20240321_Oil%26Gas_Featured-image.png",
+      "caption": "Foto: Flyability"
+    },
+    "matrice-4e": {
+      "file": "assets/photos/matrice-4e.png",
+      "credit": "DJI",
+      "url": "https://www-cdn.djiits.com/cms/uploads/5a6ef3ed6f35e3719453a78ff0e67af4@374*374.png",
+      "caption": "Família Matrice 4 • Foto: DJI"
+    },
+    "mavic-3t": {
+      "file": "assets/photos/mavic-3e.png",
+      "credit": "DJI",
+      "url": "https://www-cdn.djiits.com/cms/uploads/4cfc74354616f6a37ed4f011007bb6d0@374*374.png",
+      "caption": "Família Mavic 3 Enterprise • Foto: DJI"
+    },
+    "matrice-4t": {
+      "file": "assets/photos/matrice-4e.png",
+      "credit": "DJI",
+      "url": "https://www-cdn.djiits.com/cms/uploads/5a6ef3ed6f35e3719453a78ff0e67af4@374*374.png",
+      "caption": "Família Matrice 4 • Foto: DJI"
+    },
+    "ingenuity": {
+      "file": "assets/ingenuity.jpg",
+      "credit": "NASA/JPL-Caltech/ASU/MSSS",
+      "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/",
+      "caption": "Foto: NASA/JPL-Caltech/ASU/MSSS"
+    }
+  }
+}
