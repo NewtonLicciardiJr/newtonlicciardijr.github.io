@@ -1,12 +1,12 @@
 {
   "title": "Drones Muito Além do Voo",
-  "edition": "2.0",
-  "updated": "2026-10-13",
+  "edition": "7.0-publicacao",
+  "updated": "2026-10-19",
   "sources": [
     {
       "id": "805",
       "title": "ANAC • Resolução 805/2026",
-      "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/resolucoes/2026/resolucao-805",
+      "url": "https://www.anac.gov.br/assuntos/legislacao/legislacao-1/boletim-de-pessoal/2026/bps-v-21-no-24-15-a-19-06-2026/rbac-100-emd-00/visualizar_ato_normativo",
       "kind": "Norma",
       "note": "Aprova o RBAC 100; contém regras de transição e substituição do RBAC-E 94.",
       "checked": "2026-10-09"
@@ -646,8 +646,8 @@
         "Reconhecer aplicações civis, militares e científicas."
       ],
       "reading": [
-        "O ponto de partida de uma missão é a pergunta que precisa ser respondida. Inspecionar um telhado, acompanhar uma obra e apoiar um resgate podem usar imagens aéreas, mas pedem sensores, enquadramentos, prazos e validações distintos.",
-        "O sistema reúne aeronave, energia, sensores, estação de controle, enlace e pessoas. A informação passa por uma cadeia: requisito, aquisição, processamento, interpretação e entrega. Uma falha em qualquer etapa pode inutilizar um voo tecnicamente correto."
+        "Observe o telhado esquemático. A pergunta vem primeiro: em qual setor pode existir um problema? A captura precisa preservar o contexto e identificar o local. Depois, alguém verifica o indício e decide a manutenção. A marcação é uma simulação didática, não uma prova de dano numa fotografia real.",
+        "Um telhado, uma área vegetada e um evento pedem respostas próprias. No telhado, interessa localizar detalhes por setor. Na vegetação, uma imagem RGB mostra aparência, mas não entrega automaticamente NDVI. Num evento, contexto e proteção das pessoas entram no planejamento. Primeiro definimos a pergunta; depois escolhemos sensor e plataforma."
       ],
       "models": [
         "mini-4-pro",
@@ -663,8 +663,33 @@
         "nasa"
       ],
       "exercise": "Para inspeção de telhado, cobertura vegetal e divulgação de um evento, definir uma pergunta e uma evidência para cada missão.",
-      "video_url": "https://www.youtube.com/watch?v=PacHui14Is0",
-      "youtube_privacy": "unlisted"
+      "video_url": "videos/episodio-01-revisao-v6.mp4",
+      "problem": "Produzir um mapa fotogramétrico de um telhado e localizar setores para inspeção posterior. O local externo está isolado; não basta uma foto de divulgação.",
+      "choices": [
+        "DJI Mini 4 Pro",
+        "DJI Phantom 4",
+        "DJI Mavic 3E"
+      ],
+      "solution": "Se a tarefa é gerar um produto fotogramétrico e localizar observações, a opção C merece uma análise inicial, com seu sensor e configuração. Para simples registro visual, A ou B podem bastar, conforme detalhe e condições. O resultado exige método e validação; escolher C não garante um mapa correto. Seu argumento vale mais do que acertar uma letra.",
+      "choice_features": [
+        [
+          "RGB compacto",
+          "Registro visual do telhado",
+          "Mapa exige método e validação"
+        ],
+        [
+          "RGB em quadricóptero",
+          "Referência já conhecida",
+          "Conferir câmera e aquisição"
+        ],
+        [
+          "RGB 4/3; obturador mecânico",
+          "Vocação fotogramétrica",
+          "Validar geometria e posição"
+        ]
+      ],
+      "captions_url": "videos/episodio-01-revisao-v6.vtt",
+      "duration": 352.369333
     },
     {
       "n": 2,
@@ -677,8 +702,13 @@
         "Explicar o papel de sensores e realimentação."
       ],
       "reading": [
-        "Em um quadricóptero, empuxo total e distribuição entre motores participam dos movimentos. Inclinar a aeronave produz uma componente horizontal da força. Atitude descreve orientação; posição descreve onde ela está.",
-        "A controladora combina medições, estima o estado e comanda atuadores. Uma leitura de sensor possui ruído e limitações. A estabilidade que o operador observa resulta de correções repetidas e não de uma capacidade de equilíbrio independente do controle."
+        "Veja o quadricóptero por cima, com a frente para cima. M um e M três giram no sentido horário; M dois e M quatro, no anti-horário. Os pares são diagonais. A reação no corpo tem sentido oposto ao giro de cada rotor. Em equilíbrio, os torques de reação se anulam. Estes nomes são uma convenção didática, não a numeração universal dos fabricantes.",
+        "Na vista lateral, os quatro rotores produzem empuxo para cima. No pairado ideal, a soma dos empuxos iguala o peso: T igual a m g. Ao mesmo tempo, o torque total de reação é nulo. Isso não significa motores desligados. Eles continuam girando e consumindo potência para manter a altitude, enquanto a controladora corrige perturbações.",
+        "Na vista traseira, a direita da aeronave também fica à direita da tela. Para iniciar rolagem à direita, cresce o empuxo dos motores da esquerda, M um e M quatro, e diminui o dos motores da direita, M dois e M três. A esquerda sobe e a direita desce. Essa diferença inicia a rotação. A controladora depois freia a velocidade angular e ajusta os motores para manter a atitude desejada.",
+        "Agora vemos a aeronave pelo lado esquerdo, com o nariz à direita da tela. Para iniciar a inclinação para a frente, os motores traseiros, M três e M quatro, aumentam seu empuxo; os dianteiros, M um e M dois, reduzem. A traseira sobe e o nariz desce. Novamente, o diferencial inicia a rotação; frear e sustentar o ângulo são etapas seguintes do controle.",
+        "Para iniciar guinada horária do corpo, vista de cima, aumentamos o empuxo do par que gira em sentido anti-horário, M dois e M quatro, e reduzimos o do par horário, M um e M três. A reação resultante no corpo é horária. Os rotores não trocam seu sentido de giro! O controle coordena os ajustes para preservar o empuxo total conforme necessário.",
+        "Quando a aeronave inclina, o empuxo também inclina. Na figura, alfa é o ângulo total em relação à vertical. A componente vertical é T cosseno de alfa; a horizontal, T seno de alfa. Para manter a altitude sem aceleração vertical, desprezando outras forças, T cosseno de alfa precisa igualar o peso. A força horizontal acelera a aeronave. Voltar ao nível não zera instantaneamente sua velocidade: a frenagem exige ação de controle.",
+        "O comando define uma referência. A unidade inercial mede o movimento; a estimativa compara o estado com o desejado. A controladora calcula correções e os controladores eletrônicos comandam os motores. O movimento retorna aos sensores, fechando a realimentação. GNSS ajuda a estimar posição quando disponível; atitude e posição não são a mesma variável. Internet também não é o princípio físico que mantém um quadricóptero estável."
       ],
       "models": [
         "phantom-4",
@@ -693,7 +723,33 @@
         "px4"
       ],
       "exercise": "Por que inclinar a aeronave pode reduzir a componente vertical do empuxo se o empuxo total não mudar?",
-      "video_url": null
+      "video_url": "videos/episodio-02-revisao-v6.mp4",
+      "problem": "Estudar estabilização e comandos em simulação. Há um Phantom 4 disponível como referência. Não se solicita câmera térmica nem compra de um novo drone.",
+      "choices": [
+        "DJI Phantom 4",
+        "DJI Mini 4 Pro",
+        "DJI Matrice 4E"
+      ],
+      "solution": "Para o aprendizado conceitual descrito, o Phantom quatro disponível pode atender, com simulador compatível e condições conferidas. Não precisamos de uma aeronave mais cara para explicar a realimentação. No voo, ao inclinar, a componente vertical do empuxo diminui se o empuxo total permanecer igual. A controladora pode compensar, dentro dos limites do sistema.",
+      "choice_features": [
+        [
+          "Quadricóptero RGB",
+          "Disponível no exercício",
+          "Simulação deve ser compatível"
+        ],
+        [
+          "Quadricóptero compacto",
+          "Mesmos princípios de controle",
+          "Não resolve a disponibilidade"
+        ],
+        [
+          "Quadricóptero RGB de trabalho",
+          "Recursos de levantamento",
+          "Recursos extras não são exigidos"
+        ]
+      ],
+      "captions_url": "videos/episodio-02-revisao-v6.vtt",
+      "duration": 482.676676
     },
     {
       "n": 3,
@@ -706,8 +762,14 @@
         "Distinguir capacidade técnica e autorização."
       ],
       "reading": [
-        "A Resolução 805/2026 aprovou o RBAC 100 em substituição ao RBAC-E 94 e incluiu disposições de transição. A Resolução 806/2026 trata de UA até 250 g e aeromodelos nas condições de seu texto. São referências de enquadramento, e não uma autorização individual de missão.",
-        "DECEA trata de acesso ao espaço aéreo; ANATEL trata da conformidade de produtos e telecomunicações. A norma aplicável, o manual, o local e as condições da autorização precisam ser compatíveis. Este episódio ensina o percurso de consulta, sem resumir toda a regulamentação em uma regra de peso."
+        "Comece separando as atribuições que aparecem na tela. A ANAC trata do enquadramento e das condições da operação da aeronave e de seus responsáveis. O DECEA trata do acesso ao espaço aéreo. A Anatel trata da conformidade e homologação dos equipamentos de telecomunicações. São verificações complementares. Ter um cadastro ou uma câmera adequada não significa que todas as condições da missão estejam resolvidas.",
+        "Na ANAC, a referência desta revisão é o RBAC cem, emenda zero, aprovado pela Resolução oitocentos e cinco, de quinze de junho de dois mil e vinte e seis. O regulamento distingue operações abertas, específicas e certificadas. A categoria depende das características e do risco da operação. Atenção ao âmbito de aplicação: há situações tratadas pela Resolução oitocentos e seis. Não copie automaticamente uma regra antiga ou uma categoria europeia para esta missão brasileira.",
+        "No âmbito do RBAC cem, a categoria aberta reúne condições: peso em voo de até vinte e cinco quilogramas, operação em linha de visada visual ou visual estendida, até cento e vinte metros do solo, distância de terceiros e avaliação de risco conforme as disposições do regulamento. Sair de uma condição pode levar à categoria específica. Este quadro é uma síntese para estudar o enquadramento; cento e vinte metros não é uma autorização universal para voar em qualquer lugar.",
+        "A Resolução oitocentos e seis, de quinze de junho de dois mil e vinte e seis, trata das aeronaves com peso em voo de até duzentos e cinquenta gramas e dos aeromodelos nas condições de seu âmbito. Pese a configuração realmente usada: bateria, proteção e acessórios entram no conjunto. O texto também exige observar as normas de outros órgãos. Ser pequeno não dispensa a análise do espaço aéreo, do rádio, das pessoas ou da responsabilidade pela operação.",
+        "No DECEA, mostramos a ICA cem quarenta, versão de dois mil e vinte e seis, vigente desde primeiro de julho. Ela trata do acesso ao espaço aéreo brasileiro. Local, altura, horário, proximidade de aeródromos e restrições precisam ser avaliados. No cenário da fachada, a proximidade de um aeródromo é decisiva. O alcance do controle e o desbloqueio no aplicativo do fabricante não substituem as condições e a autorização exigidas pela autoridade.",
+        "O SARPAS é o caminho para verificar e solicitar o acesso conforme o procedimento aplicável. Pedido enviado não é pedido aprovado. O artigo dezenove, parágrafo quarto, da ICA cem quarenta inclui aeronaves de até duzentos e cinquenta gramas. A norma também distingue casos, como área confinada e condições específicas de operação recreativa. Para nossa missão externa perto de aeródromo, consulte a área e as condicionantes antes de operar; não deduza autorização pela massa ou pela altura planejada.",
+        "Para os equipamentos de telecomunicações, mostramos a Resolução setecentos e quinze da Anatel, de vinte e três de outubro de dois mil e dezenove, com suas alterações vigentes. Confirme a identificação de homologação do equipamento e da configuração utilizada, nas fontes oficiais. A marca comercial ou a compra no exterior não comprova conformidade. O cadastro aeronáutico e o acesso ao espaço aéreo também não substituem essa verificação do rádio.",
+        "Volte à nossa fachada: RGB, linha de visada visual, noventa metros do solo e proximidade de aeródromo. A câmera pode atender ao registro, mas o acesso ao espaço aéreo não foi confirmado e a homologação do rádio não foi verificada. Além disso, terceiros precisam de proteção e as condições do local devem ser conferidas. Qualquer alternativa continua com essas pendências. Comprar outro drone não responde a perguntas que são da operação."
       ],
       "models": [
         "mini-4-pro",
@@ -724,7 +786,33 @@
         "anatel"
       ],
       "exercise": "Um equipamento anuncia 20 km de comunicação. Essa ficha basta para autorizar um voo a 20 km?",
-      "video_url": null
+      "video_url": "videos/episodio-03-revisao-v6.mp4",
+      "problem": "Registrar uma fachada com câmera RGB, em VLOS a 90 m do solo, perto de um aeródromo. O acesso ao espaço aéreo e a homologação do rádio ainda não foram verificados.",
+      "choices": [
+        "DJI Mini 4 Pro",
+        "DJI Phantom 4",
+        "DJI Matrice 4E"
+      ],
+      "solution": "Se o acesso ao espaço aéreo ou outra condição decisiva está pendente, a resposta é adiar ou reformular a missão. Trocar B por A não resolve automaticamente a pendência. A Resolução oitocentos e seis também exige observar normas de outros órgãos e responsabilidades aplicáveis. O desbloqueio no aplicativo e o alcance do rádio não substituem essa análise.",
+      "choice_features": [
+        [
+          "RGB; <249 g no padrão",
+          "Massa real inclui acessórios",
+          "Não resolve espaço aéreo/radio"
+        ],
+        [
+          "RGB; massa acima de 250 g",
+          "Enquadramento a conferir",
+          "Não resolve as pendências"
+        ],
+        [
+          "RGB; massa acima de 250 g",
+          "Plataforma de levantamento",
+          "Não é autorização para decolar"
+        ]
+      ],
+      "captions_url": "videos/episodio-03-revisao-v6.vtt",
+      "duration": 547.264333
     },
     {
       "n": 4,
@@ -737,8 +825,8 @@
         "Interpretar máximos de catálogo com suas condições."
       ],
       "reading": [
-        "Um multirrotor pode permanecer em um ponto; uma asa fixa favorece deslocamento sustentado; um VTOL combina fases de voo com complexidades próprias. A escolha deve considerar decolagem, pouso, área, sensores, equipe, manutenção e produto final.",
-        "Tempo máximo de voo não deve ser tratado como tempo útil de missão. Acessórios mudam massa e consumo. Um equipamento já existente pode atender ao objetivo introdutório, desde que esteja apto e sua informação seja suficiente."
+        "Dentro de um tanque, a referência GNSS pode não estar disponível. Sensores como LiDAR e visão podem ajudar a construir um mapa local e estimar o movimento. A câmera e a iluminação registram a parede. Associar a imagem ao mapa permite localizar o achado; isso não implica segurança em atmosferas explosivas.",
+        "A energia disponível é a mesma nos dois exemplos: quarenta watt-hora. Com potência média de cento e vinte watts, o modelo simplificado resulta em vinte minutos. Com cento e sessenta watts, cai para quinze. São valores fictícios, sem reserva operacional: ilustram a relação entre energia, potência média e duração."
       ],
       "models": [
         "phantom-4",
@@ -759,7 +847,33 @@
         "nauru"
       ],
       "exercise": "Uma mesma plataforma deve inspecionar o interior de um tanque e mapear centenas de hectares?",
-      "video_url": null
+      "video_url": "videos/episodio-04-revisao-v6.mp4",
+      "problem": "Registrar achados localizáveis no interior de um tanque fora de operação. Não há GNSS útil. A instalação confirmou isolamento e ambiente sem atmosfera explosiva.",
+      "choices": [
+        "DJI Phantom 4",
+        "WingtraRAY",
+        "Flyability Elios 3"
+      ],
+      "solution": "A opção C é a candidata inicial para a necessidade de inspeção interna, sujeita às condições e à configuração do fabricante. A gaiola não comprova aptidão para atmosfera explosiva. Para levantamento externo extenso, B pode merecer análise. A escolha ganha força quando mostra também onde a plataforma deixa de atender.",
+      "choice_features": [
+        [
+          "Quadricóptero RGB externo",
+          "Sem gaiola de proteção",
+          "Localização interna a conferir"
+        ],
+        [
+          "Asa fixa com decolagem vertical",
+          "Mapeamento externo amplo",
+          "Não atende ao espaço interno"
+        ],
+        [
+          "Gaiola; RGB, luz e LiDAR",
+          "Inspeção e localização interna",
+          "Gaiola não é certificação ATEX"
+        ]
+      ],
+      "captions_url": "videos/episodio-04-revisao-v6.vtt",
+      "duration": 325.974
     },
     {
       "n": 5,
@@ -772,8 +886,9 @@
         "Calcular uma margem didática de energia sem confundi-la com regra universal."
       ],
       "reading": [
-        "O briefing estabelece objetivo, papéis, local, condição de retorno e comunicação. Um checklist é útil quando os itens são verificáveis. Escrever apenas “clima OK” esconde a ausência de um critério.",
-        "Exemplo sintético: bateria entrega 80 Wh úteis em um cenário estimado, com potência média de 240 W. A razão E/P dá 20 min. Reservar 25% nesse exercício deixa 15 min antes de descontar deslocamento. A reserva é hipótese pedagógica; operação real segue manual, ensaio e avaliação do cenário."
+        "A bateria precisa atender quatro parcelas: ida, coleta, retorno e reserva definida para a missão. Se o retorno exigir mais energia, a parcela de coleta diminui. Se a margem não couber, a decisão é não decolar ou interromper. A barra é esquemática e não estabelece um percentual universal de reserva.",
+        "Faça a conta do exemplo fictício: oitenta watt-hora divididos por duzentos e quarenta watts dão um terço de hora, ou vinte minutos. Uma reserva didática de vinte e cinco por cento deixa quinze minutos para o planejamento. Se ida e volta consomem juntos quatro minutos, sobram onze para a coleta. Não são dados de um drone real nem uma regra universal de reserva. Vento, carga e consumo real precisam ser avaliados.",
+        "Estas três portas resumem condições decisivas: local e terceiros, meteorologia e energia, sistema e equipe. Uma condição impeditiva interrompe o caminho mesmo com uma aeronave capaz. O exemplo marca uma reprovação na segunda porta. Este esquema ajuda a pensar, mas não substitui o checklist nem o planejamento da operação."
       ],
       "models": [
         "phantom-4",
@@ -788,7 +903,33 @@
         "805"
       ],
       "exercise": "No exemplo, se deslocamento de ida e volta consumir quatro minutos, quanto sobra para coleta?",
-      "video_url": null
+      "video_url": "videos/episodio-05-revisao-v6.mp4",
+      "problem": "Documentar uma área externa com RGB. O vento excede o critério aceito no planejamento e o acesso à área está pendente. A equipe dispõe de três drones.",
+      "choices": [
+        "DJI Mini 4 Pro",
+        "DJI Phantom 4",
+        "DJI Matrice 4E"
+      ],
+      "solution": "No cenário com limite descumprido e pendência, nenhuma das três aeronaves autoriza o prosseguimento. A missão precisa ser suspensa ou reformulada. Na conta de energia, onze minutos são apenas uma estimativa sob as hipóteses dadas. Consumo real, vento, carga, retorno e contingência precisam de avaliação própria.",
+      "choice_features": [
+        [
+          "RGB compacto",
+          "Limites próprios de operação",
+          "Acesso pendente permanece"
+        ],
+        [
+          "RGB em quadricóptero",
+          "Limites próprios de operação",
+          "Vento exige nova avaliação"
+        ],
+        [
+          "RGB de trabalho",
+          "Limites próprios de operação",
+          "Marca não decide GO / NO-GO"
+        ]
+      ],
+      "captions_url": "videos/episodio-05-revisao-v6.vtt",
+      "duration": 335.552333
     },
     {
       "n": 6,
@@ -801,8 +942,10 @@
         "Conservar metadados e validar resultados."
       ],
       "reading": [
-        "RGB registra aparência em bandas visíveis; imagem térmica permite examinar padrões de temperatura aparente; multispectral observa bandas específicas; LiDAR mede distâncias para representar geometria. Essas informações podem se complementar, mas não são intercambiáveis.",
-        "Uma medida exige referência, unidade, método e incerteza. GSD é a amostragem no solo em um modelo geométrico; não é o erro final de posição. Preservar data, parâmetros e contexto permite avaliar se uma comparação é válida."
+        "Compare a mesma câmera a trinta e sessenta metros do terreno plano. Ao dobrar a altura, dobramos aproximadamente a largura coberta e o tamanho linear de cada pixel no solo. O GSD passa de zero vírgula oitenta e dois para um vírgula sessenta e quatro centímetros. Detalhe por pixel não é exatidão de posição.",
+        "LiDAR entra pela geometria. Multispectral entra por bandas específicas. Nenhum sensor transforma sozinho uma observação em diagnóstico. É preciso método e uma verificação adequada.",
+        "Os triângulos representam pontos de controle que entram no ajuste do modelo. Os círculos representam checkpoints, mantidos fora desse ajuste para conferir o resultado. Comparar sua posição observada com a referência revela diferenças independentes. Um único ponto não garante toda a área, e o erro de ajuste não substitui a conferência.",
+        "Na figura, dois centímetros por pixel descrevem a amostragem no terreno. Agora confira um ponto que ficou fora do ajuste. Neste exemplo fictício, a diferença em x é três centímetros e em y, quatro. O erro horizontal desse ponto é a raiz de três ao quadrado mais quatro ao quadrado: cinco centímetros. A qualidade do levantamento exige mais pontos e critérios. Resolução e erro de posição respondem a perguntas diferentes."
       ],
       "models": [
         "mavic-3e",
@@ -820,7 +963,33 @@
         "matrice400"
       ],
       "exercise": "Se o GSD for 2 cm/pixel, posso declarar que todas as coordenadas têm erro de 2 cm?",
-      "video_url": null
+      "video_url": "videos/episodio-06-revisao-v6.mp4",
+      "problem": "Produzir um ortomosaico RGB de uma obra a céu aberto. A meta didática é GSD de até 2 cm/pixel, com conferência de posição em pontos independentes.",
+      "choices": [
+        "DJI Mavic 3E",
+        "DJI Mavic 3T",
+        "Flyability Elios 3"
+      ],
+      "solution": "Para o ortomosaico RGB descrito, A merece análise inicial, com aquisição e referências adequadas. A meta de dois centímetros por pixel descreve amostragem no terreno. Ela não comprova erro de posição de dois centímetros. O projeto precisa de pontos independentes para conferir o resultado, além de imagens bem adquiridas.",
+      "choice_features": [
+        [
+          "RGB; obturador mecânico",
+          "Levantamento fotogramétrico",
+          "Referência e controle de erro"
+        ],
+        [
+          "RGB e câmera térmica",
+          "Triagem de temperatura",
+          "Térmico não é pedido da missão"
+        ],
+        [
+          "RGB, LiDAR e gaiola",
+          "Inspeção interna",
+          "Não é a arquitetura pedida"
+        ]
+      ],
+      "captions_url": "videos/episodio-06-revisao-v6.vtt",
+      "duration": 337.659667
     },
     {
       "n": 7,
@@ -833,8 +1002,8 @@
         "Comparar inspeção externa e interna."
       ],
       "reading": [
-        "Em manutenção, a coleta deve identificar o ativo e permitir localizar a observação. Uma imagem de possível corrosão precisa de escala, contexto e encaminhamento. A decisão pertence ao processo técnico de inspeção.",
-        "O caso Flyability/TotalEnergies permite discutir inspeção interna; o cenário solar permite discutir interpretação térmica. A vantagem proposta é obter informação com exposição controlada, mantendo claro o que o método consegue confirmar."
+        "A câmera recebe radiação emitida pela superfície do painel e uma parcela refletida do ambiente. Atmosfera e distância também influenciam o sinal. Para estimar temperatura, precisamos dos parâmetros adequados e de uma câmera radiométrica. Uma cor quente pode indicar uma anomalia a investigar; sozinha, não confirma defeito nem sua causa.",
+        "As duas imagens esquemáticas pertencem ao mesmo setor: a RGB fornece contexto e a térmica mostra um indício. Antes de decidir manutenção, verificamos reflexos, ângulo, horário e condições de aquisição. Correlacionamos o registro com inspeção ou teste apropriado e documentamos a ação. O ponto destacado é uma simulação, não um diagnóstico."
       ],
       "models": [
         "elios-3",
@@ -851,7 +1020,33 @@
         "mavic"
       ],
       "exercise": "Uma imagem mostra temperatura elevada em um módulo. Qual deve ser a próxima frase do relatório?",
-      "video_url": null
+      "video_url": "videos/episodio-07-revisao-v6.mp4",
+      "problem": "Localizar anomalias térmicas aparentes em painéis solares e correlacioná-las com imagens RGB. As condições de aquisição serão conferidas antes do levantamento.",
+      "choices": [
+        "DJI Mavic 3E",
+        "DJI Mavic 3T",
+        "Flyability Elios 3"
+      ],
+      "solution": "B é a candidata inicial para observar a variável térmica e correlacionar o indício com RGB. Temperatura estimada depende dos parâmetros e das condições da superfície. Reflexos e contexto podem explicar padrões. A triagem orienta a investigação; a equipe técnica confirma a causa antes de registrar um diagnóstico.",
+      "choice_features": [
+        [
+          "RGB para documentação",
+          "Sem térmico nesta versão",
+          "Não mede a variável pedida"
+        ],
+        [
+          "RGB e térmico radiométrico",
+          "Candidato à triagem térmica",
+          "Parâmetros e contexto importam"
+        ],
+        [
+          "RGB, luz e LiDAR",
+          "Especializado em interiores",
+          "Conferir carga e finalidade"
+        ]
+      ],
+      "captions_url": "videos/episodio-07-revisao-v6.vtt",
+      "duration": 319.599
     },
     {
       "n": 8,
@@ -864,8 +1059,9 @@
         "Planejar comparações ambientais consistentes."
       ],
       "reading": [
-        "O drone pode revelar padrões espaciais que são difíceis de observar ao nível do solo. Porém, a interpretação precisa de contexto e amostras de referência. A cor de um mapa é uma representação produzida por um método.",
-        "Em agricultura, mapear vigor e aplicar insumos são atividades distintas. Em ambiente, comparar erosão, cobertura ou margem de curso d’água pede consistência temporal, geométrica e de método. O exercício não autoriza intervenção, voo em área protegida nem aplicação de produtos."
+        "O NDVI usa reflectâncias no vermelho e no infravermelho próximo. No exemplo A, vermelho zero vírgula dez e NIR zero vírgula cinquenta resultam em aproximadamente zero vírgula sessenta e sete. No exemplo B, o índice é zero vírgula vinte. Uma câmera RGB comum não mede o NIR necessário; o índice não diagnostica sozinho uma causa.",
+        "Use as refletâncias sintéticas da tela. No setor A, infravermelho próximo zero vírgula cinquenta e vermelho zero vírgula dez produzem zero vírgula quarenta dividido por zero vírgula sessenta: aproximadamente zero vírgula sessenta e sete. No setor B, zero vírgula trinta e zero vírgula vinte produzem zero vírgula dez dividido por zero vírgula cinquenta: zero vírgula vinte. O contraste é um indício de variação. Ele não identifica sozinho falta de água, praga ou outra causa.",
+        "Este mapa sintético separa setores para orientar a investigação. As cores não são medidas de uma lavoura real. A equipe verifica no campo solo, disponibilidade de água e outras condições, compara datas e interpreta o contexto. O indicador ajuda a escolher onde observar; não determina automaticamente produto, dose ou intervenção."
       ],
       "models": [
         "agras-t50",
@@ -882,7 +1078,33 @@
         "nauru"
       ],
       "exercise": "Se duas imagens de uma área foram obtidas com luz e geometria distintas, toda mudança de cor significa mudança ambiental?",
-      "video_url": null
+      "video_url": "videos/episodio-08-revisao-v6.mp4",
+      "problem": "Mapear um talhão amplo com RGB para localizar possíveis falhas no plantio. Não há pedido de pulverização. Uma segunda etapa poderá exigir bandas vermelha e infravermelha próxima.",
+      "choices": [
+        "WingtraRAY",
+        "DJI Agras T50",
+        "Parrot ANAFI Ai"
+      ],
+      "solution": "Para levantamento RGB extenso, A pode ser uma candidata inicial, com sensor e operação compatíveis. C também pode servir a outras escalas e condições. B não deve ser escolhido apenas porque o assunto é agricultura. Para calcular o índice apresentado, precisamos confirmar as bandas do sensor e a calibração. Uma câmera RGB comum não entrega infravermelho próximo.",
+      "choice_features": [
+        [
+          "Asa fixa VTOL para mapas",
+          "Cobertura de área ampla",
+          "Conferir sensor e operação"
+        ],
+        [
+          "Plataforma aeroagrícola",
+          "Aplicação de insumos",
+          "Pulverizar não é o objetivo"
+        ],
+        [
+          "RGB em quadricóptero",
+          "Mapeamento e integração",
+          "Cobertura depende do projeto"
+        ]
+      ],
+      "captions_url": "videos/episodio-08-revisao-v6.vtt",
+      "duration": 351.187667
     },
     {
       "n": 9,
@@ -895,8 +1117,8 @@
         "Evitar confundir detecção com identificação confirmada."
       ],
       "reading": [
-        "Em emergências, informação útil inclui horário, localização, significado e confiança. Uma transmissão de vídeo sem contexto pode gerar decisões erradas. A imagem precisa entrar em uma cadeia de coordenação.",
-        "O emprego histórico do RQ-900 pela FAB no Rio Grande do Sul serve à discussão do apoio informacional. Não é convite a deslocar drones particulares para cenários de resgate. Interferir no trabalho aéreo de emergência pode aumentar a exposição de quem precisa de ajuda."
+        "A câmera pode receber radiação de uma superfície exposta dentro da linha de visão. Uma parede opaca interrompe essa observação direta: a câmera passa a medir a superfície visível da própria parede. Um objeto atrás dela permanece oculto nesse exemplo. O esquema não garante identificação de pessoas nem generaliza todos os materiais.",
+        "Um achado útil precisa sair da imagem e chegar a uma equipe. Esta mensagem fictícia registra setor, horário, tipo de indício e incerteza. A confirmação fica pendente até a verificação coordenada. Depois, o registro é atualizado. Isso evita que uma observação incompleta seja tratada como uma conclusão ou um atendimento concluído."
       ],
       "models": [
         "matrice-4t",
@@ -912,7 +1134,33 @@
         "decea"
       ],
       "exercise": "Qual mensagem é mais útil: “vi algo no rio” ou uma observação com localização, horário, descrição e grau de confiança?",
-      "video_url": null
+      "video_url": "videos/episodio-09-revisao-v6.mp4",
+      "problem": "Uma equipe coordenada busca indicações térmicas de pessoas visíveis numa área após inundação. Cada indicação precisa chegar à equipe com localização, horário e incerteza.",
+      "choices": [
+        "DJI Mini 4 Pro",
+        "DJI Matrice 4T",
+        "DJI Matrice 400"
+      ],
+      "solution": "Para a variável térmica descrita, B merece análise inicial; C depende da carga escolhida. Detecção, classificação e identificação não são a mesma conclusão. A mensagem útil informa localização, horário, descrição e confiança, e vai ao destinatário definido. A equipe responsável verifica a observação antes de decidir a resposta.",
+      "choice_features": [
+        [
+          "Câmera RGB compacta",
+          "Registro visual do cenário",
+          "Sem térmico nesta versão"
+        ],
+        [
+          "RGB e câmera térmica",
+          "Indicação e correlação visual",
+          "Confirmar localização e achado"
+        ],
+        [
+          "Plataforma com cargas úteis",
+          "Sensor depende da carga",
+          "Térmico não vem de qualquer carga"
+        ]
+      ],
+      "captions_url": "videos/episodio-09-revisao-v6.vtt",
+      "duration": 317.765667
     },
     {
       "n": 10,
@@ -925,8 +1173,8 @@
         "Explicar que conexão celular não equivale a autorização BVLOS."
       ],
       "reading": [
-        "A entrega por drone integra infraestrutura e processo. A rota aérea pode ser curta enquanto preparação e transferência da carga dominam o tempo porta a porta. O caso Walmart é um ponto de partida para examinar a escala e perguntar pelas métricas que faltam.",
-        "Conectividade celular acrescenta questões de cobertura, latência, continuidade e dependência de infraestrutura. Pesquisas de 5G e Open RAN exploram essas relações, mas resultado experimental não é garantia universal nem autorização operacional."
+        "O prazo percebido pelo destinatário começa no pedido. Preparar o pacote, verificar disponibilidade e local, transportar, entregar e confirmar fazem parte do serviço. A parcela aérea é apenas uma seção dessa linha de tempo. Voar rápido não garante, sozinho, uma entrega rápida; recuperação e confirmação também precisam funcionar.",
+        "Imagine quatro etapas, cada uma com noventa e cinco por cento de sucesso. Se forem independentes e todas precisarem funcionar, multiplicamos as probabilidades e chegamos a aproximadamente oitenta e um vírgula cinco por cento. É um exemplo matemático fictício. As etapas reais podem compartilhar causas de falha e não ser independentes."
       ],
       "models": [
         "anafi-ai",
@@ -941,7 +1189,33 @@
         "5g"
       ],
       "exercise": "No exemplo sintético, o voo levou quatro minutos. Qual foi o tempo total do serviço mostrado?",
-      "video_url": null
+      "video_url": "videos/episodio-10-revisao-v6.mp4",
+      "problem": "Analisar a entrega de uma peça de 500 g entre pontos a 2 km. Massa e distância são hipóteses do exercício; carga, rota, destino e autorização ainda precisam ser validados.",
+      "choices": [
+        "DJI Mini 4 Pro",
+        "DJI Agras T50",
+        "Plataforma de entrega"
+      ],
+      "solution": "C é a categoria alinhada à finalidade do serviço apresentado. Isso não comprova adequação a qualquer rota ou autorização no Brasil. O Agras não se torna uma solução de entrega doméstica por lidar com uma carga. Para avaliar o serviço, inclua tempo total, cancelamentos, confirmação, custo e condições da operação, além do tempo de voo.",
+      "choice_features": [
+        [
+          "Fotografia RGB compacta",
+          "Finalidade não é transporte",
+          "Carga de entrega não validada"
+        ],
+        [
+          "Aplicação aeroagrícola",
+          "Carga e sistema específicos",
+          "Não equivale a entrega urbana"
+        ],
+        [
+          "Arquitetura de entrega",
+          "Carga e serviço integrados",
+          "Validar 500 g, rota e destino"
+        ]
+      ],
+      "captions_url": "videos/episodio-10-revisao-v6.vtt",
+      "duration": 331.356689
     },
     {
       "n": 11,
@@ -954,8 +1228,8 @@
         "Debater supervisão humana, direito e responsabilidade."
       ],
       "reading": [
-        "Um sistema de defesa pode priorizar permanência, cobertura de sensores, redundância, comunicações e logística. Um nanodrone e uma aeronave MALE resolvem problemas de escala distintos. Sua análise tecnológica não transfere procedimentos militares para o curso civil.",
-        "Vigilância e reconhecimento produzem informação. Algumas plataformas também possuem versões armadas; munições de uso único representam outra finalidade. Aqui, a discussão se limita às categorias, à engenharia pública dos sistemas e às implicações de responsabilidade e supervisão."
+        "O desenho separa funções, não necessariamente rádios físicos. Comandos e telemetria conectam a estação à função de voo. Dados do sensor chegam à interpretação da missão. Pilotar e analisar são tarefas relacionadas, mas possuem responsabilidades próprias. A arquitetura deve atender à informação necessária e à supervisão humana prevista para aquele sistema.",
+        "Começamos por três conjuntos de exigências: duração e cobertura, sensor e informação, equipe e suporte. Eles convergem para o sistema adequado. Trocar apenas a aeronave pode deixar lacunas de enlace, manutenção ou interpretação. O porte não define sozinho a capacidade, e características divulgadas pelo fabricante não equivalem a ensaios independentes."
       ],
       "models": [
         "black-hornet",
@@ -975,7 +1249,33 @@
         "ecosystem"
       ],
       "exercise": "Que comparação é mais útil: tamanho da aeronave ou relação entre missão, sensor, permanência e infraestrutura?",
-      "video_url": null
+      "video_url": "videos/episodio-11-revisao-v6.mp4",
+      "problem": "Produzir documentação fotogramétrica RGB de uma obra para sua equipe técnica. A comparação com plataformas de defesa serve para discutir requisitos e arquitetura.",
+      "choices": [
+        "DJI Mini 4 Pro",
+        "DJI Mavic 3E",
+        "Xmobots Nauru 500C ISR"
+      ],
+      "solution": "Para a documentação fotogramétrica descrita, B merece uma análise inicial. A pode atender a um registro visual mais simples. C só deve ser avaliado pela necessidade e pela configuração, sem transferir procedimentos de defesa para uma operação civil. Tamanho e permanência não substituem qualidade da evidência ou adequação ao enquadramento.",
+      "choice_features": [
+        [
+          "RGB compacto",
+          "Pode servir ao registro visual",
+          "Conferir a geometria exigida"
+        ],
+        [
+          "RGB; obturador mecânico",
+          "Vocação fotogramétrica",
+          "Método civil e validação"
+        ],
+        [
+          "Monitoramento / ISR",
+          "Sistema e sensores específicos",
+          "Complexidade exige justificativa"
+        ]
+      ],
+      "captions_url": "videos/episodio-11-revisao-v6.vtt",
+      "duration": 325.951667
     },
     {
       "n": 12,
@@ -988,8 +1288,9 @@
         "Usar debrief e análise de falhas para produzir aprendizado."
       ],
       "reading": [
-        "Uma missão por pontos programados automatiza uma sequência; autonomia inclui adaptar decisões dentro de limites. Em ambos os casos, a confiabilidade precisa ser avaliada. IA pode auxiliar detecção, mas resultados variam com contexto e dados.",
-        "O Ingenuity oferece um caso de processamento embarcado e investigação de falha. PX4 e QGroundControl permitem estudar missões em ambiente simulado. A prova de conceito deve explicitar hipótese, condições de teste, resultados e limite do que foi demonstrado."
+        "A autonomia precisa observar o resultado das próprias ações. O sistema percebe, estima estado e incerteza, planeja, decide e age. A ação modifica o ambiente observado e o ciclo se repete. Supervisor e limites envolvem o processo. Quando a confiança na estimativa cai, a reação deve seguir contingências previamente definidas.",
+        "Automatizar uma sequência não é o mesmo que adaptar decisões. A missão programada segue uma rota previamente definida. Na assistência à percepção, observar e estimar confiança faz parte da resposta ao ambiente. Se a percepção falhar, o sistema precisa reconhecer sua limitação e responder dentro de condições previstas. Nos dois casos, registramos execução e condições, conferimos supervisão e definimos critérios de interrupção.",
+        "O desenho compara solo com referências e solo uniforme. A investigação do último voo do Ingenuity apontou falta de textura como parte do cenário mais provável de degradação da navegação. A estimativa de movimento pode ficar inadequada, influenciando o contato e o dano. É uma síntese esquemática da hipótese, sem certeza absoluta."
       ],
       "models": [
         "ingenuity",
@@ -1007,7 +1308,33 @@
         "5g"
       ],
       "exercise": "Uma detecção por IA funcionou em dez imagens de um ambiente. Isso comprova desempenho em qualquer local?",
-      "video_url": null
+      "video_url": "videos/episodio-12-revisao-v6.mp4",
+      "problem": "Comparar missão programada e assistência à percepção em simulação. O ensaio exige interfaces documentadas, registros, mudança de iluminação e intervenção do operador.",
+      "choices": [
+        "DJI Mavic 3E",
+        "Parrot ANAFI Ai",
+        "DJI Matrice 4T"
+      ],
+      "solution": "Não existe uma letra universal para o projeto descrito. Precisamos confirmar recursos e construir a hipótese de teste. Se o detector acertou dez imagens de um único ambiente, a conclusão deve ficar restrita a esse ensaio. Registre acertos, erros e condições. Quando a percepção perde confiança, a resposta do sistema precisa estar prevista e validada.",
+      "choice_features": [
+        [
+          "Missões de levantamento RGB",
+          "Conferir interfaces e registros",
+          "Planejamento não prova autonomia"
+        ],
+        [
+          "RGB; interfaces de integração",
+          "Candidato a estudar percepção",
+          "Conferir documentação e ensaio"
+        ],
+        [
+          "RGB e câmera térmica",
+          "Recursos para outras missões",
+          "Térmico não é requisito universal"
+        ]
+      ],
+      "captions_url": "videos/episodio-12-revisao-v6.vtt",
+      "duration": 398.075
     }
   ],
   "news": [
@@ -1301,16 +1628,16 @@
       "caption": "Família Matrice 4 • Foto: DJI"
     },
     "mavic-3t": {
-      "file": "assets/photos/mavic-3e.png",
+      "file": "assets/photos/mavic-3t-oficial.png",
       "credit": "DJI",
-      "url": "https://www-cdn.djiits.com/cms/uploads/4cfc74354616f6a37ed4f011007bb6d0@374*374.png",
-      "caption": "Família Mavic 3 Enterprise • Foto: DJI"
+      "url": "https://www-cdn.djiits.com/cms/uploads/4bfc6e97126da1cf68a01cae18523219.png",
+      "caption": "DJI Mavic 3T · versão térmica · foto oficial DJI"
     },
     "matrice-4t": {
-      "file": "assets/photos/matrice-4e.png",
+      "file": "assets/photos/matrice-4t-oficial.png",
       "credit": "DJI",
-      "url": "https://www-cdn.djiits.com/cms/uploads/5a6ef3ed6f35e3719453a78ff0e67af4@374*374.png",
-      "caption": "Família Matrice 4 • Foto: DJI"
+      "url": "https://www-cdn.djiits.com/cms/uploads/b3260f6249775ce240fe714453010ec2.png",
+      "caption": "DJI Matrice 4T · versão térmica · foto oficial DJI"
     },
     "ingenuity": {
       "file": "assets/ingenuity.jpg",
@@ -1318,5 +1645,161 @@
       "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/",
       "caption": "Foto: NASA/JPL-Caltech/ASU/MSSS"
     }
-  }
+  },
+  "learning_path": [
+    {
+      "id": "00",
+      "title": "Sua missão começa aqui",
+      "tag": "BOAS-VINDAS",
+      "duration": 263.208333,
+      "video": "/videos/episodio-00-revisao-v6.mp4",
+      "url": "/episodios/00-expansao-v4.html",
+      "captions": "/videos/episodio-00-revisao-v6.vtt"
+    },
+    {
+      "id": "13",
+      "title": "Uma história de missões, controle e informação",
+      "tag": "ESPECIAL · HISTÓRIA",
+      "duration": 424.166667,
+      "video": "/videos/episodio-13-revisao-v6.mp4",
+      "url": "/episodios/13-expansao-v4.html",
+      "captions": "/videos/episodio-13-revisao-v6.vtt"
+    },
+    {
+      "id": "01",
+      "title": "O drone é só uma parte do sistema",
+      "duration": 352.369333,
+      "video": "/videos/episodio-01-revisao-v6.mp4",
+      "url": "/episodios/01-muito-alem-do-voo.html",
+      "tag": "Episódio 01",
+      "captions": "/videos/episodio-01-revisao-v6.vtt"
+    },
+    {
+      "id": "02",
+      "title": "Como um drone voa e se orienta",
+      "duration": 482.676676,
+      "video": "/videos/episodio-02-revisao-v6.mp4",
+      "url": "/episodios/02-como-um-drone-voa.html",
+      "tag": "Episódio 02",
+      "captions": "/videos/episodio-02-revisao-v6.vtt"
+    },
+    {
+      "id": "03",
+      "title": "Quem autoriza o quê no Brasil",
+      "duration": 547.264333,
+      "video": "/videos/episodio-03-revisao-v6.mp4",
+      "url": "/episodios/03-regras-e-responsabilidades.html",
+      "tag": "Episódio 03",
+      "captions": "/videos/episodio-03-revisao-v6.vtt"
+    },
+    {
+      "id": "04",
+      "title": "Qual drone combina com a missão?",
+      "duration": 325.974,
+      "video": "/videos/episodio-04-revisao-v6.mp4",
+      "url": "/episodios/04-escolher-o-drone.html",
+      "tag": "Episódio 04",
+      "captions": "/videos/episodio-04-revisao-v6.vtt"
+    },
+    {
+      "id": "05",
+      "title": "GO ou NO-GO: a decisão antes de decolar",
+      "duration": 335.552333,
+      "video": "/videos/episodio-05-revisao-v6.mp4",
+      "url": "/episodios/05-planejar-e-decidir.html",
+      "tag": "Episódio 05",
+      "captions": "/videos/episodio-05-revisao-v6.vtt"
+    },
+    {
+      "id": "06",
+      "title": "Da câmera ao dado confiável",
+      "duration": 337.659667,
+      "video": "/videos/episodio-06-revisao-v6.mp4",
+      "url": "/episodios/06-camera-ao-dado.html",
+      "tag": "Episódio 06",
+      "captions": "/videos/episodio-06-revisao-v6.vtt"
+    },
+    {
+      "id": "07",
+      "title": "Drones na indústria, nas obras e na energia",
+      "duration": 319.599,
+      "video": "/videos/episodio-07-revisao-v6.mp4",
+      "url": "/episodios/07-inspecao-e-energia.html",
+      "tag": "Episódio 07",
+      "captions": "/videos/episodio-07-revisao-v6.vtt"
+    },
+    {
+      "id": "08",
+      "title": "Drones no campo e no meio ambiente",
+      "duration": 351.187667,
+      "video": "/videos/episodio-08-revisao-v6.mp4",
+      "url": "/episodios/08-campo-e-ambiente.html",
+      "tag": "Episódio 08",
+      "captions": "/videos/episodio-08-revisao-v6.vtt"
+    },
+    {
+      "id": "09",
+      "title": "Drones em emergências e serviços públicos",
+      "duration": 317.765667,
+      "video": "/videos/episodio-09-revisao-v6.mp4",
+      "url": "/episodios/09-resgate-e-servicos.html",
+      "tag": "Episódio 09",
+      "captions": "/videos/episodio-09-revisao-v6.vtt"
+    },
+    {
+      "id": "10",
+      "title": "Entrega por drone: o desafio é o serviço inteiro",
+      "duration": 331.356689,
+      "video": "/videos/episodio-10-revisao-v6.mp4",
+      "url": "/episodios/10-entregas-e-redes.html",
+      "tag": "Episódio 10",
+      "captions": "/videos/episodio-10-revisao-v6.vtt"
+    },
+    {
+      "id": "11",
+      "title": "Drones civis e militares: o que muda na engenharia",
+      "duration": 325.951667,
+      "video": "/videos/episodio-11-revisao-v6.mp4",
+      "url": "/episodios/11-drones-e-defesa.html",
+      "tag": "Episódio 11",
+      "captions": "/videos/episodio-11-revisao-v6.vtt"
+    },
+    {
+      "id": "12",
+      "title": "Autonomia, IA e o próximo voo",
+      "duration": 398.075,
+      "video": "/videos/episodio-12-revisao-v6.mp4",
+      "url": "/episodios/12-autonomia-e-futuro.html",
+      "tag": "Episódio 12",
+      "captions": "/videos/episodio-12-revisao-v6.vtt"
+    },
+    {
+      "id": "14",
+      "title": "SARPAS: planejar e solicitar acesso ao espaço aéreo",
+      "tag": "OFICINA · DECEA",
+      "duration": 431.913,
+      "video": "/videos/episodio-14-revisao-v6.mp4",
+      "url": "/episodios/14-expansao-v4.html",
+      "captions": "/videos/episodio-14-revisao-v6.vtt"
+    },
+    {
+      "id": "15",
+      "title": "SISANT, documentos do piloto e seguro",
+      "tag": "OFICINA · ANAC",
+      "duration": 424.139667,
+      "video": "/videos/episodio-15-revisao-v6.mp4",
+      "url": "/episodios/15-expansao-v4.html",
+      "captions": "/videos/episodio-15-revisao-v6.vtt"
+    },
+    {
+      "id": "16",
+      "title": "Revisão final: normas, escolhas e decisão segura",
+      "tag": "REVISÃO · AVALIAÇÃO",
+      "duration": 394.71932,
+      "video": "/videos/episodio-16-revisao-v6.mp4",
+      "url": "/episodios/16-expansao-v4.html",
+      "captions": "/videos/episodio-16-revisao-v6.vtt"
+    }
+  ],
+  "platform_url": "https://newtonlicciardijr.github.io/drones/"
 }

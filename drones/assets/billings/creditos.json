@@ -1,0 +1,92 @@
+[
+  {
+    "key": "billings-2024-conjunto",
+    "site_url": "/assets/billings/billings-2024-conjunto.jpg",
+    "caption": "Vista aérea do conjunto fotovoltaico flutuante e de sua ligação com a margem.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "EXIF DateTimeOriginal sem indicação de fuso; 24/09/2024.",
+    "kind": "RGB",
+    "cuidado": "A data vem do EXIF, sem fuso horário. Não atribuir operador, modelo da aeronave, autoria individual ou presença de alunos apenas pela imagem. A luz difusa faz parte do original."
+  },
+  {
+    "key": "billings-2025-equipe",
+    "site_url": "/assets/billings/billings-2025-equipe.jpeg",
+    "caption": "Equipe Mackenzie e EMAE durante a visita técnica documentada no relatório de 2025.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "Campanha descrita no relatório: 10/09/2025. JPEG extraído sem EXIF de captura; não tratar como data individual tecnicamente comprovada.",
+    "kind": "fotografia de equipe",
+    "cuidado": "O texto da página 1 situa a campanha em 10/09/2025 e declara que os alunos não participaram. A foto extraída não traz data EXIF individual. Não nomear pessoas pela aparência."
+  },
+  {
+    "key": "billings-2025-barco",
+    "site_url": "/assets/billings/billings-2025-barco.jpeg",
+    "caption": "Deslocamento da equipe por barco até as plantas flutuantes.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "Campanha descrita no relatório: 10/09/2025. JPEG extraído sem EXIF de captura; não tratar como data individual tecnicamente comprovada.",
+    "kind": "fotografia de campo",
+    "cuidado": "Contexto do relatório de 2025; data individual não registrada em EXIF. Não afirmar que a foto registra um voo, nem identificar operador ou variante do drone apenas pela aparência."
+  },
+  {
+    "key": "billings-2024-apoio",
+    "site_url": "/assets/billings/billings-2024-apoio.jpg",
+    "caption": "Registro aéreo da equipe na área de apoio à operação, em setembro de 2024.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "EXIF DateTimeOriginal sem indicação de fuso; 24/09/2024.",
+    "kind": "RGB",
+    "cuidado": "O EXIF informa 24/09/2024; não há fuso explícito. A fotografia não comprova a função, o nome ou a condição de aluno das pessoas retratadas. Não confundir com a campanha de 10/09/2025."
+  },
+  {
+    "key": "billings-2024-passarela",
+    "site_url": "/assets/billings/billings-2024-passarela.jpg",
+    "caption": "Equipe na passarela da usina flutuante — registro de setembro de 2024.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "EXIF DateTimeOriginal sem indicação de fuso; 24/09/2024.",
+    "kind": "RGB",
+    "cuidado": "Data EXIF de 24/09/2024, sem fuso. Não identificar integrantes ou atribuir operador/modelo da aeronave por inferência. Não chamar de voo de alunos de 2025."
+  },
+  {
+    "key": "billings-2025-operacao",
+    "site_url": "/assets/billings/billings-2025-operacao.jpeg",
+    "caption": "Operação do drone a partir da passarela da usina flutuante.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "Campanha descrita no relatório: 10/09/2025. JPEG extraído sem EXIF de captura; não tratar como data individual tecnicamente comprovada.",
+    "kind": "fotografia de operação",
+    "cuidado": "O relatório descreve operação para verificação de pontos de aquecimento na Planta 2. Não afirmar temperatura, diagnóstico, variante do drone ou nome do operador pela imagem. A data de campanha vem do relato, não de EXIF."
+  },
+  {
+    "key": "billings-2025-termal-geral",
+    "site_url": "/assets/billings/billings-2025-termal-geral.jpeg",
+    "caption": "Vista térmica geral das usinas flutuantes e de sua ligação até terra.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "Campanha descrita no relatório: 10/09/2025. JPEG extraído sem EXIF de captura; não tratar como data individual tecnicamente comprovada.",
+    "kind": "termograma",
+    "cuidado": "Imagem térmica verdadeira extraída do relatório. Não alterar paleta, acrescentar calor, recriar falhas ou inventar temperatura. Não há escala numérica de temperatura no JPEG extraído. O relatório informa captura a 80 m; isso é relato da missão, não medição extraída da imagem."
+  },
+  {
+    "key": "billings-2025-rgb-geral",
+    "site_url": "/assets/billings/billings-2025-rgb-geral.jpeg",
+    "caption": "Vista em luz visível apresentada junto à imagem térmica geral no relatório.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "Campanha descrita no relatório: 10/09/2025. JPEG extraído sem EXIF de captura; não tratar como data individual tecnicamente comprovada.",
+    "kind": "RGB",
+    "cuidado": "A página 8 afirma tratar-se da mesma vista capturada pela câmera normal. Apresentar lado a lado com o termograma sem prometer alinhamento pixel a pixel ou comparação radiométrica."
+  },
+  {
+    "key": "billings-2025-termal-detalhe",
+    "site_url": "/assets/billings/billings-2025-termal-detalhe.jpeg",
+    "caption": "Detalhe térmico com uma região de aquecimento assinalada no relatório.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "Campanha descrita no relatório: 10/09/2025. JPEG extraído sem EXIF de captura; não tratar como data individual tecnicamente comprovada.",
+    "kind": "termograma",
+    "cuidado": "O círculo preto já está no original; não foi criado nesta seleção. O relatório atribui o ponto a dejetos de pássaros. Tratar isso como interpretação do relatório; cores isoladas, sem escala radiométrica e condições da coleta, não comprovam causa, gravidade ou falha elétrica. Não acrescentar marcações ou pontos."
+  },
+  {
+    "key": "billings-2025-rgb-detalhe",
+    "site_url": "/assets/billings/billings-2025-rgb-detalhe.jpeg",
+    "caption": "Vista em luz visível dos módulos e da passarela da Planta 5, segundo o relatório.",
+    "credit": "Acervo da parceria Mackenzie–EMAE; autoria fotográfica individual não informada.",
+    "date_context": "Campanha descrita no relatório: 10/09/2025. JPEG extraído sem EXIF de captura; não tratar como data individual tecnicamente comprovada.",
+    "kind": "RGB",
+    "cuidado": "A página 9 identifica Planta 5. Não é demonstrado que esse quadro RGB e o termograma da mesma página têm o mesmo instante ou enquadramento. Não apontar no RGB a posição exata do círculo térmico por suposição."
+  }
+]

@@ -1,9 +1,9 @@
-# Drones Muito Além do Voo
+# Drones — Muito Além do Voo
 
-Acervo público de extensão. Vídeo piloto narrado, 12 temas, 17 plataformas, 8 casos e leituras.
+Plataforma pública: https://newtonlicciardijr.github.io/drones/
 
-Prof. Dr. Newton Licciardi Jr. e Prof. Dr. Anderson da Silva Jucá.
+Instrutores: Prof. Dr. Antonio Newton Licciardi Junior e Prof. Dr. Anderson da Silva Jucá. Universidade Presbiteriana Mackenzie · Escola de Engenharia.
 
-Roteiros e materiais de produção são mantidos em pacote de trabalho separado.
+A área aberta reúne aulas, casos, modelos e referências. A trilha com registro de progresso, apostila e avaliação usa autenticação na plataforma vinculada. O banco e a simulação docente não são públicos.
 
-Fotografias e dados de terceiros têm créditos em fontes.html.
+As fotografias e marcas preservam os créditos e condições de uso registrados na página de fontes. Nenhuma licença geral é atribuída a imagens de terceiros.
