@@ -4,6 +4,7 @@ Cada edição é preservada em um commit e em uma referência de histórico. As 
 
 | Edição | Referência preservada | Conteúdo |
 | --- | --- | --- |
+| 14 | Histórico de commits desta edição | Entrada por e-mail e senha do curso; guia atualizado; acompanhamento e prova na área identificada; painel dos dois instrutores. |
 | 13 | [historico/drones-v13-orientacoes](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v13-orientacoes/drones) | Guia de participação; aviso na primeira aula e no player; regras e disponibilidade da matrícula e da avaliação explicitadas. Entrega parcial: autenticação própria, integração de progresso e nova narração ainda pendentes. |
 | 12 | [historico/drones-v12-interface](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v12-interface/drones) | Botão de normas com contraste; menu da trilha leva à lista das 17 aulas; atalho do player fecha o vídeo antes de abrir a lista. |
 | 11 | [historico/drones-v11-trilha-aberta](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v11-trilha-aberta/drones) | Trilha pública das 17 aulas, sem atalhos de login na navegação dos vídeos. Commit 149d3fe9cbe5b40a8f9bd1f6d4407042e8f91e33. |
@@ -37,3 +38,9 @@ Publicada como ajuste de orientação, sem implantação de novo sistema de aute
 5. Certificado depende da validação documental e da autorização da Extensão. Preservar o bloqueio de emissão até a aprovação do modelo e da carga horária.
 6. Testar matrícula, retomada em outro acesso, conclusão de aulas, prova bloqueada antes das conclusões, tempo/tentativas, bloqueio após aprovação e isolamento dos registros. A simulação docente não deve consumir tentativas reais.
 7. Atualizar a gravação e as legendas da primeira aula usando as telas e os rótulos do fluxo efetivamente implantado; só então retirar os avisos de indisponibilidade.
+
+## Edição 14 · 23/10/2026
+
+Plataforma de registros: versão 11. Cadastro do curso com sessão validada no servidor, recuperação por chave privada, matrícula única, progresso em D1 e prova com as regras já descritas. Jucá pode acompanhar os inscritos junto com Newton. Aulas, leituras e consulta à apostila continuam públicas; documentos pessoais, avaliações reais e certificados ficam protegidos.
+
+A primeira aula conserva a narração brasileira existente, cujas regras permanecem válidas, e recebe um quadro visual atualizado de cadastro e entrada. Demais gravações preservadas. A edição 13 e a plataforma 10 continuam no histórico. A aprovação de modelo, carga horária e emissão institucional continua a cargo da Extensão; não foi realizada automaticamente.
