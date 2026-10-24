@@ -4,7 +4,8 @@ Cada edição é preservada em um commit e em uma referência de histórico. As 
 
 | Edição | Referência preservada | Conteúdo |
 | --- | --- | --- |
-| 14 | Histórico de commits desta edição | Entrada por e-mail e senha do curso; guia atualizado; acompanhamento e prova na área identificada; painel dos dois instrutores. |
+| 15 | Histórico de commits desta edição | Publicação confirmada; orientações de acompanhamento, revisão da prova e exame do certificado; plataforma 12. |
+| 14 | [historico/drones-v14-contas](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v14-contas/drones) | Entrada por e-mail e senha do curso; guia atualizado; acompanhamento e prova na área identificada; painel dos dois instrutores. |
 | 13 | [historico/drones-v13-orientacoes](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v13-orientacoes/drones) | Guia de participação; aviso na primeira aula e no player; regras e disponibilidade da matrícula e da avaliação explicitadas. Entrega parcial: autenticação própria, integração de progresso e nova narração ainda pendentes. |
 | 12 | [historico/drones-v12-interface](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v12-interface/drones) | Botão de normas com contraste; menu da trilha leva à lista das 17 aulas; atalho do player fecha o vídeo antes de abrir a lista. |
 | 11 | [historico/drones-v11-trilha-aberta](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v11-trilha-aberta/drones) | Trilha pública das 17 aulas, sem atalhos de login na navegação dos vídeos. Commit 149d3fe9cbe5b40a8f9bd1f6d4407042e8f91e33. |
@@ -16,9 +17,9 @@ As edições anteriores também permanecem no histórico de commits.
 
 Recuperar os arquivos necessários da pasta `drones/` da edição escolhida e registrar um novo commit na versão atual. Preservar os demais projetos do repositório. Conferir os links de vídeos e materiais antes de publicar: os arquivos de mídia e o sistema de inscrições possuem históricos próprios.
 
-O painel e o sistema de registros permanecem na versão 10 da plataforma. A edição 12 altera somente a apresentação e a navegação do portal público; não muda vídeos, questões, inscrições nem certificados.
+Em 24/10/2026, o sistema de registros está na plataforma 12. As referências às plataformas 10 e 11 abaixo são históricas. O portal público no GitHub mantém as aulas livres e os atalhos para a área identificada do curso.
 
-Atualizado em 21/10/2026.
+Atualizado em 24/10/2026.
 
 ## Situação da edição 13
 
@@ -44,3 +45,7 @@ Publicada como ajuste de orientação, sem implantação de novo sistema de aute
 Plataforma de registros: versão 11. Cadastro do curso com sessão validada no servidor, recuperação por chave privada, matrícula única, progresso em D1 e prova com as regras já descritas. Jucá pode acompanhar os inscritos junto com Newton. Aulas, leituras e consulta à apostila continuam públicas; documentos pessoais, avaliações reais e certificados ficam protegidos.
 
 A primeira aula conserva a narração brasileira existente, cujas regras permanecem válidas, e recebe um quadro visual atualizado de cadastro e entrada. Demais gravações preservadas. A edição 13 e a plataforma 10 continuam no histórico. A aprovação de modelo, carga horária e emissão institucional continua a cargo da Extensão; não foi realizada automaticamente.
+
+## Edição 15 · 24/10/2026
+
+Publicação do portal público confirmada no GitHub Pages. Orientações dos dois instrutores acrescentadas em docentes.html: inscritos, evolução por aula/tentativa, planilha CSV, simulação, pareceres e prévia frente e verso do certificado. A troca do modelo-base de certificado requer atualização da plataforma; o painel não oferece upload automático de um padrão externo. A plataforma 12 conserva o ajuste de compatibilidade do cadastro, mantendo sua proteção e suas regras acadêmicas. Nenhum dado pessoal ou gabarito foi incluído no repositório público.
