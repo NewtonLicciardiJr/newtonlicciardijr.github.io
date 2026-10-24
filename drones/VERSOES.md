@@ -4,7 +4,8 @@ Cada edição é preservada em um commit e em uma referência de histórico. As 
 
 | Edição | Referência preservada | Conteúdo |
 | --- | --- | --- |
-| 15 | Histórico de commits desta edição | Publicação confirmada; orientações de acompanhamento, revisão da prova e exame do certificado; plataforma 12. |
+| 16 | Histórico de commits desta edição | As 17 aulas com links do YouTube; sete envios faltantes publicados; botão do curso inserido no Google Sites 2026/2. |
+| 15 | [historico/drones-v15-gestao](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v15-gestao/drones) | Publicação confirmada; orientações de acompanhamento, revisão da prova e exame do certificado; plataforma 12. |
 | 14 | [historico/drones-v14-contas](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v14-contas/drones) | Entrada por e-mail e senha do curso; guia atualizado; acompanhamento e prova na área identificada; painel dos dois instrutores. |
 | 13 | [historico/drones-v13-orientacoes](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v13-orientacoes/drones) | Guia de participação; aviso na primeira aula e no player; regras e disponibilidade da matrícula e da avaliação explicitadas. Entrega parcial: autenticação própria, integração de progresso e nova narração ainda pendentes. |
 | 12 | [historico/drones-v12-interface](https://github.com/NewtonLicciardiJr/newtonlicciardijr.github.io/tree/historico/drones-v12-interface/drones) | Botão de normas com contraste; menu da trilha leva à lista das 17 aulas; atalho do player fecha o vídeo antes de abrir a lista. |
