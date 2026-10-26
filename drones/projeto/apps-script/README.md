@@ -42,3 +42,13 @@ Não foi migrado nenhum cadastro ou resultado real. A autorização OAuth foi co
 ## Código mestre
 
 A cópia do GitHub é a referência para alterações de código. Valores de produção ficam nas propriedades do script. Mudanças feitas no editor devem ser reconciliadas com o master antes da próxima publicação. Uma automação com `clasp` poderá ser acrescentada separadamente, após revisar suas credenciais e permissões; nenhuma automação de escrita foi criada nesta etapa.
+
+## Acessos e uso
+
+- [Portal público](https://newtonlicciardijr.github.io/drones/): página para divulgação e consulta de aulas e materiais.
+- [Modelo em branco do certificado](https://newtonlicciardijr.github.io/drones/certificado.html): conferir frente e verso, com 30 h/a e sem marcas de revisão. Não emite certificado individual.
+- [Catálogo dos 17 vídeos](./lessons-public.json): títulos e links diretos do YouTube. Assistir diretamente no canal não registra conclusão individual na aplicação.
+
+O guia operacional completo foi guardado na pasta privada do projeto no Drive do professor, na subpasta de preparação da migração, com o nome `GUIA-DE-ACESSOS-E-USO.pdf`. Ele reúne os acessos privados, as instruções de consulta e as pendências de implantação. Os endereços de arquivos privados não são versionados aqui.
+
+A preparação da planilha já foi concluída. Consultar as tabelas sem renomear abas ou cabeçalhos; não criar inscrições manualmente. Para operação do curso, continuar usando o sistema anterior até que a aplicação Google tenha sido implementada, validada e publicada e os links de produção tenham sido atualizados.
