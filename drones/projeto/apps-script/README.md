@@ -16,7 +16,7 @@ Os MP4 guardados no Drive são cópias de preservação. O YouTube permanece com
 
 `Code.gs` prepara uma estrutura privada de dados e uma página de diagnóstico restrita ao proprietário. Não implementa ainda a autenticação dos participantes, o acompanhamento pelo player, a prova, o upload documental ou a emissão. Esses recursos continuam no ambiente anterior até que a migração funcional seja desenvolvida, testada e validada. Não apontar os links de produção para este projeto de preparação.
 
-Não foi migrado nenhum cadastro ou resultado real. A criação das tabelas depende da autorização OAuth solicitada pelo Google para este novo projeto.
+Não foi migrado nenhum cadastro ou resultado real. A autorização OAuth foi concluída e a inicialização foi executada com sucesso. As oito tabelas foram criadas na planilha privada do curso, na pasta do professor. A privacidade e as regras iniciais foram conferidas. Nenhuma inscrição, resultado, documento pessoal ou certificado individual foi migrado nesta etapa.
 
 ## Preparação
 
