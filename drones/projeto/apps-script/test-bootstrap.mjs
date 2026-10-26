@@ -1,33 +1,21 @@
-import vm from 'node:vm';import fs from 'node:fs';import assert from 'node:assert/strict';
-const code=fs.readFileSync(new URL('./Code.gs',import.meta.url),'utf8');
-const lessons=JSON.parse(fs.readFileSync(new URL('./lessons-public.json',import.meta.url),'utf8'));
-let count=0;const check=(ok)=>{assert.ok(ok);count++;};
-check(lessons.length===17&&lessons.every(x=>/^[\w-]{11}$/.test(x.youtubeId)));
-check(!/chatgpt|openai|password|secret|oauthToken/i.test(code));
-let active='owner@example.test',creates=0,moves=0,locks=0,unlocks=0;
-const properties=new Map([['OWNER_EMAIL',active],['COURSE_FOLDER_ID','private-test-folder']]);
-const books=new Map();
-function sheet(name){
- const rows=[];
- return {name,rows,getLastRow(){return rows.length;},setFrozenRows(){},
-  getRange(r,c,h,w){
-   return {
-    setValues(values){for(let i=0;i<h;i++)rows[r-1+i]=[...values[i]];return this;},
-    getValues(){return rows.slice(r-1,r-1+h).map(x=>x.slice(c-1,c-1+w));}
-   };
-  }
- };
-}
-
-const env={PropertiesService:{getScriptProperties(){return {getProperty:k=>properties.get(k)||null,setProperty(k,v){properties.set(k,String(v));return this}}}},Session:{getActiveUser(){return {getEmail:()=>active}}},LockService:{getScriptLock(){return {waitLock(){locks++},releaseLock(){unlocks++}}}},DriveApp:{getFolderById(id){assert.equal(id,'private-test-folder');return {id}},getFileById(){return {moveTo(){moves++}}}},SpreadsheetApp:{create(){creates++;const tabs=new Map();const b={getId:()=>`sheet-${creates}`,getSheetByName:n=>tabs.get(n),insertSheet(n){const s=sheet(n);tabs.set(n,s);return s},tabs};books.set(b.getId(),b);return b},openById(id){return books.get(id)},flush(){}},HtmlService:{createHtmlOutput(html){return {html,setTitle(){return this}}}}};
+import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';import crypto from 'node:crypto';
+const code=fs.readFileSync(new URL('./Code.gs',import.meta.url),'utf8');let active='owner@example.test',checks=0;
+const check=(value,message)=>{assert.ok(value,message);checks++;};
+const env={console,Session:{getActiveUser:()=>({getEmail:()=>active})},PropertiesService:{getScriptProperties:()=>({getProperty:k=>k==='OWNER_EMAIL'?'owner@example.test':null})},Utilities:{newBlob:s=>({getBytes:()=>Array.from(Buffer.from(String(s)),v=>v>127?v-256:v)})},HtmlService:{createHtmlOutput:html=>({html,setTitle(){return this;},addMetaTag(){return this;}})}};
 vm.createContext(env);vm.runInContext(code,env);
-let result=env.setupProject();check(result.storageConfigured&&!result.enrollmentEnabled&&!result.assessmentEnabled&&!result.certificateIssuanceEnabled);
-check(creates===1&&moves===1&&books.get('sheet-1').tabs.size===8);
-env.setupProject();check(creates===1&&books.get('sheet-1').tabs.get('CourseSettings').rows.length===10);
-check(locks===unlocks);
-active='visitor@example.test';assert.throws(()=>env.setupProject(),/restrito/);check(creates===1);assert.throws(()=>env.projectStatus(),/restrito/);check(env.doGet().html.includes('restrito'));
-active='';assert.throws(()=>env.setupProject(),/restrito/);check(creates===1);
-active='owner@example.test';books.get('sheet-1').tabs.get('Participants').rows[0][0]='incompatible';assert.throws(()=>env.setupProject(),/incompatível/);check(creates===1&&locks===unlocks);
-assert.throws(()=>env.doPost(),/não foram habilitados/);check(true);
-check(env.doGet().html.includes('não foram migrados'));
-console.log(JSON.stringify({passed:count,realGoogleDataTouched:false,source:'Code.gs'}));
+check(env.ownerContext_().role==='owner','Verified owner identity');active='visitor@example.test';assert.throws(()=>env.ownerContext_(),/restrito/);checks++;active='';assert.throws(()=>env.ownerContext_(),/restrito/);checks++;
+assert.throws(()=>env.teacher_({role:'participant'}),/docentes/);checks++;
+env.rows_=()=>[{key:'enrollmentEnabled',value:true},{key:'templateApproved',value:false}];check(env.settings_().enrollmentEnabled==='true'&&env.settings_().templateApproved==='false','Google Sheet booleans normalize correctly');
+check(env.doGet({parameter:{view:'bank'}}).html.includes("const initialView='bank'"),'Bank deep link is rendered');check(env.doGet({parameter:{view:'<script>'}}).html.includes("const initialView='home'"),'Query cannot inject arbitrary view');
+check(!/chatgpt|openai/i.test(env.APP_HTML),'Application has no old platform references');check(env.LESSONS.length===17&&env.LESSONS.every(l=>/^[\w-]{11}$/.test(l.youtubeId)),'17 complete YouTube identifiers');
+check(!code.includes('1SRwrBJuZR8EdkIHFc7lgcMTYRAaB1e5xtdVbAtsBiO8')&&!code.includes('newtonjunior67@gmail.com'),'No real private identifiers or account data in master');
+const secret='Frase sintética com acentuação 123',salt='1'.repeat(64);check(env.derive_(secret,salt)===crypto.pbkdf2Sync(secret,salt,600000,32,'sha256').toString('hex'),'Existing PBKDF2 passwords remain compatible');
+let progress=[],attempts=[];const saved=[];env.NOW_=1800000000000;env.progress_=()=>progress;env.attempts_=()=>attempts;env.save_=(n,x)=>{saved.push([n,x]);return x;};
+const participant={id:'test',cycle:0,passed_at:'',window_started_at:''};check(!env.eligibility_(participant).canStart,'17 lessons required');progress=env.LESSONS.map(l=>({lesson_id:l.id,completed_at:env.NOW_}));check(env.eligibility_(participant).canStart,'Completed trail is eligible');
+attempts=Array.from({length:3},()=>({cycle:0,status:'submitted',score:0}));check(!env.eligibility_(participant).canStart,'Three attempts enforced');attempts[2]={cycle:0,status:'active',deadline:env.NOW_+5000};check(env.eligibility_(participant).canStart,'Active third attempt can resume');
+participant.window_started_at=env.NOW_-7200001;check(!env.eligibility_(participant).canStart,'Server clock enforces two-hour window');participant.window_started_at='';participant.passed_at=env.NOW_;check(!env.eligibility_(participant).canStart,'Approval blocks all new attempts');
+participant.passed_at='';attempts=[{status:'submitted',score:75,submitted_at:env.NOW_-1000,deadline:env.NOW_,cycle:0}];env.reconcileGrade_(participant);check(participant.passed_score===75&&!!participant.passed_at,'Committed passing grade recovers a partially completed update');
+const intervals=JSON.parse(JSON.stringify(env.merge_([[0,10],[5,15],[15,20],[40,40]])));check(JSON.stringify(intervals)==='[[0,20]]','Overlapping playback cannot double-count');
+const view=env.strip_({id:'test',password_hash:'secret',recovery_hash:'secret',identity_hash:'secret',private_file_id:'secret',_row:2});check(JSON.stringify(view)==='{"id":"test"}','Sensitive record fields are removed');check(env.escape_('<script>"&')==='&lt;script&gt;&quot;&amp;','Certificate content is escaped');
+env.rows_=name=>name==='Participants'?[{id:'test',passed_at:env.NOW_,passed_score:75}]:[];env.settings_=()=>({templateApproved:'false',extensionApprovalReference:''});assert.throws(()=>env.issue_({role:'teacher'},{id:'test'}),/autorização/);checks++;
+console.log(JSON.stringify({passed:checks,realGoogleDataTouched:false,sourceSha256:crypto.createHash('sha256').update(code).digest('hex')}));
